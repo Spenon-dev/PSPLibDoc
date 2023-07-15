@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>fatmsef.prx</PRX>
+		<PRXNAME>sceFATFS_Driver</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>syslib</NAME>
+				<FLAGS>0x80000000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xD632ACDB</NID>
+						<NAME>module_start</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xADF12745</NID>
+						<NAME>module_reboot_phase</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+				<VARIABLES>
+					<VARIABLE>
+						<NID>0xF01D73A7</NID>
+						<NAME>module_info</NAME>
+					</VARIABLE>
+					<VARIABLE>
+						<NID>0x11B97506</NID>
+						<NAME>module_sdk_version</NAME>
+					</VARIABLE>
+				</VARIABLES>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>sceFatfs_driver</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x3991C1A9</NID>
+						<NAME>sceFatfs_driver_3991C1A9</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x5DEB8124</NID>
+						<NAME>sceFatfs_driver_5DEB8124</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xC8537E11</NID>
+						<NAME>sceFatfs_driver_C8537E11</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

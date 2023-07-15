@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+  <PRXFILES>
+    <PRXFILE>
+      <PRX>libaudiocodec2.prx</PRX>
+      <PRXNAME>sceAudiocodec_Library2</PRXNAME>
+      <LIBRARIES>
+        <LIBRARY>
+          <NAME>Kernel_Library</NAME>
+          <FLAGS>0x00010011</FLAGS>
+          <FUNCTIONS>
+            <FUNCTION>
+              <NID>0xA089ECA4</NID>
+              <NAME>sceKernelMemset</NAME>
+            </FUNCTION>
+          </FUNCTIONS>
+        </LIBRARY>
+      </LIBRARIES>
+    </PRXFILE>
+  </PRXFILES>
+</PSPLIBDOC>

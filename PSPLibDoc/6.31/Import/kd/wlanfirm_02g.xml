@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+  <PRXFILES>
+    <PRXFILE>
+      <PRX>wlanfirm_02g.prx</PRX>
+      <PRXNAME>sceWlanFirmVoyager_driver</PRXNAME>
+      <LIBRARIES>
+        <LIBRARY>
+          <NAME>sceIdStorage_driver</NAME>
+          <FLAGS>0x00010011</FLAGS>
+          <FUNCTIONS>
+            <FUNCTION>
+              <NID>0x6FE062D1</NID>
+              <NAME>sceIdStorageLookup</NAME>
+            </FUNCTION>
+          </FUNCTIONS>
+        </LIBRARY>
+        <LIBRARY>
+          <NAME>sceWlanDrv_driver</NAME>
+          <FLAGS>0x00010011</FLAGS>
+          <FUNCTIONS>
+            <FUNCTION>
+              <NID>0x1747351B</NID>
+              <NAME>sceWlanDrv_driver_1747351B</NAME>
+            </FUNCTION>
+          </FUNCTIONS>
+        </LIBRARY>
+      </LIBRARIES>
+    </PRXFILE>
+  </PRXFILES>
+</PSPLIBDOC>

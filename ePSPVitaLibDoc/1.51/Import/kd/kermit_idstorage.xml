@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+  <PRXFILES>
+    <PRXFILE>
+      <PRX>kermit_idstorage.prx</PRX>
+      <PRXNAME>sceIdStorage_Service</PRXNAME>
+      <LIBRARIES>
+        <LIBRARY>
+          <NAME>KDebugForKernel</NAME>
+          <FLAGS>0x00010011</FLAGS>
+          <FUNCTIONS>
+            <FUNCTION>
+              <NID>0x84F370BC</NID>
+              <NAME>Kprintf</NAME>
+            </FUNCTION>
+          </FUNCTIONS>
+        </LIBRARY>
+        <LIBRARY>
+          <NAME>ThreadManForKernel</NAME>
+          <FLAGS>0x00010011</FLAGS>
+          <FUNCTIONS>
+            <FUNCTION>
+              <NID>0x6B30100F</NID>
+              <NAME>sceKernelUnlockMutex</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xB011B11F</NID>
+              <NAME>sceKernelLockMutex</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xCEADEB47</NID>
+              <NAME>sceKernelDelayThread</NAME>
+            </FUNCTION>
+          </FUNCTIONS>
+        </LIBRARY>
+        <LIBRARY>
+          <NAME>sceKermitPeripheral_driver</NAME>
+          <FLAGS>0x00010011</FLAGS>
+          <FUNCTIONS>
+            <FUNCTION>
+              <NID>0x1764B6CF</NID>
+              <NAME>sceKermitPeripheral_driver_1764B6CF</NAME>
+            </FUNCTION>
+          </FUNCTIONS>
+        </LIBRARY>
+      </LIBRARIES>
+    </PRXFILE>
+  </PRXFILES>
+</PSPLIBDOC>

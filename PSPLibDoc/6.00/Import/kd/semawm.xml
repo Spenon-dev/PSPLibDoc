@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+  <PRXFILES>
+    <PRXFILE>
+      <PRX>semawm.prx</PRX>
+      <PRXNAME>sceSemawm</PRXNAME>
+      <LIBRARIES>
+        <LIBRARY>
+          <NAME>LoadCoreForKernel</NAME>
+          <FLAGS>0x00010011</FLAGS>
+          <FUNCTIONS>
+            <FUNCTION>
+              <NID>0x1B107A36</NID>
+              <NAME>LoadCoreForKernel_1B107A36</NAME>
+            </FUNCTION>
+          </FUNCTIONS>
+        </LIBRARY>
+        <LIBRARY>
+          <NAME>UtilsForKernel</NAME>
+          <FLAGS>0x00090011</FLAGS>
+          <FUNCTIONS>
+            <FUNCTION>
+              <NID>0x06FB8A63</NID>
+              <NAME>sceKernelUtilsMt19937UInt</NAME>
+            </FUNCTION>
+          </FUNCTIONS>
+        </LIBRARY>
+        <LIBRARY>
+          <NAME>semaphore</NAME>
+          <FLAGS>0x00010011</FLAGS>
+          <FUNCTIONS>
+            <FUNCTION>
+              <NID>0x4C537C72</NID>
+              <NAME>semaphore_4C537C72</NAME>
+            </FUNCTION>
+          </FUNCTIONS>
+        </LIBRARY>
+      </LIBRARIES>
+    </PRXFILE>
+  </PRXFILES>
+</PSPLIBDOC>

@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+  <PRXFILES>
+    <PRXFILE>
+      <PRX>usersystemlib.prx</PRX>
+      <PRXNAME>sceKernelLibrary</PRXNAME>
+      <LIBRARIES>
+        <LIBRARY>
+          <NAME>SysMemUserForUser</NAME>
+          <FLAGS>0x40000011</FLAGS>
+          <FUNCTIONS>
+            <FUNCTION>
+              <NID>0xA6848DF8</NID>
+              <NAME>sceKernelSetUsersystemLibWork</NAME>
+            </FUNCTION>
+          </FUNCTIONS>
+        </LIBRARY>
+        <LIBRARY>
+          <NAME>InterruptManager</NAME>
+          <FLAGS>0x40000011</FLAGS>
+          <FUNCTIONS>
+            <FUNCTION>
+              <NID>0xEEE43F47</NID>
+              <NAME>sceKernelRegisterUserSpaceIntrStack</NAME>
+            </FUNCTION>
+          </FUNCTIONS>
+        </LIBRARY>
+        <LIBRARY>
+          <NAME>ThreadManForUser</NAME>
+          <FLAGS>0x40010011</FLAGS>
+          <FUNCTIONS>
+            <FUNCTION>
+              <NID>0x31327F19</NID>
+              <NAME>_sceKernelLockLwMutexCB</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x4C145944</NID>
+              <NAME>sceKernelReferLwMutexStatusByID</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x7CFF8CF3</NID>
+              <NAME>_sceKernelLockLwMutex</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xBEED3A47</NID>
+              <NAME>_sceKernelUnlockLwMutex</NAME>
+            </FUNCTION>
+          </FUNCTIONS>
+        </LIBRARY>
+      </LIBRARIES>
+    </PRXFILE>
+  </PRXFILES>
+</PSPLIBDOC>

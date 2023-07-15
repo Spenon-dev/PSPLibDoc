@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+  <PRXFILES>
+    <PRXFILE>
+      <PRX>g729.prx</PRX>
+      <PRXNAME>sceG729</PRXNAME>
+      <LIBRARIES>
+        <LIBRARY>
+          <NAME>sceMeCore_driver</NAME>
+          <FLAGS>0x00010011</FLAGS>
+          <FUNCTIONS>
+            <FUNCTION>
+              <NID>0x6CE1B08B</NID>
+              <NAME>sceMeCore_driver_6CE1B08B</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xC6A460C4</NID>
+              <NAME>sceMeCore_driver_C6A460C4</NAME>
+            </FUNCTION>
+          </FUNCTIONS>
+        </LIBRARY>
+        <LIBRARY>
+          <NAME>sceMeMemory_driver</NAME>
+          <FLAGS>0x00010011</FLAGS>
+          <FUNCTIONS>
+            <FUNCTION>
+              <NID>0xAA39BED6</NID>
+              <NAME>sceMeMemory_driver_AA39BED6</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xE70063B0</NID>
+              <NAME>sceMeMemory_driver_E70063B0</NAME>
+            </FUNCTION>
+          </FUNCTIONS>
+        </LIBRARY>
+        <LIBRARY>
+          <NAME>UtilsForKernel</NAME>
+          <FLAGS>0x00090011</FLAGS>
+          <FUNCTIONS>
+            <FUNCTION>
+              <NID>0x34B9FA9E</NID>
+              <NAME>sceKernelDcacheWritebackInvalidateRange</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xBFA98062</NID>
+              <NAME>sceKernelDcacheInvalidateRange</NAME>
+            </FUNCTION>
+          </FUNCTIONS>
+        </LIBRARY>
+      </LIBRARIES>
+    </PRXFILE>
+  </PRXFILES>
+</PSPLIBDOC>

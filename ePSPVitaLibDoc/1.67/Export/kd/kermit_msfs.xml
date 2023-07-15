@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>kermit_msfs.prx</PRX>
+		<PRXNAME>sceKermitMsfs_driver</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>syslib</NAME>
+				<FLAGS>0x80000000</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0xD3744BE0</NID>
+						<NAME>module_bootstart</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xD632ACDB</NID>
+						<NAME>module_start</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+				<VARIABLES>
+					<VARIABLE>
+						<NID>0xF01D73A7</NID>
+						<NAME>module_info</NAME>
+					</VARIABLE>
+					<VARIABLE>
+						<NID>0x11B97506</NID>
+						<NAME>module_sdk_version</NAME>
+					</VARIABLE>
+				</VARIABLES>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>sceKermitMsfs_driver</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x1A4DC9B7</NID>
+						<NAME>sceKermitMsfs_driver_1A4DC9B7</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0xEAD1D2C6</NID>
+						<NAME>sceKermitMsfs_driver_EAD1D2C6</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

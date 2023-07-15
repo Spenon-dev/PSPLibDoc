@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+  <PRXFILES>
+    <PRXFILE>
+      <PRX>pspnet_wispr.prx</PRX>
+      <PRXNAME>sceNetWispr_Library</PRXNAME>
+      <LIBRARIES>
+        <LIBRARY>
+          <NAME>syslib</NAME>
+          <FLAGS>0x80000000</FLAGS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0xF01D73A7</NID>
+              <NAME>module_info</NAME>
+            </VARIABLE>
+            <VARIABLE>
+              <NID>0x11B97506</NID>
+              <NAME>module_sdk_version</NAME>
+            </VARIABLE>
+          </VARIABLES>
+        </LIBRARY>
+        <LIBRARY>
+          <NAME>sceNetWispr</NAME>
+          <FLAGS>0x00010011</FLAGS>
+          <FUNCTIONS>
+            <FUNCTION>
+              <NID>0x19235F8C</NID>
+              <NAME>sceNetWisprStart</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x757BDC9F</NID>
+              <NAME>sceNetWisprStop</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xBC05EC73</NID>
+              <NAME>sceNetWisprTerm</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xBD745B6D</NID>
+              <NAME>sceNetWisprInit</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xC856AAAC</NID>
+              <NAME>sceNetWispr_C856AAAC</NAME>
+            </FUNCTION>
+          </FUNCTIONS>
+        </LIBRARY>
+      </LIBRARIES>
+    </PRXFILE>
+  </PRXFILES>
+</PSPLIBDOC>

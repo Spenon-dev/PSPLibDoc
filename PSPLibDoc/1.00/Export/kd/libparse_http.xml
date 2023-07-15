@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+  <PRXFILES>
+    <PRXFILE>
+      <PRX>libparse_http.prx</PRX>
+      <PRXNAME>SceParseHTTPheader_Library</PRXNAME>
+      <LIBRARIES>
+        <LIBRARY>
+          <NAME>syslib</NAME>
+          <FLAGS>0x80000000</FLAGS>
+          <FUNCTIONS>
+            <FUNCTION>
+              <NID>0xD632ACDB</NID>
+              <NAME>module_start</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xCEE8593C</NID>
+              <NAME>module_stop</NAME>
+            </FUNCTION>
+          </FUNCTIONS>
+          <VARIABLES>
+            <VARIABLE>
+              <NID>0xF01D73A7</NID>
+              <NAME>module_info</NAME>
+            </VARIABLE>
+          </VARIABLES>
+        </LIBRARY>
+        <LIBRARY>
+          <NAME>sceParseHttp</NAME>
+          <FLAGS>0x00010000</FLAGS>
+          <FUNCTIONS>
+            <FUNCTION>
+              <NID>0x8077A433</NID>
+              <NAME>sceParseHttpStatusLine</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xAD7BFDEF</NID>
+              <NAME>sceParseHttpResponseHeader</NAME>
+            </FUNCTION>
+          </FUNCTIONS>
+        </LIBRARY>
+      </LIBRARIES>
+    </PRXFILE>
+  </PRXFILES>
+</PSPLIBDOC>

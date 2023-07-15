@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+	<PRXFILES>
+		<PRXFILE>
+		<PRX>np_campaign.prx</PRX>
+		<PRXNAME>sceNpCamp</PRXNAME>
+		<LIBRARIES>
+			<LIBRARY>
+				<NAME>syslib</NAME>
+				<FLAGS>0x80000000</FLAGS>
+				<VARIABLES>
+					<VARIABLE>
+						<NID>0xF01D73A7</NID>
+						<NAME>module_info</NAME>
+					</VARIABLE>
+					<VARIABLE>
+						<NID>0x11B97506</NID>
+						<NAME>module_sdk_version</NAME>
+					</VARIABLE>
+				</VARIABLES>
+			</LIBRARY>
+			<LIBRARY>
+				<NAME>sceNpCamp</NAME>
+				<FLAGS>0x00010011</FLAGS>
+				<FUNCTIONS>
+					<FUNCTION>
+						<NID>0x3F1858DE</NID>
+						<NAME>sceNpCamp_3F1858DE</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x73356F17</NID>
+						<NAME>sceNpCamp_73356F17</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x7BB464E5</NID>
+						<NAME>sceNpCamp_7BB464E5</NAME>
+					</FUNCTION>
+					<FUNCTION>
+						<NID>0x7D8085A1</NID>
+						<NAME>sceNpCamp_7D8085A1</NAME>
+					</FUNCTION>
+				</FUNCTIONS>
+			</LIBRARY>
+		</LIBRARIES>
+		</PRXFILE>
+	</PRXFILES>
+</PSPLIBDOC>

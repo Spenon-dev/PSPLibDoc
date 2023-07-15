@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+  <PRXFILES>
+    <PRXFILE>
+      <PRX>sysmem_uart4.prx</PRX>
+      <PRXNAME>sceSystemMemoryManager</PRXNAME>
+      <LIBRARIES>
+		</LIBRARIES>
+    </PRXFILE>
+  </PRXFILES>
+</PSPLIBDOC>

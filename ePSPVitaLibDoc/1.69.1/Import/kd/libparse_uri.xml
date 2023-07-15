@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="psplibdocdisplay.xsl" ?>
+<PSPLIBDOC>
+  <PRXFILES>
+    <PRXFILE>
+      <PRX>libparse_uri.prx</PRX>
+      <PRXNAME>SceParseURI_Library</PRXNAME>
+      <LIBRARIES>
+        <LIBRARY>
+          <NAME>Kernel_Library</NAME>
+          <FLAGS>0x00010011</FLAGS>
+          <FUNCTIONS>
+            <FUNCTION>
+              <NID>0xA089ECA4</NID>
+              <NAME>sceKernelMemset</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0xD13BDE95</NID>
+              <NAME>_sceKernelCheckThreadStack</NAME>
+            </FUNCTION>
+            <FUNCTION>
+              <NID>0x1839852A</NID>
+              <NAME>sceKernelMemcpy</NAME>
+            </FUNCTION>
+          </FUNCTIONS>
+        </LIBRARY>
+      </LIBRARIES>
+    </PRXFILE>
+  </PRXFILES>
+</PSPLIBDOC>
