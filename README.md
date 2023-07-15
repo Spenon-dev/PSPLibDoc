@@ -53,4 +53,5 @@ psp_libdoc.py requires python3 with lxml module
 A big thanks goes to
  - All original PSPLibDoc contributers
  - All UOFW contributers for updated 6.60 and 6.61 symbols
- - Draan for additional PAF NIDs
+ - Draan for matching additional PAF NIDs
+ - zecoxao for additional symbol sources from PS3 firmware
