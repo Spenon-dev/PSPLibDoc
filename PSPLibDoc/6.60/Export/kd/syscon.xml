@@ -92,7 +92,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x12518439</NID>
-              <NAME>sceSyscon_driver_12518439</NAME>
+              <NAME>sceSysconPowerStandby</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x138747DE</NID>
