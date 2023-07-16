@@ -9610,11 +9610,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0EA487FA</NID>
-              <NAME>sceSysreg_driver_0EA487FA</NAME>
+              <NAME>sceClkcGetCpuFrequency</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x136E8F5A</NID>
-              <NAME>sceSysreg_driver_136E8F5A</NAME>
+              <NAME>sceClkcSetBusFrequency</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x158AD4FC</NID>
@@ -9714,7 +9714,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x377F035F</NID>
-              <NAME>sceSysreg_driver_377F035F</NAME>
+              <NAME>sceClkcGetBusGear</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x38EC3281</NID>
@@ -9746,7 +9746,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x44704E1D</NID>
-              <NAME>sceSysreg_driver_44704E1D</NAME>
+              <NAME>sceClkcGetCpuGear</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x44F6CDA7</NID>
@@ -9794,11 +9794,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5664F8B5</NID>
-              <NAME>sceSysreg_driver_5664F8B5</NAME>
+              <NAME>sceClkcSetCpuGear</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x584AD989</NID>
-              <NAME>sceSysreg_driver_584AD989</NAME>
+              <NAME>sceClkcSetBusGear</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x58F47EFD</NID>
@@ -10050,7 +10050,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB3185FD</NID>
-              <NAME>sceSysreg_driver_AB3185FD</NAME>
+              <NAME>sceClkcSetCpuFrequency</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xACFA3764</NID>
@@ -10238,7 +10238,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4811E00</NID>
-              <NAME>sceSysreg_driver_F4811E00</NAME>
+              <NAME>sceClkcGetBusFrequency</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5B80837</NID>
@@ -25485,7 +25485,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x545A7F3C</NID>
-              <NAME>scePower_545A7F3C</NAME>
+              <NAME>scePowerSetClockFrequency300</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x737486F2</NID>
@@ -25533,7 +25533,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA4E93389</NID>
-              <NAME>scePower_A4E93389</NAME>
+              <NAME>scePowerSetClockFrequency280</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9D22232</NID>
@@ -25609,7 +25609,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBD177D6</NID>
-              <NAME>scePower_EBD177D6</NAME>
+              <NAME>scePowerSetClockFrequency350</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEDC13FE5</NID>
@@ -25751,7 +25751,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x545A7F3C</NID>
-              <NAME>scePower_driver_545A7F3C</NAME>
+              <NAME>scePowerSetClockFrequency300</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x55D2D789</NID>
@@ -25839,7 +25839,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA4E93389</NID>
-              <NAME>scePower_driver_A4E93389</NAME>
+              <NAME>scePowerSetClockFrequency280</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9D22232</NID>
@@ -25959,7 +25959,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBD177D6</NID>
-              <NAME>scePower_driver_EBD177D6</NAME>
+              <NAME>scePowerSetClockFrequency350</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEDC13FE5</NID>

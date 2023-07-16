@@ -322,23 +322,23 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x31AEA94C</NID>
-              <NAME>scePower_driver_31AEA94C</NAME>
+              <NAME>scePowerGetBatteryLifePercent</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7A9EA6DE</NID>
-              <NAME>scePower_driver_7A9EA6DE</NAME>
+              <NAME>scePowerIsBatteryCharging</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x872F4ECE</NID>
-              <NAME>scePower_driver_872F4ECE</NAME>
+              <NAME>scePowerIsPowerOnline</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8C873AA7</NID>
-              <NAME>scePower_driver_8C873AA7</NAME>
+              <NAME>scePowerIsBatteryExist</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFA651CE1</NID>
-              <NAME>scePower_driver_FA651CE1</NAME>
+              <NAME>scePowerIsLowBattery</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

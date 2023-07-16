@@ -983,7 +983,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6894A027</NID>
-              <NAME>sceChkreg_driver_6894A027</NAME>
+              <NAME>sceChkregGetPsFlags</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C6E1D34</NID>
@@ -39228,7 +39228,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x545A7F3C</NID>
-              <NAME>scePower_545A7F3C</NAME>
+              <NAME>scePowerSetClockFrequency300</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x737486F2</NID>
@@ -39276,7 +39276,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA4E93389</NID>
-              <NAME>scePower_A4E93389</NAME>
+              <NAME>scePowerSetClockFrequency280</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9D22232</NID>
@@ -39352,7 +39352,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBD177D6</NID>
-              <NAME>scePower_EBD177D6</NAME>
+              <NAME>scePowerSetClockFrequency350</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEDC13FE5</NID>
@@ -39698,7 +39698,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBD177D6</NID>
-              <NAME>scePower_driver_EBD177D6</NAME>
+              <NAME>scePowerSetClockFrequency350</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEC0D7334</NID>

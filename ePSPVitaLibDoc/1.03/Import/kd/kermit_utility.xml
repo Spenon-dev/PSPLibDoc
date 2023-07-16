@@ -70,11 +70,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x315B8CB6</NID>
-              <NAME>scePower_driver_315B8CB6</NAME>
+              <NAME>scePowerUnregisterCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x766CD857</NID>
-              <NAME>scePower_driver_766CD857</NAME>
+              <NAME>scePowerRegisterCallback</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

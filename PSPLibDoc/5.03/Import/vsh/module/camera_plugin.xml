@@ -1068,7 +1068,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBD177D6</NID>
-              <NAME>scePower_EBD177D6</NAME>
+              <NAME>scePowerSetClockFrequency350</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

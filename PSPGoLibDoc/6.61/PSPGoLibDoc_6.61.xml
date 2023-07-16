@@ -1759,11 +1759,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6894A027</NID>
-              <NAME>sceChkreg_driver_6894A027</NAME>
+              <NAME>sceChkregGetPsFlags</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7939C851</NID>
-              <NAME>sceChkreg_driver_7939C851</NAME>
+              <NAME>sceChkregGetPspModel</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C6E1D34</NID>
@@ -12500,7 +12500,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x00E36648</NID>
-              <NAME>sceDdr_driver_00E36648</NAME>
+              <NAME>sceDdrGetPowerDownCounter</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0BAAE4C5</NID>
@@ -12544,11 +12544,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCF07B9E2</NID>
-              <NAME>sceDdr_driver_CF07B9E2</NAME>
+              <NAME>sceDdrChangePllClock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0A39D3E</NID>
-              <NAME>sceDdr_driver_E0A39D3E</NAME>
+              <NAME>sceDdrSetPowerDownCounter</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1005384</NID>
@@ -13144,7 +13144,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2458B6AC</NID>
-              <NAME>sceSysreg_driver_2458B6AC</NAME>
+              <NAME>sceClkcGetCpuGear</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x258782A3</NID>
@@ -13208,7 +13208,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3F6F2CC7</NID>
-              <NAME>sceSysreg_driver_3F6F2CC7</NAME>
+              <NAME>sceClkcSetCpuGear</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x41B0337B</NID>
@@ -13324,7 +13324,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x63E1EE9C</NID>
-              <NAME>sceSysreg_driver_63E1EE9C</NAME>
+              <NAME>sceClkcSetBusGear</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6417CDD6</NID>
@@ -13384,7 +13384,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x73EBC752</NID>
-              <NAME>sceSysreg_driver_73EBC752</NAME>
+              <NAME>sceClkcGetCpuFrequency</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x74C6F776</NID>
@@ -13404,7 +13404,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7CF05E81</NID>
-              <NAME>sceSysreg_driver_7CF05E81</NAME>
+              <NAME>sceClkcGetBusGear</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7DD0CBEE</NID>
@@ -13436,7 +13436,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x85B74FDA</NID>
-              <NAME>sceSysreg_driver_85B74FDA</NAME>
+              <NAME>sceClkcSetBusFrequency</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x85BA0C0B</NID>
@@ -13508,7 +13508,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x96D74557</NID>
-              <NAME>sceSysreg_driver_96D74557</NAME>
+              <NAME>sceClkcGetBusFrequency</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9746F3B2</NID>
@@ -13584,7 +13584,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB413B041</NID>
-              <NAME>sceSysreg_driver_B413B041</NAME>
+              <NAME>sceClkcSetCpuFrequency</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6296512</NID>
@@ -44837,7 +44837,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x12518439</NID>
-              <NAME>sceSyscon_driver_12518439</NAME>
+              <NAME>sceSysconPowerStandby</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x138747DE</NID>

@@ -22612,7 +22612,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA4E93389</NID>
-              <NAME>scePower_A4E93389</NAME>
+              <NAME>scePowerSetClockFrequency280</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9D22232</NID>
@@ -22906,7 +22906,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA4E93389</NID>
-              <NAME>scePower_driver_A4E93389</NAME>
+              <NAME>scePowerSetClockFrequency280</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9D22232</NID>

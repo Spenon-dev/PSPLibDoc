@@ -278,11 +278,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0EA487FA</NID>
-              <NAME>sceSysreg_driver_0EA487FA</NAME>
+              <NAME>sceClkcGetCpuFrequency</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x136E8F5A</NID>
-              <NAME>sceSysreg_driver_136E8F5A</NAME>
+              <NAME>sceClkcSetBusFrequency</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1E9C3607</NID>
@@ -290,11 +290,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x377F035F</NID>
-              <NAME>sceSysreg_driver_377F035F</NAME>
+              <NAME>sceClkcGetBusGear</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x44704E1D</NID>
-              <NAME>sceSysreg_driver_44704E1D</NAME>
+              <NAME>sceClkcGetCpuGear</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F46EEDE</NID>
@@ -302,11 +302,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5664F8B5</NID>
-              <NAME>sceSysreg_driver_5664F8B5</NAME>
+              <NAME>sceClkcSetCpuGear</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x584AD989</NID>
-              <NAME>sceSysreg_driver_584AD989</NAME>
+              <NAME>sceClkcSetBusGear</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F4F4E96</NID>
@@ -318,7 +318,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB3185FD</NID>
-              <NAME>sceSysreg_driver_AB3185FD</NAME>
+              <NAME>sceClkcSetCpuFrequency</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB21B6CBF</NID>
@@ -338,7 +338,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4811E00</NID>
-              <NAME>sceSysreg_driver_F4811E00</NAME>
+              <NAME>sceClkcGetBusFrequency</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

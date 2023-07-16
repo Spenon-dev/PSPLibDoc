@@ -1480,7 +1480,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x545A7F3C</NID>
-              <NAME>scePower_545A7F3C</NAME>
+              <NAME>scePowerSetClockFrequency300</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAC32C9CC</NID>

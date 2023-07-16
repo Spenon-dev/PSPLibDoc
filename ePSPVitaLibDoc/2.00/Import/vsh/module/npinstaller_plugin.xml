@@ -794,7 +794,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x469989AD</NID>
-              <NAME>scePower_469989AD</NAME>
+              <NAME>scePowerSetClockFrequency</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

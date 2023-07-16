@@ -174,15 +174,15 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x5F5006D2</NID>
-              <NAME>scePower_driver_5F5006D2</NAME>
+              <NAME>scePowerGetUsbChargingCapability</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x72D1B53A</NID>
-              <NAME>scePower_driver_72D1B53A</NAME>
+              <NAME>scePowerBatteryEnableUsbCharging</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7EAA4247</NID>
-              <NAME>scePower_driver_7EAA4247</NAME>
+              <NAME>scePowerBatteryDisableUsbCharging</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

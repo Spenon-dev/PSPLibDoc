@@ -138,7 +138,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x8C6BEFD9</NID>
-              <NAME>scePower_driver_8C6BEFD9</NAME>
+              <NAME>scePowerWlanDeactivate</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

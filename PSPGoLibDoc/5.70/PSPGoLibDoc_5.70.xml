@@ -1682,11 +1682,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6894A027</NID>
-              <NAME>sceChkreg_driver_6894A027</NAME>
+              <NAME>sceChkregGetPsFlags</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7939C851</NID>
-              <NAME>sceChkreg_driver_7939C851</NAME>
+              <NAME>sceChkregGetPspModel</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C6E1D34</NID>
