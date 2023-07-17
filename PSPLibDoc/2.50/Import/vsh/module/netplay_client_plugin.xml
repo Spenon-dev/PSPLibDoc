@@ -38,11 +38,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2569E27F</NID>
-              <NAME>vsh_2569E27F</NAME>
+              <NAME>_ZN3vsh15RaiseFatalErrorENS_14FatalErrorTypeE</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x35183A6C</NID>
-              <NAME>vsh_35183A6C</NAME>
+              <NAME>_ZN3vsh11VersionFile3GetEPS0_</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x824EB801</NID>

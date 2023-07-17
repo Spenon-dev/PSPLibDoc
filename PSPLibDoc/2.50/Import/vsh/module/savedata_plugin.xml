@@ -58,11 +58,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4016357A</NID>
-              <NAME>vsh_4016357A</NAME>
+              <NAME>_ZN3vsh11ContentInfo4HideEff</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x01B60A5C</NID>
-              <NAME>vsh_01B60A5C</NAME>
+              <NAME>_ZN3vsh11ContentInfo4HomeEff</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5D36BCE6</NID>
@@ -74,7 +74,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1BCCB74A</NID>
-              <NAME>vsh_1BCCB74A</NAME>
+              <NAME>_ZN3vsh11ContentInfo4ShowEff</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC4D809CB</NID>
@@ -90,7 +90,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x57F57F40</NID>
-              <NAME>vsh_57F57F40</NAME>
+              <NAME>_ZN3vsh11ContentInfoD1Ev</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C50A821</NID>

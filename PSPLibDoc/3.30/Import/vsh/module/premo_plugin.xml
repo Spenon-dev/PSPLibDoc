@@ -30,7 +30,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x2569E27F</NID>
-              <NAME>vsh_2569E27F</NAME>
+              <NAME>_ZN3vsh15RaiseFatalErrorENS_14FatalErrorTypeE</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x29278272</NID>

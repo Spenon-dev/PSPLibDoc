@@ -36,23 +36,23 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0B8DE38E</NID>
-              <NAME>vsh_0B8DE38E</NAME>
+              <NAME>_ZN11PageManager13ReturnTopmenuEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E20CEEC</NID>
-              <NAME>vsh_0E20CEEC</NAME>
+              <NAME>_ZN11PageManager3PopEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x61FE226A</NID>
-              <NAME>vsh_61FE226A</NAME>
+              <NAME>_ZN11PageManager4ExitEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0F2F6718</NID>
-              <NAME>vsh_0F2F6718</NAME>
+              <NAME>_ZN11PageManager4InitEPN3paf4ViewE</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5E43E468</NID>
-              <NAME>vsh_5E43E468</NAME>
+              <NAME>_ZN11PageManager4PushEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD0A3A365</NID>
@@ -60,7 +60,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7ADF6A69</NID>
-              <NAME>vsh_7ADF6A69</NAME>
+              <NAME>_ZN11PageManager5ClearEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1A62E6EA</NID>
@@ -68,7 +68,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5452A47B</NID>
-              <NAME>vsh_5452A47B</NAME>
+              <NAME>_ZN11PageManagerC2Ei</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x81BBD0D1</NID>
