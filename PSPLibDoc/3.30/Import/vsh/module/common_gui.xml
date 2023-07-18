@@ -20,7 +20,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x26DF747F</NID>
-              <NAME>scePaf_26DF747F</NAME>
+              <NAME>_ZN3paf10MessageBox8SetColorEffff</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x338C3774</NID>
@@ -52,7 +52,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x49CE42F7</NID>
-              <NAME>scePaf_49CE42F7</NAME>
+              <NAME>_ZN3paf4View9PlaySoundEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4E67BB08</NID>

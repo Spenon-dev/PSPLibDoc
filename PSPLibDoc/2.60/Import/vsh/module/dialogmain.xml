@@ -204,7 +204,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB48D135B</NID>
-              <NAME>sceVshCommonUtil_B48D135B</NAME>
+              <NAME>_ZN3vsh22SetDateTimeDisplayTypeEii</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB9578145</NID>
@@ -288,7 +288,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x458A9C95</NID>
-              <NAME>scePaf_458A9C95</NAME>
+              <NAME>_ZNK3paf4View6GetArgEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4612DB4B</NID>
@@ -364,11 +364,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x72129CFB</NID>
-              <NAME>scePaf_72129CFB</NAME>
+              <NAME>_ZN3paf4View12SetInterfaceEiPv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x72A0044D</NID>
-              <NAME>scePaf_72A0044D</NAME>
+              <NAME>_ZN3paf6ModuleC1EPKcS2_i</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x78219D10</NID>
@@ -404,7 +404,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x88D73AED</NID>
-              <NAME>scePaf_88D73AED</NAME>
+              <NAME>_ZN3paf4View4LoadERKNS0_9InitParamEPFvPS0_E</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8A861692</NID>
@@ -532,7 +532,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4AB3180</NID>
-              <NAME>scePaf_F4AB3180</NAME>
+              <NAME>_ZN3paf9Framework3RunEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF609FA81</NID>

@@ -24,15 +24,15 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x441D55D7</NID>
-              <NAME>sceVshCommonGui_441D55D7</NAME>
+              <NAME>_ZN3vsh25ShowButtonNavigation_BackEb</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x54BC644C</NID>
-              <NAME>sceVshCommonGui_54BC644C</NAME>
+              <NAME>_ZN3vsh30SetButtonNavigationString_BackEPKw</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6C81492F</NID>
-              <NAME>sceVshCommonGui_6C81492F</NAME>
+              <NAME>_ZN3vsh31SetButtonNavigationString_EnterEPKw</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -88,7 +88,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x458A9C95</NID>
-              <NAME>scePaf_458A9C95</NAME>
+              <NAME>_ZNK3paf4View6GetArgEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD3D12890</NID>
@@ -112,7 +112,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x72129CFB</NID>
-              <NAME>scePaf_72129CFB</NAME>
+              <NAME>_ZN3paf4View12SetInterfaceEiPv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF609FA81</NID>

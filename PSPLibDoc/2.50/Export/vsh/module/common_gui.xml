@@ -40,7 +40,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA1C3DDD6</NID>
-              <NAME>sceVshCommonGui_A1C3DDD6</NAME>
+              <NAME>_ZN3vsh10OptionMenu4HideEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF4D1E387</NID>
@@ -48,19 +48,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC5B53362</NID>
-              <NAME>sceVshCommonGui_C5B53362</NAME>
+              <NAME>_ZN3vsh10OptionMenu4ShowEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x607D5C82</NID>
-              <NAME>sceVshCommonGui_607D5C82</NAME>
+              <NAME>_ZN3vsh10OptionMenu5CloseEPN3paf4ViewEPKcS5_</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1CF884A1</NID>
-              <NAME>sceVshCommonGui_1CF884A1</NAME>
+              <NAME>_ZN3vsh12BusyIcon_DecEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x80271F41</NID>
-              <NAME>sceVshCommonGui_80271F41</NAME>
+              <NAME>_ZN3vsh12BusyIcon_IncEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4353F96</NID>
@@ -68,11 +68,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4704D5BD</NID>
-              <NAME>sceVshCommonGui_4704D5BD</NAME>
+              <NAME>_ZN3vsh13Infobar_CloseEb</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x72E652AA</NID>
-              <NAME>sceVshCommonGui_72E652AA</NAME>
+              <NAME>_ZN3vsh13MessageDialog10HideDeleteEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x10906D79</NID>
@@ -92,27 +92,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x441D55D7</NID>
-              <NAME>sceVshCommonGui_441D55D7</NAME>
+              <NAME>_ZN3vsh25ShowButtonNavigation_BackEb</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA0DE7090</NID>
-              <NAME>sceVshCommonGui_A0DE7090</NAME>
+              <NAME>_ZN3vsh26ShowButtonNavigation_EnterEb</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEEB86F0E</NID>
-              <NAME>sceVshCommonGui_EEB86F0E</NAME>
+              <NAME>_ZN3vsh27ShowButtonNavigation_OptionEb</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x54BC644C</NID>
-              <NAME>sceVshCommonGui_54BC644C</NAME>
+              <NAME>_ZN3vsh30SetButtonNavigationString_BackEPKw</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6C81492F</NID>
-              <NAME>sceVshCommonGui_6C81492F</NAME>
+              <NAME>_ZN3vsh31SetButtonNavigationString_EnterEPKw</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBAA1F762</NID>
-              <NAME>sceVshCommonGui_BAA1F762</NAME>
+              <NAME>_ZN3vsh32SetButtonNavigationString_OptionEPKw</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0131C97D</NID>
@@ -128,15 +128,15 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF7A03543</NID>
-              <NAME>sceVshCommonGui_F7A03543</NAME>
+              <NAME>_ZN3vsh10OptionMenu6IsOpenEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x071749CE</NID>
-              <NAME>sceVshCommonGui_071749CE</NAME>
+              <NAME>_ZN3vsh16Infobar_IsOpenedEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xACFE7BE7</NID>
-              <NAME>sceVshCommonGui_ACFE7BE7</NAME>
+              <NAME>_ZN3vsh13MessageDialog12GetBasePlaneEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B8E817A</NID>
@@ -160,7 +160,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8EB783F5</NID>
-              <NAME>sceVshCommonGui_8EB783F5</NAME>
+              <NAME>_ZN3vsh10OptionMenu11UpdateItemsEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCC7BFDB1</NID>
@@ -168,11 +168,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x88F5E3A8</NID>
-              <NAME>sceVshCommonGui_88F5E3A8</NAME>
+              <NAME>_ZN3vsh13MessageDialog16SetDeleteHandlerEPFvPvES1_</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x25D6E91D</NID>
-              <NAME>sceVshCommonGui_25D6E91D</NAME>
+              <NAME>_ZN3vsh10OptionMenu12ShadowRenderEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCD76A885</NID>

@@ -8932,7 +8932,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x05E019A4</NID>
-              <NAME>sceSsl_lib_05E019A4</NAME>
+              <NAME>SSLCERT_get_notAfter</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x064F5DF3</NID>
@@ -8956,7 +8956,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0A241EDE</NID>
-              <NAME>sceSsl_lib_0A241EDE</NAME>
+              <NAME>SSLCERT_new</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0FD2F220</NID>
@@ -8964,7 +8964,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0FF7BA68</NID>
-              <NAME>sceSsl_lib_0FF7BA68</NAME>
+              <NAME>SSLCERT_verify</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x101D418A</NID>
@@ -8976,7 +8976,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x12C7718F</NID>
-              <NAME>sceSsl_lib_12C7718F</NAME>
+              <NAME>SSLCERT_get_subject_name</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x19A0DB42</NID>
@@ -8984,7 +8984,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1B93AD27</NID>
-              <NAME>sceSsl_lib_1B93AD27</NAME>
+              <NAME>SSLCERT_subject_name_cmp</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1BCA32E3</NID>
@@ -8996,7 +8996,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1E257243</NID>
-              <NAME>sceSsl_lib_1E257243</NAME>
+              <NAME>SSLCERT_set_flag</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1EC64594</NID>
@@ -9016,7 +9016,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B7BD166</NID>
-              <NAME>sceSsl_lib_2B7BD166</NAME>
+              <NAME>SSLCERT_OID_to_string</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E2E2B09</NID>
@@ -9028,7 +9028,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x338C8FDD</NID>
-              <NAME>sceSsl_lib_338C8FDD</NAME>
+              <NAME>SSLCERT_NAME_dup</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x340F8829</NID>
@@ -9036,7 +9036,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x341843AB</NID>
-              <NAME>sceSsl_lib_341843AB</NAME>
+              <NAME>SSLCERT_get_notBefore</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3454E622</NID>
@@ -9044,7 +9044,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x37C7B76C</NID>
-              <NAME>sceSsl_lib_37C7B76C</NAME>
+              <NAME>SSLCERT_fingerprint</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3E040FD4</NID>
@@ -9064,7 +9064,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x45514AE3</NID>
-              <NAME>sceSsl_lib_45514AE3</NAME>
+              <NAME>SSLCERT_NAME_new</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x47F7B97F</NID>
@@ -9084,11 +9084,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4BE9030A</NID>
-              <NAME>sceSsl_lib_4BE9030A</NAME>
+              <NAME>SSLCERT_get_issuer_name</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4C75B8E9</NID>
-              <NAME>sceSsl_lib_4C75B8E9</NAME>
+              <NAME>SSLCERT_NAME_get_entry_count</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4E0F2CCC</NID>
@@ -9096,11 +9096,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5040E836</NID>
-              <NAME>sceSsl_lib_5040E836</NAME>
+              <NAME>SSLCERT_NAME_get_entry</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x529A9477</NID>
-              <NAME>sceSsl_lib_529A9477</NAME>
+              <NAME>SSL_CTX_set_app_verify_cb</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x54A7D8F3</NID>
@@ -9144,7 +9144,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6038DEDE</NID>
-              <NAME>sceSsl_lib_6038DEDE</NAME>
+              <NAME>SSLCERT_from_binary</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6053B79C</NID>
@@ -9156,7 +9156,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6443D0EE</NID>
-              <NAME>sceSsl_lib_6443D0EE</NAME>
+              <NAME>SSLCERT_NAME_ENTRY_get_oid_info</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x64AA4ED6</NID>
@@ -9192,7 +9192,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6E1E9E0D</NID>
-              <NAME>sceSsl_lib_6E1E9E0D</NAME>
+              <NAME>SSLCERT_NAME_ENTRY_get_data_info</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x72D77445</NID>
@@ -9208,11 +9208,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x737BED1C</NID>
-              <NAME>sceSsl_lib_737BED1C</NAME>
+              <NAME>SSLCERT_PKEY_new</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7781A781</NID>
-              <NAME>sceSsl_lib_7781A781</NAME>
+              <NAME>SSLCERT_get_key_usage_int</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x795B9EDF</NID>
@@ -9220,11 +9220,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7BDAF864</NID>
-              <NAME>sceSsl_lib_7BDAF864</NAME>
+              <NAME>SSL_get_client_CA_list_item</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7D0E41F4</NID>
-              <NAME>sceSsl_lib_7D0E41F4</NAME>
+              <NAME>SSLCERT_NAME_cmp</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x80608663</NID>
@@ -9244,7 +9244,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x86D0771E</NID>
-              <NAME>sceSsl_lib_86D0771E</NAME>
+              <NAME>SSL_SESSION_reference_inc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x86D4034D</NID>
@@ -9264,11 +9264,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B78A6C0</NID>
-              <NAME>sceSsl_lib_8B78A6C0</NAME>
+              <NAME>SSLCERT_PEM_read_bio_SSLCERT</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D484361</NID>
-              <NAME>sceSsl_lib_8D484361</NAME>
+              <NAME>SSLCERT_NAME_ENTRY_get_info</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9052D21A</NID>
@@ -9280,7 +9280,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x90BCFCE2</NID>
-              <NAME>sceSsl_lib_90BCFCE2</NAME>
+              <NAME>SSLCERT_NAME_to_binary</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9266C0D5</NID>
@@ -9292,15 +9292,15 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9299C6CE</NID>
-              <NAME>sceSsl_lib_9299C6CE</NAME>
+              <NAME>SSLCERT_get_serialNumber_info</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x92FA8B34</NID>
-              <NAME>sceSsl_lib_92FA8B34</NAME>
+              <NAME>SSL_get_client_CA_list_count</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9307DE23</NID>
-              <NAME>sceSsl_lib_9307DE23</NAME>
+              <NAME>SSLCERT_PKEY_free</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9566709F</NID>
@@ -9316,7 +9316,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x999D7614</NID>
-              <NAME>sceSsl_lib_999D7614</NAME>
+              <NAME>SSLCERT_reference_inc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9A789D37</NID>
@@ -9324,7 +9324,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9CB1A62F</NID>
-              <NAME>sceSsl_lib_9CB1A62F</NAME>
+              <NAME>SSL_set_app_data_cb</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9CDCA0D7</NID>
@@ -9352,7 +9352,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA739BFD9</NID>
-              <NAME>sceSsl_lib_A739BFD9</NAME>
+              <NAME>SSLCERT_to_binary</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA7BED83B</NID>
@@ -9400,7 +9400,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB1E75EA9</NID>
-              <NAME>sceSsl_lib_B1E75EA9</NAME>
+              <NAME>SSLCERT_get_flag</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB3B04C58</NID>
@@ -9424,11 +9424,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB87FFE37</NID>
-              <NAME>sceSsl_lib_B87FFE37</NAME>
+              <NAME>SSLCERT_get_pubkey</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB99D89E2</NID>
-              <NAME>sceSsl_lib_B99D89E2</NAME>
+              <NAME>PEM_get_EVP_CIPHER_CTX</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB9C8CCE6</NID>
@@ -9444,7 +9444,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBE423CD1</NID>
-              <NAME>sceSsl_lib_BE423CD1</NAME>
+              <NAME>SSL_set_alert_info_cb</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBE4A711C</NID>
@@ -9464,7 +9464,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC1A2E14B</NID>
-              <NAME>sceSsl_lib_C1A2E14B</NAME>
+              <NAME>SSLCERT_free</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC270B3A8</NID>
@@ -9472,7 +9472,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC6ED5C87</NID>
-              <NAME>sceSsl_lib_C6ED5C87</NAME>
+              <NAME>SSLCERT_check_private_key</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC97D0510</NID>
@@ -9492,7 +9492,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCFA2F8EB</NID>
-              <NAME>sceSsl_lib_CFA2F8EB</NAME>
+              <NAME>SSLCERT_get_basic_constraints_int</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD1205C58</NID>
@@ -9504,7 +9504,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD579CE04</NID>
-              <NAME>sceSsl_lib_D579CE04</NAME>
+              <NAME>SSLCERT_NAME_from_binary</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD5ABC603</NID>
@@ -9524,7 +9524,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE11361C2</NID>
-              <NAME>sceSsl_lib_E11361C2</NAME>
+              <NAME>SSLCERT_PKEY_reference_inc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE14101E4</NID>
@@ -9560,19 +9560,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEC4A18D7</NID>
-              <NAME>sceSsl_lib_EC4A18D7</NAME>
+              <NAME>BIO_get_cb_arg</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xECE07B61</NID>
-              <NAME>sceSsl_lib_ECE07B61</NAME>
+              <NAME>BIO_set_cb_arg</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xED95A457</NID>
-              <NAME>sceSsl_lib_ED95A457</NAME>
+              <NAME>SSLCERT_NAME_free</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEDBE00D6</NID>
-              <NAME>sceSsl_lib_EDBE00D6</NAME>
+              <NAME>SSLCERT_PKEY_from_PUBKEY_binary</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEE624680</NID>
@@ -9584,7 +9584,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFAF333D1</NID>
-              <NAME>sceSsl_lib_FAF333D1</NAME>
+              <NAME>EVP_PKEY_reference_inc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFB8273FE</NID>

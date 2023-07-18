@@ -266,11 +266,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1CF884A1</NID>
-              <NAME>sceVshCommonGui_1CF884A1</NAME>
+              <NAME>_ZN3vsh12BusyIcon_DecEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x441D55D7</NID>
-              <NAME>sceVshCommonGui_441D55D7</NAME>
+              <NAME>_ZN3vsh25ShowButtonNavigation_BackEb</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B8E817A</NID>
@@ -278,19 +278,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x72E652AA</NID>
-              <NAME>sceVshCommonGui_72E652AA</NAME>
+              <NAME>_ZN3vsh13MessageDialog10HideDeleteEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x80271F41</NID>
-              <NAME>sceVshCommonGui_80271F41</NAME>
+              <NAME>_ZN3vsh12BusyIcon_IncEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA0DE7090</NID>
-              <NAME>sceVshCommonGui_A0DE7090</NAME>
+              <NAME>_ZN3vsh26ShowButtonNavigation_EnterEb</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xACFE7BE7</NID>
-              <NAME>sceVshCommonGui_ACFE7BE7</NAME>
+              <NAME>_ZN3vsh13MessageDialog12GetBasePlaneEv</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

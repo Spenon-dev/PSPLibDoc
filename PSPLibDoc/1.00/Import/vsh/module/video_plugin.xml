@@ -46,7 +46,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x72E652AA</NID>
-              <NAME>sceVshCommonGui_72E652AA</NAME>
+              <NAME>_ZN3vsh13MessageDialog10HideDeleteEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1A6F3382</NID>
@@ -62,19 +62,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x441D55D7</NID>
-              <NAME>sceVshCommonGui_441D55D7</NAME>
+              <NAME>_ZN3vsh25ShowButtonNavigation_BackEb</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA0DE7090</NID>
-              <NAME>sceVshCommonGui_A0DE7090</NAME>
+              <NAME>_ZN3vsh26ShowButtonNavigation_EnterEb</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x54BC644C</NID>
-              <NAME>sceVshCommonGui_54BC644C</NAME>
+              <NAME>_ZN3vsh30SetButtonNavigationString_BackEPKw</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6C81492F</NID>
-              <NAME>sceVshCommonGui_6C81492F</NAME>
+              <NAME>_ZN3vsh31SetButtonNavigationString_EnterEPKw</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFE305D6D</NID>
@@ -306,7 +306,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8DB4B066</NID>
-              <NAME>scePaf_8DB4B066</NAME>
+              <NAME>_ZN3paf6PhSpin14SetMaxSelectedEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB104EC1B</NID>
@@ -526,7 +526,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x37DDBDD8</NID>
-              <NAME>scePaf_37DDBDD8</NAME>
+              <NAME>_ZN3paf9PhHandler16HandleFocusEventEPNS_7PhEventE</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x92A46B32</NID>
@@ -714,7 +714,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x458A9C95</NID>
-              <NAME>scePaf_458A9C95</NAME>
+              <NAME>_ZNK3paf4View6GetArgEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD3D12890</NID>
@@ -726,7 +726,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x88D73AED</NID>
-              <NAME>scePaf_88D73AED</NAME>
+              <NAME>_ZN3paf4View4LoadERKNS0_9InitParamEPFvPS0_E</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4FAE7D0</NID>
@@ -758,11 +758,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x72129CFB</NID>
-              <NAME>scePaf_72129CFB</NAME>
+              <NAME>_ZN3paf4View12SetInterfaceEiPv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1A45C860</NID>
-              <NAME>scePaf_1A45C860</NAME>
+              <NAME>_ZN3paf4View6UnloadEPS0_PFvPKcE</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5DFB5858</NID>

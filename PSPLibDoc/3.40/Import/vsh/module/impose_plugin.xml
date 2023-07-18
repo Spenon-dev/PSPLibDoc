@@ -50,7 +50,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x49CE42F7</NID>
-              <NAME>scePaf_49CE42F7</NAME>
+              <NAME>_ZN3paf4View9PlaySoundEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63B24F4D</NID>
@@ -66,7 +66,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x72129CFB</NID>
-              <NAME>scePaf_72129CFB</NAME>
+              <NAME>_ZN3paf4View12SetInterfaceEiPv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x809A4F83</NID>

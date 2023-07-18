@@ -268,7 +268,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x90E540A9</NID>
-              <NAME>music_common_90E540A9</NAME>
+              <NAME>bXCeMemInitialize</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9370D7F7</NID>
@@ -364,7 +364,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD586C284</NID>
-              <NAME>music_common_D586C284</NAME>
+              <NAME>bXCeMemDestroy</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD6D8B64F</NID>

@@ -258,11 +258,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0FF7BA68</NID>
-              <NAME>sceSsl_lib_0FF7BA68</NAME>
+              <NAME>SSLCERT_verify</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x12C7718F</NID>
-              <NAME>sceSsl_lib_12C7718F</NAME>
+              <NAME>SSLCERT_get_subject_name</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x28B4DE33</NID>
@@ -270,7 +270,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B7BD166</NID>
-              <NAME>sceSsl_lib_2B7BD166</NAME>
+              <NAME>SSLCERT_OID_to_string</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E2E2B09</NID>
@@ -278,7 +278,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x37C7B76C</NID>
-              <NAME>sceSsl_lib_37C7B76C</NAME>
+              <NAME>SSLCERT_fingerprint</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3E3133D6</NID>
@@ -286,19 +286,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4BE9030A</NID>
-              <NAME>sceSsl_lib_4BE9030A</NAME>
+              <NAME>SSLCERT_get_issuer_name</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4C75B8E9</NID>
-              <NAME>sceSsl_lib_4C75B8E9</NAME>
+              <NAME>SSLCERT_NAME_get_entry_count</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5040E836</NID>
-              <NAME>sceSsl_lib_5040E836</NAME>
+              <NAME>SSLCERT_NAME_get_entry</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x529A9477</NID>
-              <NAME>sceSsl_lib_529A9477</NAME>
+              <NAME>SSL_CTX_set_app_verify_cb</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x54A7D8F3</NID>
@@ -314,7 +314,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6038DEDE</NID>
-              <NAME>sceSsl_lib_6038DEDE</NAME>
+              <NAME>SSLCERT_from_binary</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x69F1B678</NID>
@@ -322,7 +322,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7D0E41F4</NID>
-              <NAME>sceSsl_lib_7D0E41F4</NAME>
+              <NAME>SSLCERT_NAME_cmp</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x80608663</NID>
@@ -334,15 +334,15 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x86D0771E</NID>
-              <NAME>sceSsl_lib_86D0771E</NAME>
+              <NAME>SSL_SESSION_reference_inc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D484361</NID>
-              <NAME>sceSsl_lib_8D484361</NAME>
+              <NAME>SSLCERT_NAME_ENTRY_get_info</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9299C6CE</NID>
-              <NAME>sceSsl_lib_9299C6CE</NAME>
+              <NAME>SSLCERT_get_serialNumber_info</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAEBF278B</NID>
@@ -366,7 +366,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB87FFE37</NID>
-              <NAME>sceSsl_lib_B87FFE37</NAME>
+              <NAME>SSLCERT_get_pubkey</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB9C8CCE6</NID>
@@ -382,7 +382,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC1A2E14B</NID>
-              <NAME>sceSsl_lib_C1A2E14B</NAME>
+              <NAME>SSLCERT_free</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE7C29542</NID>
@@ -394,11 +394,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEC4A18D7</NID>
-              <NAME>sceSsl_lib_EC4A18D7</NAME>
+              <NAME>BIO_get_cb_arg</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xECE07B61</NID>
-              <NAME>sceSsl_lib_ECE07B61</NAME>
+              <NAME>BIO_set_cb_arg</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF5A4BD4</NID>

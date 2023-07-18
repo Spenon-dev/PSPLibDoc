@@ -100,7 +100,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x37DDBDD8</NID>
-              <NAME>scePaf_37DDBDD8</NAME>
+              <NAME>_ZN3paf9PhHandler16HandleFocusEventEPNS_7PhEventE</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3829AC24</NID>
@@ -120,7 +120,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A69534B</NID>
-              <NAME>scePaf_3A69534B</NAME>
+              <NAME>_ZN3paf7SurfacenwEj</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3D451DE8</NID>
@@ -140,7 +140,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x458A9C95</NID>
-              <NAME>scePaf_458A9C95</NAME>
+              <NAME>_ZNK3paf4View6GetArgEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x470ABD60</NID>
@@ -192,7 +192,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5EE76FC5</NID>
-              <NAME>scePaf_5EE76FC5</NAME>
+              <NAME>_ZN3paf7Surface4LockEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x65920294</NID>
@@ -212,7 +212,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x72129CFB</NID>
-              <NAME>scePaf_72129CFB</NAME>
+              <NAME>_ZN3paf4View12SetInterfaceEiPv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x75062BCF</NID>

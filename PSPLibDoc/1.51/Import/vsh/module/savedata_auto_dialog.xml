@@ -52,19 +52,19 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0AF412FC</NID>
-              <NAME>sceVshCommonUtil_0AF412FC</NAME>
+              <NAME>_ZN3vsh10RebootLockC1Ev</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x686AAA1A</NID>
-              <NAME>sceVshCommonUtil_686AAA1A</NAME>
+              <NAME>_ZN3vsh10RebootLockD1Ev</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFA969B6A</NID>
-              <NAME>sceVshCommonUtil_FA969B6A</NAME>
+              <NAME>_ZN3vsh9PowerLockC1Ei</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4D66154</NID>
-              <NAME>sceVshCommonUtil_D4D66154</NAME>
+              <NAME>_ZN3vsh9PowerLockD1Ev</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -130,7 +130,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x458A9C95</NID>
-              <NAME>scePaf_458A9C95</NAME>
+              <NAME>_ZNK3paf4View6GetArgEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD3D12890</NID>
@@ -146,7 +146,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x72129CFB</NID>
-              <NAME>scePaf_72129CFB</NAME>
+              <NAME>_ZN3paf4View12SetInterfaceEiPv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x97FDA760</NID>

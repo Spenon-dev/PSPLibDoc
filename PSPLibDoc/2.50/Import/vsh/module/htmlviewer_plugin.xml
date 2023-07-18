@@ -130,7 +130,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x458A9C95</NID>
-              <NAME>scePaf_458A9C95</NAME>
+              <NAME>_ZNK3paf4View6GetArgEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD3D12890</NID>
@@ -142,7 +142,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x88D73AED</NID>
-              <NAME>scePaf_88D73AED</NAME>
+              <NAME>_ZN3paf4View4LoadERKNS0_9InitParamEPFvPS0_E</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4FAE7D0</NID>
@@ -158,11 +158,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x72129CFB</NID>
-              <NAME>scePaf_72129CFB</NAME>
+              <NAME>_ZN3paf4View12SetInterfaceEiPv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1A45C860</NID>
-              <NAME>scePaf_1A45C860</NAME>
+              <NAME>_ZN3paf4View6UnloadEPS0_PFvPKcE</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5DFB5858</NID>
@@ -182,7 +182,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x72A0044D</NID>
-              <NAME>scePaf_72A0044D</NAME>
+              <NAME>_ZN3paf6ModuleC1EPKcS2_i</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4612DB4B</NID>
@@ -268,11 +268,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0xFA969B6A</NID>
-              <NAME>sceVshCommonUtil_FA969B6A</NAME>
+              <NAME>_ZN3vsh9PowerLockC1Ei</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4D66154</NID>
-              <NAME>sceVshCommonUtil_D4D66154</NAME>
+              <NAME>_ZN3vsh9PowerLockD1Ev</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -282,11 +282,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x1CF884A1</NID>
-              <NAME>sceVshCommonGui_1CF884A1</NAME>
+              <NAME>_ZN3vsh12BusyIcon_DecEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x80271F41</NID>
-              <NAME>sceVshCommonGui_80271F41</NAME>
+              <NAME>_ZN3vsh12BusyIcon_IncEv</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

@@ -12,11 +12,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x1A45C860</NID>
-              <NAME>scePaf_1A45C860</NAME>
+              <NAME>_ZN3paf4View6UnloadEPS0_PFvPKcE</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2120282A</NID>
-              <NAME>scePaf_2120282A</NAME>
+              <NAME>_ZN3paf7PhMicon4PlayEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x21B885B8</NID>
@@ -48,7 +48,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x458A9C95</NID>
-              <NAME>scePaf_458A9C95</NAME>
+              <NAME>_ZNK3paf4View6GetArgEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4708AED4</NID>
@@ -56,7 +56,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x49CE42F7</NID>
-              <NAME>scePaf_49CE42F7</NAME>
+              <NAME>_ZN3paf4View9PlaySoundEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4ADAEF94</NID>
@@ -92,7 +92,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x72129CFB</NID>
-              <NAME>scePaf_72129CFB</NAME>
+              <NAME>_ZN3paf4View12SetInterfaceEiPv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x79C3CBF7</NID>
@@ -108,7 +108,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8DEB3DB3</NID>
-              <NAME>scePaf_8DEB3DB3</NAME>
+              <NAME>_ZN3paf12MiconPointee6AddRefEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x940D9797</NID>
@@ -132,7 +132,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBA09CF46</NID>
-              <NAME>scePaf_BA09CF46</NAME>
+              <NAME>_ZN3paf12MiconPointee7ReleaseEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC4BAD564</NID>

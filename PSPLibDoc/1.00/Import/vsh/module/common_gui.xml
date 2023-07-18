@@ -76,7 +76,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x26DF747F</NID>
-              <NAME>scePaf_26DF747F</NAME>
+              <NAME>_ZN3paf10MessageBox8SetColorEffff</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x41BCFB59</NID>
@@ -160,11 +160,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8DEB3DB3</NID>
-              <NAME>scePaf_8DEB3DB3</NAME>
+              <NAME>_ZN3paf12MiconPointee6AddRefEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBA09CF46</NID>
-              <NAME>scePaf_BA09CF46</NAME>
+              <NAME>_ZN3paf12MiconPointee7ReleaseEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4ADAEF94</NID>
@@ -188,27 +188,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5A8D4BDB</NID>
-              <NAME>scePaf_5A8D4BDB</NAME>
+              <NAME>_ZNK3paf7PhMicon9IsPlayingEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2120282A</NID>
-              <NAME>scePaf_2120282A</NAME>
+              <NAME>_ZN3paf7PhMicon4PlayEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8159EB28</NID>
-              <NAME>scePaf_8159EB28</NAME>
+              <NAME>_ZN3paf7PhMicon4StopEv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5CE11C03</NID>
-              <NAME>scePaf_5CE11C03</NAME>
+              <NAME>_ZN3paf7PhMicon11SetChannelsEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA4B48F00</NID>
-              <NAME>scePaf_A4B48F00</NAME>
+              <NAME>_ZN3paf7PhMicon9SetRepeatEi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3DBE861F</NID>
-              <NAME>scePaf_3DBE861F</NAME>
+              <NAME>_ZN3paf7PhMicon9SetVolumeEf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6741C662</NID>
@@ -260,7 +260,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x49CE42F7</NID>
-              <NAME>scePaf_49CE42F7</NAME>
+              <NAME>_ZN3paf4View9PlaySoundEPKc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3481F595</NID>
