@@ -26,11 +26,19 @@ psp_libdoc.py requires python3 with lxml module
     - psp_libdoc.py *sources* -u psp_libdoc_to_update.xml
     - update_imports.sh will update the Import files for all firmwares from the combined PSPLibDoc
 
+ - Update the PSPLibDoc XML files of all firmwares from PSP export files (*.exp)
+    - Put all export files into an input folder and name them after the prx it should update
+    - Example: ata.exp, sysmem.exp in inputFolder will update ata.xml and sysmem.xml across all firmwares
+    - ./update_from_psp_exports.sh inputFolder
+
+
  - Export all unknown NIDs from all loaded sources
     - psp_libdoc.py *sources* -o unknown_nids.txt
 
  - Export all known function names from all loaded sources
     - psp_libdoc.py *sources* -k known_function_names.txt
+
+
 <br>
 
 ## General Notes
