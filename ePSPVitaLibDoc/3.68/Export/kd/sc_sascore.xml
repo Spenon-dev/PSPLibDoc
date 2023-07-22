@@ -78,7 +78,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4AA9EAD6</NID>
-              <NAME>sceSasCore_4AA9EAD6</NAME>
+              <NAME>__sceSasSetVoiceATRAC3</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x50A14DFC</NID>
@@ -94,7 +94,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7497EA85</NID>
-              <NAME>sceSasCore_7497EA85</NAME>
+              <NAME>__sceSasConcatenateATRAC3</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x74AE582A</NID>
@@ -170,7 +170,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6107F00</NID>
-              <NAME>sceSasCore_F6107F00</NAME>
+              <NAME>__sceSasUnsetATRAC3</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF983B186</NID>

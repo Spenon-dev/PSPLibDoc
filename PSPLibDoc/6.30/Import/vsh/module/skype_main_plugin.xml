@@ -1304,7 +1304,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x87440F5E</NID>
-              <NAME>scePower_87440F5E</NAME>
+              <NAME>scePowerIsPowerOnline</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

@@ -506,11 +506,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x7FA406DD</NID>
-              <NAME>scePower_7FA406DD</NAME>
+              <NAME>scePowerIsRequest</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDB62C9CF</NID>
-              <NAME>scePower_DB62C9CF</NAME>
+              <NAME>scePowerCancelRequest</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

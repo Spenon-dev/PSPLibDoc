@@ -92,15 +92,15 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0F3EEAAC</NID>
-              <NAME>sceUtility_0F3EEAAC</NAME>
+              <NAME>sceUtilityAuthDialogShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x147F7C85</NID>
-              <NAME>sceUtility_147F7C85</NAME>
+              <NAME>sceUtilityAuthDialogUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x16A1A8D8</NID>
-              <NAME>sceUtility_16A1A8D8</NAME>
+              <NAME>sceUtilityAuthDialogGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2AD8E239</NID>
@@ -132,7 +132,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x943CBA46</NID>
-              <NAME>sceUtility_943CBA46</NAME>
+              <NAME>sceUtilityAuthDialogInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x95FC253B</NID>
@@ -378,27 +378,27 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x2935C45B</NID>
-              <NAME>sceNetApctl_2935C45B</NAME>
+              <NAME>sceNetApctlGetBSSDescEntry2</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2BEFDF23</NID>
-              <NAME>sceNetApctl_2BEFDF23</NAME>
+              <NAME>sceNetApctlGetInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5963991B</NID>
-              <NAME>sceNetApctl_5963991B</NAME>
+              <NAME>sceNetApctlDelHandler</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8ABADD51</NID>
-              <NAME>sceNetApctl_8ABADD51</NAME>
+              <NAME>sceNetApctlAddHandler</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA3E77E13</NID>
-              <NAME>sceNetApctl_A3E77E13</NAME>
+              <NAME>sceNetApctlScanSSID2</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF25A5006</NID>
-              <NAME>sceNetApctl_F25A5006</NAME>
+              <NAME>sceNetApctlGetBSSDescIDList2</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

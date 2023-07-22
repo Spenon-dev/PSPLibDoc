@@ -890,19 +890,19 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x2BEFDF23</NID>
-              <NAME>sceNetApctl_2BEFDF23</NAME>
+              <NAME>sceNetApctlGetInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCFB957C6</NID>
-              <NAME>sceNetApctl_CFB957C6</NAME>
+              <NAME>sceNetApctlConnect</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x24FE91A1</NID>
-              <NAME>sceNetApctl_24FE91A1</NAME>
+              <NAME>sceNetApctlDisconnect</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5DEAC81B</NID>
-              <NAME>sceNetApctl_5DEAC81B</NAME>
+              <NAME>sceNetApctlGetState</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -946,23 +946,23 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0xB3CF6849</NID>
-              <NAME>sceNetApctl_lib_B3CF6849</NAME>
+              <NAME>sceNetApctlScan</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0C7FFA5C</NID>
-              <NAME>sceNetApctl_lib_0C7FFA5C</NAME>
+              <NAME>sceNetApctlGetBSSDescIDList</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x96BEB231</NID>
-              <NAME>sceNetApctl_lib_96BEB231</NAME>
+              <NAME>sceNetApctlGetBSSDescEntry</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7CFAB990</NID>
-              <NAME>sceNetApctl_lib_7CFAB990</NAME>
+              <NAME>sceNetApctlAddInternalHandler</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE11BAFAB</NID>
-              <NAME>sceNetApctl_lib_E11BAFAB</NAME>
+              <NAME>sceNetApctlDelInternalHandler</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

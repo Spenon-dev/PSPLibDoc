@@ -278,7 +278,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0xD7763699</NID>
-              <NAME>sceWlanDrv_D7763699</NAME>
+              <NAME>sceWlanGetSwitchState</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

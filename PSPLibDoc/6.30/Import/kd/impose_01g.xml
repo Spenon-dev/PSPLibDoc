@@ -272,7 +272,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E20F177</NID>
-              <NAME>sceDisplay_driver_0E20F177</NAME>
+              <NAME>sceDisplaySetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x12870242</NID>
@@ -308,7 +308,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDEA197D4</NID>
-              <NAME>sceDisplay_driver_DEA197D4</NAME>
+              <NAME>sceDisplayGetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDF998667</NID>
@@ -462,7 +462,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1910B327</NID>
-              <NAME>sceHprm_driver_1910B327</NAME>
+              <NAME>sceHprmPeekCurrentKey</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x38FB84B5</NID>

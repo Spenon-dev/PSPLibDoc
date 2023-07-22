@@ -9674,7 +9674,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBEA18F91</NID>
-              <NAME>sceMpegbase_BEA18F91</NAME>
+              <NAME>sceMpegBasePESpacketCopy</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE8EB837</NID>
@@ -9716,7 +9716,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBEA18F91</NID>
-              <NAME>sceMpegbase_driver_BEA18F91</NAME>
+              <NAME>sceMpegBasePESpacketCopy</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE8EB837</NID>
@@ -23176,7 +23176,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x333DCEC7</NID>
-              <NAME>KDebugForKernel_333DCEC7</NAME>
+              <NAME>sceKernelSm1RegisterOperations</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5282DD5E</NID>
@@ -23208,7 +23208,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9F8703E4</NID>
-              <NAME>KDebugForKernel_9F8703E4</NAME>
+              <NAME>sceKernelDipswCpTime</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA126F497</NID>
@@ -23216,7 +23216,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7251823</NID>
-              <NAME>KDebugForKernel_B7251823</NAME>
+              <NAME>sceKernelAcceptMbogoSig</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB9C643C9</NID>
@@ -23244,7 +23244,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE892D9A1</NID>
-              <NAME>KDebugForKernel_E892D9A1</NAME>
+              <NAME>sceKernelSm1ReferOperations</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -26309,7 +26309,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x2995D020</NID>
-              <NAME>sceUtility_2995D020</NAME>
+              <NAME>sceUtilitySavedataErrInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2AD8E239</NID>
@@ -26377,7 +26377,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x88BC7406</NID>
-              <NAME>sceUtility_88BC7406</NAME>
+              <NAME>sceUtilitySavedataErrGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x91E70E35</NID>
@@ -26405,7 +26405,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB62A4061</NID>
-              <NAME>sceUtility_B62A4061</NAME>
+              <NAME>sceUtilitySavedataErrShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6CEE597</NID>
@@ -26425,7 +26425,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xED0FAD38</NID>
-              <NAME>sceUtility_ED0FAD38</NAME>
+              <NAME>sceUtilitySavedataErrUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEFC6F80F</NID>
@@ -26853,7 +26853,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x346FBE94</NID>
-              <NAME>sceVaudio_346FBE94</NAME>
+              <NAME>sceVaudioSetEffectType</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67585DFD</NID>
@@ -26875,7 +26875,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x346FBE94</NID>
-              <NAME>sceVaudio_driver_346FBE94</NAME>
+              <NAME>sceVaudioSetEffectType</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5A7435B7</NID>
@@ -26933,7 +26933,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x346FBE94</NID>
-              <NAME>sceVaudio_346FBE94</NAME>
+              <NAME>sceVaudioSetEffectType</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67585DFD</NID>
@@ -26955,7 +26955,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x346FBE94</NID>
-              <NAME>sceVaudio_driver_346FBE94</NAME>
+              <NAME>sceVaudioSetEffectType</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5A7435B7</NID>

@@ -1296,7 +1296,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x87440F5E</NID>
-              <NAME>scePower_87440F5E</NAME>
+              <NAME>scePowerIsPowerOnline</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBD177D6</NID>

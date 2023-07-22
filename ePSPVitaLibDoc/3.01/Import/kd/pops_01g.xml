@@ -156,23 +156,23 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x03444EB4</NID>
-              <NAME>sceGe_user_03444EB4</NAME>
+              <NAME>sceGeListSync</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB49E76A</NID>
-              <NAME>sceGe_user_AB49E76A</NAME>
+              <NAME>sceGeListEnQueue</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB287BD61</NID>
-              <NAME>sceGe_user_B287BD61</NAME>
+              <NAME>sceGeDrawSync</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB77905EA</NID>
-              <NAME>sceGe_user_B77905EA</NAME>
+              <NAME>sceGeEdramSetAddrTranslation</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0D68148</NID>
-              <NAME>sceGe_user_E0D68148</NAME>
+              <NAME>sceGeListUpdateStallAddr</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -240,7 +240,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x24FD7BCF</NID>
-              <NAME>sceImpose_24FD7BCF</NAME>
+              <NAME>sceImposeGetLanguageMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

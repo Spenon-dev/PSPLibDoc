@@ -22,7 +22,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0558B075</NID>
-              <NAME>sceMpeg_0558B075</NAME>
+              <NAME>sceMpegAvcCopyYCbCr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E3C2E9D</NID>
@@ -158,7 +158,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB0E9556</NID>
-              <NAME>sceMpeg_AB0E9556</NAME>
+              <NAME>sceMpegAvcDecodeDetailIndex</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB240A59E</NID>

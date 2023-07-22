@@ -60,7 +60,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x40F1469C</NID>
-              <NAME>sceDisplay_40F1469C</NAME>
+              <NAME>sceDisplayWaitVblankStartMulti</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x46F186C3</NID>
@@ -80,7 +80,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x77ED8B3A</NID>
-              <NAME>sceDisplay_77ED8B3A</NAME>
+              <NAME>sceDisplayWaitVblankStartMultiCB</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7ED59BC4</NID>

@@ -318,15 +318,15 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x136CAF51</NID>
-              <NAME>sceAudio_136CAF51</NAME>
+              <NAME>sceAudioOutputBlocking</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5EC81C55</NID>
-              <NAME>sceAudio_5EC81C55</NAME>
+              <NAME>sceAudioChReserve</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6FC46853</NID>
-              <NAME>sceAudio_6FC46853</NAME>
+              <NAME>sceAudioChRelease</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

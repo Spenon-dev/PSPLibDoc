@@ -44,7 +44,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x2BEFDF23</NID>
-              <NAME>sceNetApctl_2BEFDF23</NAME>
+              <NAME>sceNetApctlGetInfo</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -76,59 +76,59 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x162E6FD5</NID>
-              <NAME>sceNetInet_162E6FD5</NAME>
+              <NAME>sceNetInetGetsockname</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2FE71FE7</NID>
-              <NAME>sceNetInet_2FE71FE7</NAME>
+              <NAME>sceNetInetSetsockopt</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x410B34AA</NID>
-              <NAME>sceNetInet_410B34AA</NAME>
+              <NAME>sceNetInetConnect</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4A114C7C</NID>
-              <NAME>sceNetInet_4A114C7C</NAME>
+              <NAME>sceNetInetGetsockopt</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5BE8D595</NID>
-              <NAME>sceNetInet_5BE8D595</NAME>
+              <NAME>sceNetInetSelect</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7AA671BC</NID>
-              <NAME>sceNetInet_7AA671BC</NAME>
+              <NAME>sceNetInetSend</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x80A21ABD</NID>
-              <NAME>sceNetInet_80A21ABD</NAME>
+              <NAME>sceNetInetSocketAbort</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B7B220F</NID>
-              <NAME>sceNetInet_8B7B220F</NAME>
+              <NAME>sceNetInetSocket</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8CA3A97E</NID>
-              <NAME>sceNetInet_8CA3A97E</NAME>
+              <NAME>sceNetInetGetPspError</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D7284EA</NID>
-              <NAME>sceNetInet_8D7284EA</NAME>
+              <NAME>sceNetInetClose</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB3888AD4</NID>
-              <NAME>sceNetInet_B3888AD4</NAME>
+              <NAME>sceNetInetGetTcpcbstat</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCDA85C99</NID>
-              <NAME>sceNetInet_CDA85C99</NAME>
+              <NAME>sceNetInetRecv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE30B8C19</NID>
-              <NAME>sceNetInet_E30B8C19</NAME>
+              <NAME>sceNetInetInetPton</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFBABE411</NID>
-              <NAME>sceNetInet_FBABE411</NAME>
+              <NAME>sceNetInetGetErrno</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

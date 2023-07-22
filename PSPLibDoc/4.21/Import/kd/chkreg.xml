@@ -48,7 +48,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x4C537C72</NID>
-              <NAME>semaphore_4C537C72</NAME>
+              <NAME>sceUtilsBufferCopyWithRange</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

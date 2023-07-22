@@ -342,7 +342,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x5DEAC81B</NID>
-              <NAME>sceNetApctl_5DEAC81B</NAME>
+              <NAME>sceNetApctlGetState</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F5D2981</NID>
@@ -360,7 +360,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0xD7763699</NID>
-              <NAME>sceWlanDrv_D7763699</NAME>
+              <NAME>sceWlanGetSwitchState</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

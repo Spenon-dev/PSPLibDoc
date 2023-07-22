@@ -52,31 +52,31 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x05038FC7</NID>
-              <NAME>sceNetInet_05038FC7</NAME>
+              <NAME>sceNetInetSendto</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2FE71FE7</NID>
-              <NAME>sceNetInet_2FE71FE7</NAME>
+              <NAME>sceNetInetSetsockopt</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x80A21ABD</NID>
-              <NAME>sceNetInet_80A21ABD</NAME>
+              <NAME>sceNetInetSocketAbort</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B7B220F</NID>
-              <NAME>sceNetInet_8B7B220F</NAME>
+              <NAME>sceNetInetSocket</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D7284EA</NID>
-              <NAME>sceNetInet_8D7284EA</NAME>
+              <NAME>sceNetInetClose</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC91142E4</NID>
-              <NAME>sceNetInet_C91142E4</NAME>
+              <NAME>sceNetInetRecvfrom</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFBABE411</NID>
-              <NAME>sceNetInet_FBABE411</NAME>
+              <NAME>sceNetInetGetErrno</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

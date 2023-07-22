@@ -34,19 +34,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x596AD78C</NID>
-              <NAME>sceGameUpdate_596AD78C</NAME>
+              <NAME>sceGameUpdateRun</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5F5D98A6</NID>
-              <NAME>sceGameUpdate_5F5D98A6</NAME>
+              <NAME>sceGameUpdateAbort</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB4B68DE</NID>
-              <NAME>sceGameUpdate_BB4B68DE</NAME>
+              <NAME>sceGameUpdateTerm</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCBE69FB3</NID>
-              <NAME>sceGameUpdate_CBE69FB3</NAME>
+              <NAME>sceGameUpdateInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD92F50CA</NID>

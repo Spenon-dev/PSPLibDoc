@@ -26,35 +26,35 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x03444EB4</NID>
-              <NAME>sceGe_user_03444EB4</NAME>
+              <NAME>sceGeListSync</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1C0D95A6</NID>
-              <NAME>sceGe_user_1C0D95A6</NAME>
+              <NAME>sceGeListEnQueueHead</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4C06E472</NID>
-              <NAME>sceGe_user_4C06E472</NAME>
+              <NAME>sceGeContinue</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB49E76A</NID>
-              <NAME>sceGe_user_AB49E76A</NAME>
+              <NAME>sceGeListEnQueue</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB287BD61</NID>
-              <NAME>sceGe_user_B287BD61</NAME>
+              <NAME>sceGeDrawSync</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB448EC0D</NID>
-              <NAME>sceGe_user_B448EC0D</NAME>
+              <NAME>sceGeBreak</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0D68148</NID>
-              <NAME>sceGe_user_E0D68148</NAME>
+              <NAME>sceGeListUpdateStallAddr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE47E40E4</NID>
-              <NAME>sceGe_user_E47E40E4</NAME>
+              <NAME>sceGeEdramGetAddr</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -146,7 +146,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x1BDF5D13</NID>
-              <NAME>sceNetInet_1BDF5D13</NAME>
+              <NAME>sceNetInetInetAton</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -156,15 +156,15 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x2BEFDF23</NID>
-              <NAME>sceNetApctl_2BEFDF23</NAME>
+              <NAME>sceNetApctlGetInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x24FE91A1</NID>
-              <NAME>sceNetApctl_24FE91A1</NAME>
+              <NAME>sceNetApctlDisconnect</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5DEAC81B</NID>
-              <NAME>sceNetApctl_5DEAC81B</NAME>
+              <NAME>sceNetApctlGetState</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA7BB73DF</NID>
@@ -282,7 +282,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0C622081</NID>
-              <NAME>sceWlanDrv_0C622081</NAME>
+              <NAME>sceWlanGetEtherAddr</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

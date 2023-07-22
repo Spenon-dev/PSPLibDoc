@@ -134,7 +134,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x78A1A796</NID>
-              <NAME>scePower_78A1A796</NAME>
+              <NAME>scePowerIsSuspendRequired</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

@@ -924,7 +924,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x5DEAC81B</NID>
-              <NAME>sceNetApctl_5DEAC81B</NAME>
+              <NAME>sceNetApctlGetState</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

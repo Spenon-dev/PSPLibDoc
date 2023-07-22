@@ -30,7 +30,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0558B075</NID>
-              <NAME>sceMpeg_0558B075</NAME>
+              <NAME>sceMpegAvcCopyYCbCr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E3C2E9D</NID>

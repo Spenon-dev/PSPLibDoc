@@ -1584,23 +1584,23 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0AFD0D8B</NID>
-              <NAME>scePower_0AFD0D8B</NAME>
+              <NAME>scePowerIsBatteryExist</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2085D15D</NID>
-              <NAME>scePower_2085D15D</NAME>
+              <NAME>scePowerGetBatteryLifePercent</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x87440F5E</NID>
-              <NAME>scePower_87440F5E</NAME>
+              <NAME>scePowerIsPowerOnline</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8EFB3FA2</NID>
-              <NAME>scePower_8EFB3FA2</NAME>
+              <NAME>scePowerGetBatteryLifeTime</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB4432BC8</NID>
-              <NAME>scePower_B4432BC8</NAME>
+              <NAME>scePowerGetBatteryChargingStatus</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

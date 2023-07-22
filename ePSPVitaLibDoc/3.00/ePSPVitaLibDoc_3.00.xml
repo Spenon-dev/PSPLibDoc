@@ -2081,75 +2081,75 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x03444EB4</NID>
-              <NAME>sceGe_user_03444EB4</NAME>
+              <NAME>sceGeListSync</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x05DB22CE</NID>
-              <NAME>sceGe_user_05DB22CE</NAME>
+              <NAME>sceGeUnsetCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0BF608FB</NID>
-              <NAME>sceGe_user_0BF608FB</NAME>
+              <NAME>sceGeRestoreContext</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1C0D95A6</NID>
-              <NAME>sceGe_user_1C0D95A6</NAME>
+              <NAME>sceGeListEnQueueHead</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1F6752AD</NID>
-              <NAME>sceGe_user_1F6752AD</NAME>
+              <NAME>sceGeEdramGetSize</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x438A385A</NID>
-              <NAME>sceGe_user_438A385A</NAME>
+              <NAME>sceGeSaveContext</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4C06E472</NID>
-              <NAME>sceGe_user_4C06E472</NAME>
+              <NAME>sceGeContinue</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x57C8945B</NID>
-              <NAME>sceGe_user_57C8945B</NAME>
+              <NAME>sceGeGetMtx</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5FB86AB0</NID>
-              <NAME>sceGe_user_5FB86AB0</NAME>
+              <NAME>sceGeListDeQueue</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA4FC06A4</NID>
-              <NAME>sceGe_user_A4FC06A4</NAME>
+              <NAME>sceGeSetCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB49E76A</NID>
-              <NAME>sceGe_user_AB49E76A</NAME>
+              <NAME>sceGeListEnQueue</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB287BD61</NID>
-              <NAME>sceGe_user_B287BD61</NAME>
+              <NAME>sceGeDrawSync</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB448EC0D</NID>
-              <NAME>sceGe_user_B448EC0D</NAME>
+              <NAME>sceGeBreak</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB77905EA</NID>
-              <NAME>sceGe_user_B77905EA</NAME>
+              <NAME>sceGeEdramSetAddrTranslation</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC93CFEF</NID>
-              <NAME>sceGe_user_DC93CFEF</NAME>
+              <NAME>sceGeGetCmd</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0D68148</NID>
-              <NAME>sceGe_user_E0D68148</NAME>
+              <NAME>sceGeListUpdateStallAddr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE47E40E4</NID>
-              <NAME>sceGe_user_E47E40E4</NAME>
+              <NAME>sceGeEdramGetAddr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE66CB92E</NID>
-              <NAME>sceGe_user_E66CB92E</NAME>
+              <NAME>sceGeGetStack</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -2919,19 +2919,19 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x28235C56</NID>
-              <NAME>sceAudioRouting_28235C56</NAME>
+              <NAME>sceAudioRoutingGetVolumeMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x36FD8AA9</NID>
-              <NAME>sceAudioRouting_36FD8AA9</NAME>
+              <NAME>sceAudioRoutingSetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x39240E7D</NID>
-              <NAME>sceAudioRouting_39240E7D</NAME>
+              <NAME>sceAudioRoutingGetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB548475</NID>
-              <NAME>sceAudioRouting_BB548475</NAME>
+              <NAME>sceAudioRoutingSetVolumeMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -2963,7 +2963,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0F341BE4</NID>
-              <NAME>sceImpose_0F341BE4</NAME>
+              <NAME>sceImposeGetHomePopup</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x133636DD</NID>
@@ -2971,19 +2971,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x24FD7BCF</NID>
-              <NAME>sceImpose_24FD7BCF</NAME>
+              <NAME>sceImposeGetLanguageMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x36AA6E91</NID>
-              <NAME>sceImpose_36AA6E91</NAME>
+              <NAME>sceImposeSetLanguageMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x381BD9E7</NID>
-              <NAME>sceImpose_381BD9E7</NAME>
+              <NAME>sceImposeHomeButton</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5595A71A</NID>
-              <NAME>sceImpose_5595A71A</NAME>
+              <NAME>sceImposeSetHomePopup</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7084E72C</NID>
@@ -2991,19 +2991,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x72189C48</NID>
-              <NAME>sceImpose_72189C48</NAME>
+              <NAME>sceImposeSetUMDPopup</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8C943191</NID>
-              <NAME>sceImpose_8C943191</NAME>
+              <NAME>sceImposeGetBatteryIconStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F6E3518</NID>
-              <NAME>sceImpose_8F6E3518</NAME>
+              <NAME>sceImposeGetBacklightOffTime</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x967F6D4A</NID>
-              <NAME>sceImpose_967F6D4A</NAME>
+              <NAME>sceImposeSetBacklightOffTime</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BA61B49</NID>
@@ -3023,7 +3023,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0887BC8</NID>
-              <NAME>sceImpose_E0887BC8</NAME>
+              <NAME>sceImposeGetUMDPopup</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFCD44963</NID>
@@ -8303,7 +8303,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0251B134</NID>
-              <NAME>sceUtility_0251B134</NAME>
+              <NAME>sceUtilityScreenshotInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x05AFB9E4</NID>
@@ -8311,15 +8311,15 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x06A48659</NID>
-              <NAME>sceUtility_06A48659</NAME>
+              <NAME>sceUtilityRssSubscriberShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0940A1B9</NID>
-              <NAME>sceUtility_0940A1B9</NAME>
+              <NAME>sceUtilityPsnUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x094198B8</NID>
-              <NAME>sceUtility_094198B8</NAME>
+              <NAME>sceUtilityPsnGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0D5BC6D2</NID>
@@ -8327,11 +8327,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E0C27AF</NID>
-              <NAME>sceUtility_0E0C27AF</NAME>
+              <NAME>sceUtilityAutoConnectAbort</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0F3EEAAC</NID>
-              <NAME>sceUtility_0F3EEAAC</NAME>
+              <NAME>sceUtilityAuthDialogShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1281DA8E</NID>
@@ -8339,11 +8339,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x147F7C85</NID>
-              <NAME>sceUtility_147F7C85</NAME>
+              <NAME>sceUtilityAuthDialogUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x149A7895</NID>
-              <NAME>sceUtility_149A7895</NAME>
+              <NAME>sceUtilityDNASShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1579A159</NID>
@@ -8351,19 +8351,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x16A1A8D8</NID>
-              <NAME>sceUtility_16A1A8D8</NAME>
+              <NAME>sceUtilityAuthDialogGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x16D02AF0</NID>
-              <NAME>sceUtility_16D02AF0</NAME>
+              <NAME>sceUtilityNpSigninInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x180F7B62</NID>
-              <NAME>sceUtility_180F7B62</NAME>
+              <NAME>sceUtilityGamedataInstallAbort</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x24AC31EB</NID>
-              <NAME>sceUtility_24AC31EB</NAME>
+              <NAME>sceUtilityGamedataInstallInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x28D35634</NID>
@@ -8371,7 +8371,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2995D020</NID>
-              <NAME>sceUtility_2995D020</NAME>
+              <NAME>sceUtilitySavedataErrInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2A2B3DE0</NID>
@@ -8383,11 +8383,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B96173B</NID>
-              <NAME>sceUtility_2B96173B</NAME>
+              <NAME>sceUtilityRssSubscriberGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x32E32DCB</NID>
-              <NAME>sceUtility_32E32DCB</NAME>
+              <NAME>sceUtilityGamedataInstallShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x34B78343</NID>
@@ -8395,11 +8395,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A15CD0A</NID>
-              <NAME>sceUtility_3A15CD0A</NAME>
+              <NAME>sceUtilityAutoConnectInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3AAD51DC</NID>
-              <NAME>sceUtility_3AAD51DC</NAME>
+              <NAME>sceUtilityStoreCheckoutGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3AD50AE7</NID>
@@ -8419,7 +8419,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x42071A83</NID>
-              <NAME>sceUtility_42071A83</NAME>
+              <NAME>sceUtilityPS3ScanInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x434D4B3A</NID>
@@ -8435,15 +8435,15 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4A833BA4</NID>
-              <NAME>sceUtility_4A833BA4</NAME>
+              <NAME>sceUtilityDNASUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4AECD179</NID>
-              <NAME>sceUtility_4AECD179</NAME>
+              <NAME>sceUtilityGamedataInstallUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B0A8FE5</NID>
-              <NAME>sceUtility_4B0A8FE5</NAME>
+              <NAME>sceUtilityRssSubscriberInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B85C861</NID>
@@ -8463,7 +8463,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x54A5C62F</NID>
-              <NAME>sceUtility_54A5C62F</NAME>
+              <NAME>sceUtilityStoreCheckoutShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5EEE6548</NID>
@@ -8487,7 +8487,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F56F9CF</NID>
-              <NAME>sceUtility_6F56F9CF</NAME>
+              <NAME>sceUtilityRssReaderUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x70267ADF</NID>
@@ -8499,19 +8499,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x81C44706</NID>
-              <NAME>sceUtility_81C44706</NAME>
+              <NAME>sceUtilityRssReaderInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8326AB05</NID>
-              <NAME>sceUtility_8326AB05</NAME>
+              <NAME>sceUtilityRssReaderGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x86A03A27</NID>
-              <NAME>sceUtility_86A03A27</NAME>
+              <NAME>sceUtilityScreenshotContStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x86ABDB1B</NID>
-              <NAME>sceUtility_86ABDB1B</NAME>
+              <NAME>sceUtilityNpSigninGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8874DBE0</NID>
@@ -8519,11 +8519,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x88BC7406</NID>
-              <NAME>sceUtility_88BC7406</NAME>
+              <NAME>sceUtilitySavedataErrGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x89317C8F</NID>
-              <NAME>sceUtility_89317C8F</NAME>
+              <NAME>sceUtilityPS3ScanGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x91E70E35</NID>
@@ -8531,7 +8531,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x943CBA46</NID>
-              <NAME>sceUtility_943CBA46</NAME>
+              <NAME>sceUtilityAuthDialogInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x946963F3</NID>
@@ -8551,7 +8551,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9F313D14</NID>
-              <NAME>sceUtility_9F313D14</NAME>
+              <NAME>sceUtilityAutoConnectShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA03D29BA</NID>
@@ -8559,11 +8559,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA084E056</NID>
-              <NAME>sceUtility_A084E056</NAME>
+              <NAME>sceUtilityRssSubscriberUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA50E5B30</NID>
-              <NAME>sceUtility_A50E5B30</NAME>
+              <NAME>sceUtilityDNASGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA5DA2406</NID>
@@ -8571,23 +8571,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA7BB7C67</NID>
-              <NAME>sceUtility_A7BB7C67</NAME>
+              <NAME>sceUtilityPsnInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB083EA9</NID>
-              <NAME>sceUtility_AB083EA9</NAME>
+              <NAME>sceUtilityScreenshotUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0FB7FF5</NID>
-              <NAME>sceUtility_B0FB7FF5</NAME>
+              <NAME>sceUtilityRssReaderContStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB57E95D9</NID>
-              <NAME>sceUtility_B57E95D9</NAME>
+              <NAME>sceUtilityGamedataInstallGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB62A4061</NID>
-              <NAME>sceUtility_B62A4061</NAME>
+              <NAME>sceUtilitySavedataErrShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6CEE597</NID>
@@ -8595,7 +8595,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB8592D5F</NID>
-              <NAME>sceUtility_B8592D5F</NAME>
+              <NAME>sceUtilityStoreCheckoutUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBC6B6296</NID>
@@ -8607,7 +8607,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC130D441</NID>
-              <NAME>sceUtility_C130D441</NAME>
+              <NAME>sceUtilityPsnShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC4700FA3</NID>
@@ -8627,11 +8627,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD17A0573</NID>
-              <NAME>sceUtility_D17A0573</NAME>
+              <NAME>sceUtilityPS3ScanShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD23665F4</NID>
-              <NAME>sceUtility_D23665F4</NAME>
+              <NAME>sceUtilityAutoConnectUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4B95FFB</NID>
@@ -8639,27 +8639,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4C2BD73</NID>
-              <NAME>sceUtility_D4C2BD73</NAME>
+              <NAME>sceUtilityAutoConnectGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD81957B7</NID>
-              <NAME>sceUtility_D81957B7</NAME>
+              <NAME>sceUtilityScreenshotGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD852CDCE</NID>
-              <NAME>sceUtility_D852CDCE</NAME>
+              <NAME>sceUtilityPS3ScanUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDA97F1AA</NID>
-              <NAME>sceUtility_DA97F1AA</NAME>
+              <NAME>sceUtilityStoreCheckoutInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDDE5389D</NID>
-              <NAME>sceUtility_DDE5389D</NAME>
+              <NAME>sceUtilityDNASInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE19C97D6</NID>
-              <NAME>sceUtility_E19C97D6</NAME>
+              <NAME>sceUtilityNpSigninShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE49BFE92</NID>
@@ -8667,7 +8667,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE7B778D8</NID>
-              <NAME>sceUtility_E7B778D8</NAME>
+              <NAME>sceUtilityRssReaderShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xECE1D3E5</NID>
@@ -8675,7 +8675,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xED0FAD38</NID>
-              <NAME>sceUtility_ED0FAD38</NAME>
+              <NAME>sceUtilitySavedataErrUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF3582B2</NID>
@@ -8691,7 +8691,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF3FBC572</NID>
-              <NAME>sceUtility_F3FBC572</NAME>
+              <NAME>sceUtilityNpSigninUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5CE1134</NID>
@@ -8715,7 +8715,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF9E0008C</NID>
-              <NAME>sceUtility_F9E0008C</NAME>
+              <NAME>sceUtilityScreenshotShutdownStart</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -10059,19 +10059,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x596AD78C</NID>
-              <NAME>sceGameUpdate_596AD78C</NAME>
+              <NAME>sceGameUpdateRun</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5F5D98A6</NID>
-              <NAME>sceGameUpdate_5F5D98A6</NAME>
+              <NAME>sceGameUpdateAbort</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB4B68DE</NID>
-              <NAME>sceGameUpdate_BB4B68DE</NAME>
+              <NAME>sceGameUpdateTerm</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCBE69FB3</NID>
-              <NAME>sceGameUpdate_CBE69FB3</NAME>
+              <NAME>sceGameUpdateInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD92F50CA</NID>
@@ -10449,7 +10449,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0840E808</NID>
-              <NAME>sceMp3_0840E808</NAME>
+              <NAME>sceMp3ResetPlayPositionByFrame</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0DB149F4</NID>
@@ -10457,7 +10457,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1B839B83</NID>
-              <NAME>sceMp3_1B839B83</NAME>
+              <NAME>sceMp3LowLevelInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2A368661</NID>
@@ -10465,7 +10465,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3548AEC8</NID>
-              <NAME>sceMp3_3548AEC8</NAME>
+              <NAME>sceMp3GetFrameNum</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x354D27EA</NID>
@@ -10517,7 +10517,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE6D2027</NID>
-              <NAME>sceMp3_AE6D2027</NAME>
+              <NAME>sceMp3GetMPEGVersion</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD021C0FB</NID>
@@ -10533,7 +10533,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE3EE2C81</NID>
-              <NAME>sceMp3_E3EE2C81</NAME>
+              <NAME>sceMp3LowLevelDecode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5478233</NID>
@@ -10567,151 +10567,151 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x01C76489</NID>
-              <NAME>sceMp4_01C76489</NAME>
+              <NAME>sceMp4TrackSampleBufDestruct</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0F0187D2</NID>
-              <NAME>sceMp4_0F0187D2</NAME>
+              <NAME>sceMp4GetAvcTrackInfoData</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x10EE0D2C</NID>
-              <NAME>sceMp4_10EE0D2C</NAME>
+              <NAME>sceMp4AacDecodeInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x113E9E7B</NID>
-              <NAME>sceMp4_113E9E7B</NAME>
+              <NAME>sceMp4GetNumberOfMetaData</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x131BDE57</NID>
-              <NAME>sceMp4_131BDE57</NAME>
+              <NAME>sceMp4InitAu</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x17EAA97D</NID>
-              <NAME>sceMp4_17EAA97D</NAME>
+              <NAME>sceMp4GetAvcAuWithoutSampleBuf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x28CCB940</NID>
-              <NAME>sceMp4_28CCB940</NAME>
+              <NAME>sceMp4GetTrackEditList</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3069C2B5</NID>
-              <NAME>sceMp4_3069C2B5</NAME>
+              <NAME>sceMp4GetAvcParamSet</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x31BCD7E0</NID>
-              <NAME>sceMp4_31BCD7E0</NAME>
+              <NAME>sceMp4TrackSampleBufPut</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x427BEF7F</NID>
-              <NAME>sceMp4_427BEF7F</NAME>
+              <NAME>sceMp4GetTrackNumOfEditList</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x496E8A65</NID>
-              <NAME>sceMp4_496E8A65</NAME>
+              <NAME>sceMp4TrackSampleBufFlush</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4ED4AB1E</NID>
-              <NAME>sceMp4_4ED4AB1E</NAME>
+              <NAME>sceMp4AacDecodeInitResource</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4FB5B756</NID>
-              <NAME>sceMp4_4FB5B756</NAME>
+              <NAME>sceMp4GetMetaDataInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x503A3CBA</NID>
-              <NAME>sceMp4_503A3CBA</NAME>
+              <NAME>sceMp4GetAvcAu</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x532029B8</NID>
-              <NAME>sceMp4_532029B8</NAME>
+              <NAME>sceMp4GetAacAuWithoutSampleBuf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x538C2057</NID>
-              <NAME>sceMp4_538C2057</NAME>
+              <NAME>sceMp4Delete</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5601A6F0</NID>
-              <NAME>sceMp4_5601A6F0</NAME>
+              <NAME>sceMp4GetAacAu</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5D72B333</NID>
-              <NAME>sceMp4_5D72B333</NAME>
+              <NAME>sceMp4AacDecodeExit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5EB65F26</NID>
-              <NAME>sceMp4_5EB65F26</NAME>
+              <NAME>sceMp4GetNumberOfSpecificTrack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6710FE77</NID>
-              <NAME>sceMp4_6710FE77</NAME>
+              <NAME>sceMp4UnregistTrack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x68651CBC</NID>
-              <NAME>sceMp4_68651CBC</NAME>
+              <NAME>sceMp4Init</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7443AF1D</NID>
-              <NAME>sceMp4_7443AF1D</NAME>
+              <NAME>sceMp4GetMovieInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x74A1CA3E</NID>
-              <NAME>sceMp4_74A1CA3E</NAME>
+              <NAME>sceMp4SearchSyncSampleNum</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7663CB5C</NID>
-              <NAME>sceMp4_7663CB5C</NAME>
+              <NAME>sceMp4AacDecode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7ADFD01C</NID>
-              <NAME>sceMp4_7ADFD01C</NAME>
+              <NAME>sceMp4RegistTrack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7D332394</NID>
-              <NAME>sceMp4_7D332394</NAME>
+              <NAME>sceMp4AacDecodeTermResource</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8754ECB8</NID>
-              <NAME>sceMp4_8754ECB8</NAME>
+              <NAME>sceMp4TrackSampleBufAvailableSize</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9042B257</NID>
-              <NAME>sceMp4_9042B257</NAME>
+              <NAME>sceMp4Finish</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C8F4FC1</NID>
-              <NAME>sceMp4_9C8F4FC1</NAME>
+              <NAME>sceMp4TrackSampleBufConstruct</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9CE6F5CF</NID>
-              <NAME>sceMp4_9CE6F5CF</NAME>
+              <NAME>sceMp4GetAacTrackInfoData</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA6C724DC</NID>
-              <NAME>sceMp4_A6C724DC</NAME>
+              <NAME>sceMp4GetSampleNum</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB1221EE7</NID>
-              <NAME>sceMp4_B1221EE7</NAME>
+              <NAME>sceMp4Create</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB4B400D1</NID>
-              <NAME>sceMp4_B4B400D1</NAME>
+              <NAME>sceMp4GetSampleNumWithTimeStamp</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBCA9389C</NID>
-              <NAME>sceMp4_BCA9389C</NAME>
+              <NAME>sceMp4TrackSampleBufQueryMemSize</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD2AC9A7E</NID>
-              <NAME>sceMp4_D2AC9A7E</NAME>
+              <NAME>sceMp4GetMetaData</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD8250B75</NID>
-              <NAME>sceMp4_D8250B75</NAME>
+              <NAME>sceMp4PutSampleNum</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF7C51EC1</NID>
-              <NAME>sceMp4_F7C51EC1</NAME>
+              <NAME>sceMp4GetSampleInfo</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -11185,7 +11185,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF57765D3</NID>
-              <NAME>sceSsl_F57765D3</NAME>
+              <NAME>sceSslGetKeyUsage</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -14476,11 +14476,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x01977054</NID>
-              <NAME>sceMpeg_01977054</NAME>
+              <NAME>sceMpegGetUserdataAu</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0558B075</NID>
-              <NAME>sceMpeg_0558B075</NAME>
+              <NAME>sceMpegAvcCopyYCbCr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E3C2E9D</NID>
@@ -14556,7 +14556,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x63B9536A</NID>
-              <NAME>sceMpeg_63B9536A</NAME>
+              <NAME>sceMpegAvcResourceGetAvcDecTopAddr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67179B1B</NID>
@@ -14588,7 +14588,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8160A2FE</NID>
-              <NAME>sceMpeg_8160A2FE</NAME>
+              <NAME>sceMpegAvcResourceFinish</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x874624D6</NID>
@@ -14616,11 +14616,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB0E9556</NID>
-              <NAME>sceMpeg_AB0E9556</NAME>
+              <NAME>sceMpegAvcDecodeDetailIndex</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF26BB01</NID>
-              <NAME>sceMpeg_AF26BB01</NAME>
+              <NAME>sceMpegAvcResourceGetAvcEsBuf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB240A59E</NID>
@@ -14668,7 +14668,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5E7EA31</NID>
-              <NAME>sceMpeg_F5E7EA31</NAME>
+              <NAME>sceMpegAvcConvertToYuv420</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF8DCB679</NID>
@@ -14676,7 +14676,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFCBDB5AD</NID>
-              <NAME>sceMpeg_FCBDB5AD</NAME>
+              <NAME>sceMpegAvcResourceInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFE246728</NID>
@@ -14728,7 +14728,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBEA18F91</NID>
-              <NAME>sceMpegbase_BEA18F91</NAME>
+              <NAME>sceMpegBasePESpacketCopy</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE8EB837</NID>
@@ -14778,7 +14778,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBEA18F91</NID>
-              <NAME>sceMpegbase_driver_BEA18F91</NAME>
+              <NAME>sceMpegBasePESpacketCopy</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE8EB837</NID>
@@ -27506,7 +27506,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0B80E80</NID>
-              <NAME>sceNetAdhocctl_B0B80E80</NAME>
+              <NAME>sceNetAdhocctlCreateEnterGameModeMin</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCF8E084D</NID>
@@ -28464,7 +28464,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4AA9EAD6</NID>
-              <NAME>sceSasCore_4AA9EAD6</NAME>
+              <NAME>__sceSasSetVoiceATRAC3</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x50A14DFC</NID>
@@ -28480,7 +28480,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7497EA85</NID>
-              <NAME>sceSasCore_7497EA85</NAME>
+              <NAME>__sceSasConcatenateATRAC3</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x74AE582A</NID>
@@ -28556,7 +28556,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6107F00</NID>
-              <NAME>sceSasCore_F6107F00</NAME>
+              <NAME>__sceSasUnsetATRAC3</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF983B186</NID>
@@ -31986,7 +31986,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5881C826</NID>
-              <NAME>sceUsbGps_5881C826</NAME>
+              <NAME>sceUsbGpsGetStaticNavMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63D1F89D</NID>
@@ -32022,7 +32022,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA8ED0BC2</NID>
-              <NAME>sceUsbGps_A8ED0BC2</NAME>
+              <NAME>sceUsbGpsSetStaticNavMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -32044,7 +32044,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5881C826</NID>
-              <NAME>sceUsbGps_driver_5881C826</NAME>
+              <NAME>sceUsbGpsGetStaticNavMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x69E4AAA8</NID>
@@ -32076,7 +32076,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA8ED0BC2</NID>
-              <NAME>sceUsbGps_driver_A8ED0BC2</NAME>
+              <NAME>sceUsbGpsSetStaticNavMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -32328,11 +32328,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x27ACC20B</NID>
-              <NAME>sceVaudio_27ACC20B</NAME>
+              <NAME>sceVaudioChReserveBuffering</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x346FBE94</NID>
-              <NAME>sceVaudio_346FBE94</NAME>
+              <NAME>sceVaudioSetEffectType</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x504E4745</NID>
@@ -32366,11 +32366,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x27ACC20B</NID>
-              <NAME>sceVaudio_driver_27ACC20B</NAME>
+              <NAME>sceVaudioChReserveBuffering</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x346FBE94</NID>
-              <NAME>sceVaudio_driver_346FBE94</NAME>
+              <NAME>sceVaudioSetEffectType</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67585DFD</NID>

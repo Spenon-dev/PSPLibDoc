@@ -72,7 +72,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0C622081</NID>
-              <NAME>sceWlanDrv_0C622081</NAME>
+              <NAME>sceWlanGetEtherAddr</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

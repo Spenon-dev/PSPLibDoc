@@ -112,15 +112,15 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x87440F5E</NID>
-              <NAME>scePower_87440F5E</NAME>
+              <NAME>scePowerIsPowerOnline</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAC32C9CC</NID>
-              <NAME>scePower_AC32C9CC</NAME>
+              <NAME>scePowerRequestSuspend</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD3075926</NID>
-              <NAME>scePower_D3075926</NAME>
+              <NAME>scePowerIsLowBattery</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

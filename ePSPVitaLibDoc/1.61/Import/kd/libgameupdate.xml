@@ -116,7 +116,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x2BEFDF23</NID>
-              <NAME>sceNetApctl_2BEFDF23</NAME>
+              <NAME>sceNetApctlGetInfo</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

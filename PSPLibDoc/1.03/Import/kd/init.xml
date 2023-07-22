@@ -16,7 +16,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7251823</NID>
-              <NAME>KDebugForKernel_B7251823</NAME>
+              <NAME>sceKernelAcceptMbogoSig</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

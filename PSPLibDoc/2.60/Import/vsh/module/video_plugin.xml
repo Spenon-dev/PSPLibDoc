@@ -1442,7 +1442,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB0E9556</NID>
-              <NAME>sceMpeg_AB0E9556</NAME>
+              <NAME>sceMpegAvcDecodeDetailIndex</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB240A59E</NID>

@@ -2958,35 +2958,35 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0E20F177</NID>
-              <NAME>sceDisplay_0E20F177</NAME>
+              <NAME>sceDisplaySetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x21038913</NID>
-              <NAME>sceDisplay_21038913</NAME>
+              <NAME>sceDisplayIsVsync</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x210EAB3A</NID>
-              <NAME>sceDisplay_210EAB3A</NAME>
+              <NAME>sceDisplayGetAccumulatedHcount</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x289D82FE</NID>
-              <NAME>sceDisplay_289D82FE</NAME>
+              <NAME>sceDisplaySetFrameBuf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x31C4BAA8</NID>
-              <NAME>sceDisplay_31C4BAA8</NAME>
+              <NAME>sceDisplayGetBrightness</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x36CDFADE</NID>
-              <NAME>sceDisplay_36CDFADE</NAME>
+              <NAME>sceDisplayWaitVblank</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x46F186C3</NID>
-              <NAME>sceDisplay_46F186C3</NAME>
+              <NAME>sceDisplayWaitVblankStartCB</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4D4E10EC</NID>
-              <NAME>sceDisplay_4D4E10EC</NAME>
+              <NAME>sceDisplayIsVblank</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x69B53541</NID>
@@ -2994,51 +2994,51 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x773DD3A3</NID>
-              <NAME>sceDisplay_773DD3A3</NAME>
+              <NAME>sceDisplayGetCurrentHcount</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7ED59BC4</NID>
-              <NAME>sceDisplay_7ED59BC4</NAME>
+              <NAME>sceDisplaySetHoldMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8EB9EC49</NID>
-              <NAME>sceDisplay_8EB9EC49</NAME>
+              <NAME>sceDisplayWaitVblankCB</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x984C27E7</NID>
-              <NAME>sceDisplay_984C27E7</NAME>
+              <NAME>sceDisplayWaitVblankStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C6EAAD7</NID>
-              <NAME>sceDisplay_9C6EAAD7</NAME>
+              <NAME>sceDisplayGetVcount</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA544C486</NID>
-              <NAME>sceDisplay_A544C486</NAME>
+              <NAME>sceDisplaySetResumeMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA83EF139</NID>
-              <NAME>sceDisplay_A83EF139</NAME>
+              <NAME>sceDisplayAdjustAccumulatedHcount</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB4F378FA</NID>
-              <NAME>sceDisplay_B4F378FA</NAME>
+              <NAME>sceDisplayIsForeground</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBF79F646</NID>
-              <NAME>sceDisplay_BF79F646</NAME>
+              <NAME>sceDisplayGetResumeMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDBA6C4C4</NID>
-              <NAME>sceDisplay_DBA6C4C4</NAME>
+              <NAME>sceDisplayGetFramePerSec</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDEA197D4</NID>
-              <NAME>sceDisplay_DEA197D4</NAME>
+              <NAME>sceDisplayGetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEEDA2E54</NID>
-              <NAME>sceDisplay_EEDA2E54</NAME>
+              <NAME>sceDisplayGetFrameBuf</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -3056,7 +3056,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E20F177</NID>
-              <NAME>sceDisplay_driver_0E20F177</NAME>
+              <NAME>sceDisplaySetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x11561F93</NID>
@@ -3180,7 +3180,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDEA197D4</NID>
-              <NAME>sceDisplay_driver_DEA197D4</NAME>
+              <NAME>sceDisplayGetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE55F0D50</NID>
@@ -4397,19 +4397,19 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x1910B327</NID>
-              <NAME>sceHprm_1910B327</NAME>
+              <NAME>sceHprmPeekCurrentKey</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x208DB1BD</NID>
-              <NAME>sceHprm_208DB1BD</NAME>
+              <NAME>sceHprmIsRemoteExist</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x219C58F1</NID>
-              <NAME>sceHprm_219C58F1</NAME>
+              <NAME>sceHprmIsMicrophoneExist</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2BCEC83E</NID>
-              <NAME>sceHprm_2BCEC83E</NAME>
+              <NAME>sceHprmPeekLatch</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3953DE6B</NID>
@@ -4421,11 +4421,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x40D2F9F0</NID>
-              <NAME>sceHprm_40D2F9F0</NAME>
+              <NAME>sceHprmReadLatch</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x444ED0B7</NID>
-              <NAME>sceHprm_444ED0B7</NAME>
+              <NAME>sceHprmUnregitserCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x71B5FB67</NID>
@@ -4433,11 +4433,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7E69EDA4</NID>
-              <NAME>sceHprm_7E69EDA4</NAME>
+              <NAME>sceHprmIsHeadphoneExist</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC7154136</NID>
-              <NAME>sceHprm_C7154136</NAME>
+              <NAME>sceHprmRegisterCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD7DE6CD</NID>
@@ -4463,7 +4463,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1910B327</NID>
-              <NAME>sceHprm_driver_1910B327</NAME>
+              <NAME>sceHprmPeekCurrentKey</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1C5BC5A0</NID>
@@ -7648,15 +7648,15 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x02D7F94B</NID>
-              <NAME>sceLibFont_ARIB_02D7F94B</NAME>
+              <NAME>sceFontFlush</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x099EF33C</NID>
-              <NAME>sceLibFont_ARIB_099EF33C</NAME>
+              <NAME>sceFontFindOptimumFont</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0DA7535E</NID>
-              <NAME>sceLibFont_ARIB_0DA7535E</NAME>
+              <NAME>sceFontGetFontInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x26149723</NID>
@@ -7664,11 +7664,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x27F6E642</NID>
-              <NAME>sceLibFont_ARIB_27F6E642</NAME>
+              <NAME>sceFontGetNumFontList</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2F67356A</NID>
-              <NAME>sceLibFont_ARIB_2F67356A</NAME>
+              <NAME>sceFontCalcMemorySize</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x33FFD07C</NID>
@@ -7676,19 +7676,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3AEA8CB6</NID>
-              <NAME>sceLibFont_ARIB_3AEA8CB6</NAME>
+              <NAME>sceFontClose</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3C4B7E82</NID>
-              <NAME>sceLibFont_ARIB_3C4B7E82</NAME>
+              <NAME>sceFontPointToPixelV</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x472694CD</NID>
-              <NAME>sceLibFont_ARIB_472694CD</NAME>
+              <NAME>sceFontPointToPixelH</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x48293280</NID>
-              <NAME>sceLibFont_ARIB_48293280</NAME>
+              <NAME>sceFontSetResolution</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x48592C48</NID>
@@ -7696,47 +7696,47 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x48B06520</NID>
-              <NAME>sceLibFont_ARIB_48B06520</NAME>
+              <NAME>sceFontGetShadowImageRect</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5333322D</NID>
-              <NAME>sceLibFont_ARIB_5333322D</NAME>
+              <NAME>sceFontGetFontInfoByIndexNumber</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x568BE516</NID>
-              <NAME>sceLibFont_ARIB_568BE516</NAME>
+              <NAME>sceFontGetShadowGlyphImage</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x574B6FBC</NID>
-              <NAME>sceLibFont_ARIB_574B6FBC</NAME>
+              <NAME>sceFontDoneLib</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x57FCB733</NID>
-              <NAME>sceLibFont_ARIB_57FCB733</NAME>
+              <NAME>sceFontOpenUserFile</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5C3E4A9E</NID>
-              <NAME>sceLibFont_ARIB_5C3E4A9E</NAME>
+              <NAME>sceFontGetCharImageRect</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5DCF6858</NID>
-              <NAME>sceLibFont_ARIB_5DCF6858</NAME>
+              <NAME>sceFontGetShadowGlyphImage_Clip</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67F17ED7</NID>
-              <NAME>sceLibFont_ARIB_67F17ED7</NAME>
+              <NAME>sceFontNewLib</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x681E61A7</NID>
-              <NAME>sceLibFont_ARIB_681E61A7</NAME>
+              <NAME>sceFontFindFont</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x74B21701</NID>
-              <NAME>sceLibFont_ARIB_74B21701</NAME>
+              <NAME>sceFontPixelToPointH</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x980F4895</NID>
-              <NAME>sceLibFont_ARIB_980F4895</NAME>
+              <NAME>sceFontGetCharGlyphImage</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA4B8DDFE</NID>
@@ -7744,27 +7744,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA834319D</NID>
-              <NAME>sceLibFont_ARIB_A834319D</NAME>
+              <NAME>sceFontOpen</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAA3DE7B5</NID>
-              <NAME>sceLibFont_ARIB_AA3DE7B5</NAME>
+              <NAME>sceFontGetShadowInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB8E7FE6</NID>
-              <NAME>sceLibFont_ARIB_BB8E7FE6</NAME>
+              <NAME>sceFontOpenUserMemory</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBC75D85B</NID>
-              <NAME>sceLibFont_ARIB_BC75D85B</NAME>
+              <NAME>sceFontGetFontList</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCA1E6945</NID>
-              <NAME>sceLibFont_ARIB_CA1E6945</NAME>
+              <NAME>sceFontGetCharGlyphImage_Clip</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDCC80C2F</NID>
-              <NAME>sceLibFont_ARIB_DCC80C2F</NAME>
+              <NAME>sceFontGetCharInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0DBDE75</NID>
@@ -7772,7 +7772,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEE232411</NID>
-              <NAME>sceLibFont_ARIB_EE232411</NAME>
+              <NAME>sceFontSetAltCharacterCode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF0AD0FE7</NID>
@@ -7780,7 +7780,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF8F0752E</NID>
-              <NAME>sceLibFont_ARIB_F8F0752E</NAME>
+              <NAME>sceFontPixelToPointV</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -8886,7 +8886,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF57765D3</NID>
-              <NAME>sceSsl_F57765D3</NAME>
+              <NAME>sceSslGetKeyUsage</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -10596,15 +10596,15 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x05572A5F</NID>
-              <NAME>LoadExecForUser_05572A5F</NAME>
+              <NAME>sceKernelExitGame</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2AC9954B</NID>
-              <NAME>LoadExecForUser_2AC9954B</NAME>
+              <NAME>sceKernelExitGameWithStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4AC57943</NID>
-              <NAME>LoadExecForUser_4AC57943</NAME>
+              <NAME>sceKernelRegisterExitCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8ADA38D3</NID>
@@ -10612,7 +10612,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD2F1094</NID>
-              <NAME>LoadExecForUser_BD2F1094</NAME>
+              <NAME>sceKernelLoadExec</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD1FB50DC</NID>
@@ -13049,11 +13049,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4C537C72</NID>
-              <NAME>semaphore_4C537C72</NAME>
+              <NAME>sceUtilsBufferCopyWithRange</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x77E97079</NID>
-              <NAME>semaphore_77E97079</NAME>
+              <NAME>sceUtilsBufferCopyByPollingWithRange</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8EEB7BF2</NID>
@@ -14309,11 +14309,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x01977054</NID>
-              <NAME>sceMpeg_01977054</NAME>
+              <NAME>sceMpegGetUserdataAu</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0558B075</NID>
-              <NAME>sceMpeg_0558B075</NAME>
+              <NAME>sceMpegAvcCopyYCbCr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E3C2E9D</NID>
@@ -14485,11 +14485,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x01977054</NID>
-              <NAME>sceMpeg_01977054</NAME>
+              <NAME>sceMpegGetUserdataAu</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0558B075</NID>
-              <NAME>sceMpeg_0558B075</NAME>
+              <NAME>sceMpegAvcCopyYCbCr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E3C2E9D</NID>
@@ -14625,7 +14625,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB0E9556</NID>
-              <NAME>sceMpeg_AB0E9556</NAME>
+              <NAME>sceMpegAvcDecodeDetailIndex</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE693D0B</NID>
@@ -14766,7 +14766,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBEA18F91</NID>
-              <NAME>sceMpegbase_BEA18F91</NAME>
+              <NAME>sceMpegBasePESpacketCopy</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE8EB837</NID>
@@ -14812,7 +14812,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBEA18F91</NID>
-              <NAME>sceMpegbase_driver_BEA18F91</NAME>
+              <NAME>sceMpegBasePESpacketCopy</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE8EB837</NID>
@@ -34955,7 +34955,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0B80E80</NID>
-              <NAME>sceNetAdhocctl_B0B80E80</NAME>
+              <NAME>sceNetAdhocctlCreateEnterGameModeMin</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCF8E084D</NID>
@@ -42247,7 +42247,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5881C826</NID>
-              <NAME>sceUsbGps_5881C826</NAME>
+              <NAME>sceUsbGpsGetStaticNavMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63D1F89D</NID>
@@ -42283,7 +42283,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA8ED0BC2</NID>
-              <NAME>sceUsbGps_A8ED0BC2</NAME>
+              <NAME>sceUsbGpsSetStaticNavMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -42305,7 +42305,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5881C826</NID>
-              <NAME>sceUsbGps_driver_5881C826</NAME>
+              <NAME>sceUsbGpsGetStaticNavMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x69E4AAA8</NID>
@@ -42337,7 +42337,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA8ED0BC2</NID>
-              <NAME>sceUsbGps_driver_A8ED0BC2</NAME>
+              <NAME>sceUsbGpsSetStaticNavMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -42789,7 +42789,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0251B134</NID>
-              <NAME>sceUtility_0251B134</NAME>
+              <NAME>sceUtilityScreenshotInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x05AFB9E4</NID>
@@ -42797,7 +42797,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x06A48659</NID>
-              <NAME>sceUtility_06A48659</NAME>
+              <NAME>sceUtilityRssSubscriberShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0D5BC6D2</NID>
@@ -42805,7 +42805,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0F3EEAAC</NID>
-              <NAME>sceUtility_0F3EEAAC</NAME>
+              <NAME>sceUtilityAuthDialogShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1281DA8E</NID>
@@ -42813,11 +42813,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x147F7C85</NID>
-              <NAME>sceUtility_147F7C85</NAME>
+              <NAME>sceUtilityAuthDialogUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x149A7895</NID>
-              <NAME>sceUtility_149A7895</NAME>
+              <NAME>sceUtilityDNASShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1579A159</NID>
@@ -42825,11 +42825,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x16A1A8D8</NID>
-              <NAME>sceUtility_16A1A8D8</NAME>
+              <NAME>sceUtilityAuthDialogGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x16D02AF0</NID>
-              <NAME>sceUtility_16D02AF0</NAME>
+              <NAME>sceUtilityNpSigninInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x28D35634</NID>
@@ -42837,7 +42837,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2995D020</NID>
-              <NAME>sceUtility_2995D020</NAME>
+              <NAME>sceUtilitySavedataErrInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2A2B3DE0</NID>
@@ -42849,7 +42849,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B96173B</NID>
-              <NAME>sceUtility_2B96173B</NAME>
+              <NAME>sceUtilityRssSubscriberGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x34B78343</NID>
@@ -42873,7 +42873,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x42071A83</NID>
-              <NAME>sceUtility_42071A83</NAME>
+              <NAME>sceUtilityPS3ScanInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x434D4B3A</NID>
@@ -42889,11 +42889,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4A833BA4</NID>
-              <NAME>sceUtility_4A833BA4</NAME>
+              <NAME>sceUtilityDNASUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B0A8FE5</NID>
-              <NAME>sceUtility_4B0A8FE5</NAME>
+              <NAME>sceUtilityRssSubscriberInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B85C861</NID>
@@ -42933,7 +42933,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F56F9CF</NID>
-              <NAME>sceUtility_6F56F9CF</NAME>
+              <NAME>sceUtilityRssReaderUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x70267ADF</NID>
@@ -42945,15 +42945,15 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x81C44706</NID>
-              <NAME>sceUtility_81C44706</NAME>
+              <NAME>sceUtilityRssReaderInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8326AB05</NID>
-              <NAME>sceUtility_8326AB05</NAME>
+              <NAME>sceUtilityRssReaderGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x86ABDB1B</NID>
-              <NAME>sceUtility_86ABDB1B</NAME>
+              <NAME>sceUtilityNpSigninGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8874DBE0</NID>
@@ -42961,11 +42961,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x88BC7406</NID>
-              <NAME>sceUtility_88BC7406</NAME>
+              <NAME>sceUtilitySavedataErrGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x89317C8F</NID>
-              <NAME>sceUtility_89317C8F</NAME>
+              <NAME>sceUtilityPS3ScanGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x91E70E35</NID>
@@ -42973,7 +42973,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x943CBA46</NID>
-              <NAME>sceUtility_943CBA46</NAME>
+              <NAME>sceUtilityAuthDialogInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x946963F3</NID>
@@ -42997,11 +42997,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA084E056</NID>
-              <NAME>sceUtility_A084E056</NAME>
+              <NAME>sceUtilityRssSubscriberUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA50E5B30</NID>
-              <NAME>sceUtility_A50E5B30</NAME>
+              <NAME>sceUtilityDNASGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA5DA2406</NID>
@@ -43009,15 +43009,15 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB083EA9</NID>
-              <NAME>sceUtility_AB083EA9</NAME>
+              <NAME>sceUtilityScreenshotUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0FB7FF5</NID>
-              <NAME>sceUtility_B0FB7FF5</NAME>
+              <NAME>sceUtilityRssReaderContStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB62A4061</NID>
-              <NAME>sceUtility_B62A4061</NAME>
+              <NAME>sceUtilitySavedataErrShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6CEE597</NID>
@@ -43049,7 +43049,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD17A0573</NID>
-              <NAME>sceUtility_D17A0573</NAME>
+              <NAME>sceUtilityPS3ScanShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4B95FFB</NID>
@@ -43057,19 +43057,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD81957B7</NID>
-              <NAME>sceUtility_D81957B7</NAME>
+              <NAME>sceUtilityScreenshotGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD852CDCE</NID>
-              <NAME>sceUtility_D852CDCE</NAME>
+              <NAME>sceUtilityPS3ScanUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDDE5389D</NID>
-              <NAME>sceUtility_DDE5389D</NAME>
+              <NAME>sceUtilityDNASInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE19C97D6</NID>
-              <NAME>sceUtility_E19C97D6</NAME>
+              <NAME>sceUtilityNpSigninShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE49BFE92</NID>
@@ -43077,7 +43077,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE7B778D8</NID>
-              <NAME>sceUtility_E7B778D8</NAME>
+              <NAME>sceUtilityRssReaderShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xECE1D3E5</NID>
@@ -43085,7 +43085,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xED0FAD38</NID>
-              <NAME>sceUtility_ED0FAD38</NAME>
+              <NAME>sceUtilitySavedataErrUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF3582B2</NID>
@@ -43101,7 +43101,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF3FBC572</NID>
-              <NAME>sceUtility_F3FBC572</NAME>
+              <NAME>sceUtilityNpSigninUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5CE1134</NID>
@@ -43125,7 +43125,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF9E0008C</NID>
-              <NAME>sceUtility_F9E0008C</NAME>
+              <NAME>sceUtilityScreenshotShutdownStart</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -43377,11 +43377,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x27ACC20B</NID>
-              <NAME>sceVaudio_27ACC20B</NAME>
+              <NAME>sceVaudioChReserveBuffering</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x346FBE94</NID>
-              <NAME>sceVaudio_346FBE94</NAME>
+              <NAME>sceVaudioSetEffectType</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x504E4745</NID>
@@ -43415,11 +43415,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x27ACC20B</NID>
-              <NAME>sceVaudio_driver_27ACC20B</NAME>
+              <NAME>sceVaudioChReserveBuffering</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x346FBE94</NID>
-              <NAME>sceVaudio_driver_346FBE94</NAME>
+              <NAME>sceVaudioSetEffectType</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67585DFD</NID>

@@ -2078,7 +2078,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB0E9556</NID>
-              <NAME>sceMpeg_AB0E9556</NAME>
+              <NAME>sceMpegAvcDecodeDetailIndex</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC132E22F</NID>
@@ -2208,15 +2208,15 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x984C27E7</NID>
-              <NAME>sceDisplay_984C27E7</NAME>
+              <NAME>sceDisplayWaitVblankStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C6EAAD7</NID>
-              <NAME>sceDisplay_9C6EAAD7</NAME>
+              <NAME>sceDisplayGetVcount</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDEA197D4</NID>
-              <NAME>sceDisplay_DEA197D4</NAME>
+              <NAME>sceDisplayGetMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

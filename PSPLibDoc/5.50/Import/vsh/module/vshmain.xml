@@ -286,7 +286,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x9C6EAAD7</NID>
-              <NAME>sceDisplay_9C6EAAD7</NAME>
+              <NAME>sceDisplayGetVcount</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

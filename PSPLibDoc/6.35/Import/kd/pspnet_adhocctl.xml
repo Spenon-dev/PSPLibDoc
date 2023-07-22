@@ -40,7 +40,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0xAC32C9CC</NID>
-              <NAME>scePower_AC32C9CC</NAME>
+              <NAME>scePowerRequestSuspend</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

@@ -114,19 +114,19 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0E20F177</NID>
-              <NAME>sceDisplay_0E20F177</NAME>
+              <NAME>sceDisplaySetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x289D82FE</NID>
-              <NAME>sceDisplay_289D82FE</NAME>
+              <NAME>sceDisplaySetFrameBuf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x984C27E7</NID>
-              <NAME>sceDisplay_984C27E7</NAME>
+              <NAME>sceDisplayWaitVblankStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEEDA2E54</NID>
-              <NAME>sceDisplay_EEDA2E54</NAME>
+              <NAME>sceDisplayGetFrameBuf</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

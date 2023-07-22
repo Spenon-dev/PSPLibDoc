@@ -40,11 +40,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x27ACC20B</NID>
-              <NAME>sceVaudio_driver_27ACC20B</NAME>
+              <NAME>sceVaudioChReserveBuffering</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x346FBE94</NID>
-              <NAME>sceVaudio_driver_346FBE94</NAME>
+              <NAME>sceVaudioSetEffectType</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67585DFD</NID>
@@ -74,11 +74,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x27ACC20B</NID>
-              <NAME>sceVaudio_27ACC20B</NAME>
+              <NAME>sceVaudioChReserveBuffering</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x346FBE94</NID>
-              <NAME>sceVaudio_346FBE94</NAME>
+              <NAME>sceVaudioSetEffectType</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67585DFD</NID>

@@ -48,7 +48,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0840E808</NID>
-              <NAME>sceMp3_0840E808</NAME>
+              <NAME>sceMp3ResetPlayPositionByFrame</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0DB149F4</NID>
@@ -56,7 +56,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1B839B83</NID>
-              <NAME>sceMp3_1B839B83</NAME>
+              <NAME>sceMp3LowLevelInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2A368661</NID>
@@ -64,7 +64,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3548AEC8</NID>
-              <NAME>sceMp3_3548AEC8</NAME>
+              <NAME>sceMp3GetFrameNum</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x354D27EA</NID>
@@ -116,7 +116,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE6D2027</NID>
-              <NAME>sceMp3_AE6D2027</NAME>
+              <NAME>sceMp3GetMPEGVersion</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD021C0FB</NID>
@@ -132,7 +132,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE3EE2C81</NID>
-              <NAME>sceMp3_E3EE2C81</NAME>
+              <NAME>sceMp3LowLevelDecode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5478233</NID>

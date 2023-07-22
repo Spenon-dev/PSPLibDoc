@@ -236,11 +236,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0xCFB957C6</NID>
-              <NAME>sceNetApctl_CFB957C6</NAME>
+              <NAME>sceNetApctlConnect</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5DEAC81B</NID>
-              <NAME>sceNetApctl_5DEAC81B</NAME>
+              <NAME>sceNetApctlGetState</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

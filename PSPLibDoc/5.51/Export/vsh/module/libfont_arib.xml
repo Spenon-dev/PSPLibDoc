@@ -36,15 +36,15 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x02D7F94B</NID>
-              <NAME>sceLibFont_ARIB_02D7F94B</NAME>
+              <NAME>sceFontFlush</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x099EF33C</NID>
-              <NAME>sceLibFont_ARIB_099EF33C</NAME>
+              <NAME>sceFontFindOptimumFont</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0DA7535E</NID>
-              <NAME>sceLibFont_ARIB_0DA7535E</NAME>
+              <NAME>sceFontGetFontInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x26149723</NID>
@@ -52,11 +52,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x27F6E642</NID>
-              <NAME>sceLibFont_ARIB_27F6E642</NAME>
+              <NAME>sceFontGetNumFontList</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2F67356A</NID>
-              <NAME>sceLibFont_ARIB_2F67356A</NAME>
+              <NAME>sceFontCalcMemorySize</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x33FFD07C</NID>
@@ -64,19 +64,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3AEA8CB6</NID>
-              <NAME>sceLibFont_ARIB_3AEA8CB6</NAME>
+              <NAME>sceFontClose</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3C4B7E82</NID>
-              <NAME>sceLibFont_ARIB_3C4B7E82</NAME>
+              <NAME>sceFontPointToPixelV</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x472694CD</NID>
-              <NAME>sceLibFont_ARIB_472694CD</NAME>
+              <NAME>sceFontPointToPixelH</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x48293280</NID>
-              <NAME>sceLibFont_ARIB_48293280</NAME>
+              <NAME>sceFontSetResolution</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x48592C48</NID>
@@ -84,47 +84,47 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x48B06520</NID>
-              <NAME>sceLibFont_ARIB_48B06520</NAME>
+              <NAME>sceFontGetShadowImageRect</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5333322D</NID>
-              <NAME>sceLibFont_ARIB_5333322D</NAME>
+              <NAME>sceFontGetFontInfoByIndexNumber</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x568BE516</NID>
-              <NAME>sceLibFont_ARIB_568BE516</NAME>
+              <NAME>sceFontGetShadowGlyphImage</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x574B6FBC</NID>
-              <NAME>sceLibFont_ARIB_574B6FBC</NAME>
+              <NAME>sceFontDoneLib</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x57FCB733</NID>
-              <NAME>sceLibFont_ARIB_57FCB733</NAME>
+              <NAME>sceFontOpenUserFile</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5C3E4A9E</NID>
-              <NAME>sceLibFont_ARIB_5C3E4A9E</NAME>
+              <NAME>sceFontGetCharImageRect</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5DCF6858</NID>
-              <NAME>sceLibFont_ARIB_5DCF6858</NAME>
+              <NAME>sceFontGetShadowGlyphImage_Clip</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67F17ED7</NID>
-              <NAME>sceLibFont_ARIB_67F17ED7</NAME>
+              <NAME>sceFontNewLib</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x681E61A7</NID>
-              <NAME>sceLibFont_ARIB_681E61A7</NAME>
+              <NAME>sceFontFindFont</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x74B21701</NID>
-              <NAME>sceLibFont_ARIB_74B21701</NAME>
+              <NAME>sceFontPixelToPointH</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x980F4895</NID>
-              <NAME>sceLibFont_ARIB_980F4895</NAME>
+              <NAME>sceFontGetCharGlyphImage</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA4B8DDFE</NID>
@@ -132,27 +132,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA834319D</NID>
-              <NAME>sceLibFont_ARIB_A834319D</NAME>
+              <NAME>sceFontOpen</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAA3DE7B5</NID>
-              <NAME>sceLibFont_ARIB_AA3DE7B5</NAME>
+              <NAME>sceFontGetShadowInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB8E7FE6</NID>
-              <NAME>sceLibFont_ARIB_BB8E7FE6</NAME>
+              <NAME>sceFontOpenUserMemory</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBC75D85B</NID>
-              <NAME>sceLibFont_ARIB_BC75D85B</NAME>
+              <NAME>sceFontGetFontList</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCA1E6945</NID>
-              <NAME>sceLibFont_ARIB_CA1E6945</NAME>
+              <NAME>sceFontGetCharGlyphImage_Clip</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDCC80C2F</NID>
-              <NAME>sceLibFont_ARIB_DCC80C2F</NAME>
+              <NAME>sceFontGetCharInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0DBDE75</NID>
@@ -160,7 +160,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEE232411</NID>
-              <NAME>sceLibFont_ARIB_EE232411</NAME>
+              <NAME>sceFontSetAltCharacterCode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF0AD0FE7</NID>
@@ -168,7 +168,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF8F0752E</NID>
-              <NAME>sceLibFont_ARIB_F8F0752E</NAME>
+              <NAME>sceFontPixelToPointV</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

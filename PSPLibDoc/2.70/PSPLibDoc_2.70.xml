@@ -10405,11 +10405,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x01977054</NID>
-              <NAME>sceMpeg_01977054</NAME>
+              <NAME>sceMpegGetUserdataAu</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0558B075</NID>
-              <NAME>sceMpeg_0558B075</NAME>
+              <NAME>sceMpegAvcCopyYCbCr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E3C2E9D</NID>
@@ -10573,11 +10573,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x01977054</NID>
-              <NAME>sceMpeg_01977054</NAME>
+              <NAME>sceMpegGetUserdataAu</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0558B075</NID>
-              <NAME>sceMpeg_0558B075</NAME>
+              <NAME>sceMpegAvcCopyYCbCr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E3C2E9D</NID>
@@ -10713,7 +10713,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB0E9556</NID>
-              <NAME>sceMpeg_AB0E9556</NAME>
+              <NAME>sceMpegAvcDecodeDetailIndex</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB240A59E</NID>
@@ -30672,35 +30672,35 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x268F95CA</NID>
-              <NAME>sceUsbGps_268F95CA</NAME>
+              <NAME>sceUsbGpsSetInitDataLocation</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x54D26AA4</NID>
-              <NAME>sceUsbGps_54D26AA4</NAME>
+              <NAME>sceUsbGpsGetInitDataLocation</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x69E4AAA8</NID>
-              <NAME>sceUsbGps_69E4AAA8</NAME>
+              <NAME>sceUsbGpsSaveInitData</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6EED4811</NID>
-              <NAME>sceUsbGps_6EED4811</NAME>
+              <NAME>sceUsbGpsClose</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C16AC3A</NID>
-              <NAME>sceUsbGps_7C16AC3A</NAME>
+              <NAME>sceUsbGpsGetState</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x934EC2B2</NID>
-              <NAME>sceUsbGps_934EC2B2</NAME>
+              <NAME>sceUsbGpsGetData</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9F267D34</NID>
-              <NAME>sceUsbGps_9F267D34</NAME>
+              <NAME>sceUsbGpsOpen</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA259CD67</NID>
-              <NAME>sceUsbGps_A259CD67</NAME>
+              <NAME>sceUsbGpsReset</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -30710,35 +30710,35 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x268F95CA</NID>
-              <NAME>sceUsbGps_driver_268F95CA</NAME>
+              <NAME>sceUsbGpsSetInitDataLocation</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x54D26AA4</NID>
-              <NAME>sceUsbGps_driver_54D26AA4</NAME>
+              <NAME>sceUsbGpsGetInitDataLocation</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x69E4AAA8</NID>
-              <NAME>sceUsbGps_driver_69E4AAA8</NAME>
+              <NAME>sceUsbGpsSaveInitData</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6EED4811</NID>
-              <NAME>sceUsbGps_driver_6EED4811</NAME>
+              <NAME>sceUsbGpsClose</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C16AC3A</NID>
-              <NAME>sceUsbGps_driver_7C16AC3A</NAME>
+              <NAME>sceUsbGpsGetState</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x934EC2B2</NID>
-              <NAME>sceUsbGps_driver_934EC2B2</NAME>
+              <NAME>sceUsbGpsGetData</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9F267D34</NID>
-              <NAME>sceUsbGps_driver_9F267D34</NAME>
+              <NAME>sceUsbGpsOpen</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA259CD67</NID>
-              <NAME>sceUsbGps_driver_A259CD67</NAME>
+              <NAME>sceUsbGpsReset</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -31094,7 +31094,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0F3EEAAC</NID>
-              <NAME>sceUtility_0F3EEAAC</NAME>
+              <NAME>sceUtilityAuthDialogShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1281DA8E</NID>
@@ -31102,11 +31102,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x147F7C85</NID>
-              <NAME>sceUtility_147F7C85</NAME>
+              <NAME>sceUtilityAuthDialogUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x149A7895</NID>
-              <NAME>sceUtility_149A7895</NAME>
+              <NAME>sceUtilityDNASShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1579A159</NID>
@@ -31114,11 +31114,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x16A1A8D8</NID>
-              <NAME>sceUtility_16A1A8D8</NAME>
+              <NAME>sceUtilityAuthDialogGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2995D020</NID>
-              <NAME>sceUtility_2995D020</NAME>
+              <NAME>sceUtilitySavedataErrInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2AD8E239</NID>
@@ -31158,7 +31158,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4A833BA4</NID>
-              <NAME>sceUtility_4A833BA4</NAME>
+              <NAME>sceUtilityDNASUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B85C861</NID>
@@ -31206,7 +31206,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x88BC7406</NID>
-              <NAME>sceUtility_88BC7406</NAME>
+              <NAME>sceUtilitySavedataErrGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x91E70E35</NID>
@@ -31214,7 +31214,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x943CBA46</NID>
-              <NAME>sceUtility_943CBA46</NAME>
+              <NAME>sceUtilityAuthDialogInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x946963F3</NID>
@@ -31238,7 +31238,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA50E5B30</NID>
-              <NAME>sceUtility_A50E5B30</NAME>
+              <NAME>sceUtilityDNASGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA5DA2406</NID>
@@ -31246,7 +31246,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB62A4061</NID>
-              <NAME>sceUtility_B62A4061</NAME>
+              <NAME>sceUtilitySavedataErrShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6CEE597</NID>
@@ -31282,11 +31282,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDDE5389D</NID>
-              <NAME>sceUtility_DDE5389D</NAME>
+              <NAME>sceUtilityDNASInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xED0FAD38</NID>
-              <NAME>sceUtility_ED0FAD38</NAME>
+              <NAME>sceUtilitySavedataErrUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEFC6F80F</NID>
@@ -31538,7 +31538,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x346FBE94</NID>
-              <NAME>sceVaudio_346FBE94</NAME>
+              <NAME>sceVaudioSetEffectType</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67585DFD</NID>
@@ -31560,7 +31560,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x346FBE94</NID>
-              <NAME>sceVaudio_driver_346FBE94</NAME>
+              <NAME>sceVaudioSetEffectType</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67585DFD</NID>

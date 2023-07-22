@@ -194,7 +194,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBEA18F91</NID>
-              <NAME>sceMpegbase_BEA18F91</NAME>
+              <NAME>sceMpegBasePESpacketCopy</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -204,7 +204,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0xAB49E76A</NID>
-              <NAME>sceGe_user_AB49E76A</NAME>
+              <NAME>sceGeListEnQueue</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

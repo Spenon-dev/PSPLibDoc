@@ -48,7 +48,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0E20F177</NID>
-              <NAME>sceDisplay_driver_0E20F177</NAME>
+              <NAME>sceDisplaySetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x11561F93</NID>
@@ -76,7 +76,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDEA197D4</NID>
-              <NAME>sceDisplay_driver_DEA197D4</NAME>
+              <NAME>sceDisplayGetMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -310,7 +310,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x27ACC20B</NID>
-              <NAME>sceVaudio_driver_27ACC20B</NAME>
+              <NAME>sceVaudioChReserveBuffering</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67585DFD</NID>

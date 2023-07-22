@@ -12,7 +12,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0xD7763699</NID>
-              <NAME>sceWlanDrv_D7763699</NAME>
+              <NAME>sceWlanGetSwitchState</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -184,39 +184,39 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x1A33F9AE</NID>
-              <NAME>sceNetInet_1A33F9AE</NAME>
+              <NAME>sceNetInetBind</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1BDF5D13</NID>
-              <NAME>sceNetInet_1BDF5D13</NAME>
+              <NAME>sceNetInetInetAton</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2FE71FE7</NID>
-              <NAME>sceNetInet_2FE71FE7</NAME>
+              <NAME>sceNetInetSetsockopt</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x774E36F4</NID>
-              <NAME>sceNetInet_774E36F4</NAME>
+              <NAME>sceNetInetSendmsg</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B7B220F</NID>
-              <NAME>sceNetInet_8B7B220F</NAME>
+              <NAME>sceNetInetSocket</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D7284EA</NID>
-              <NAME>sceNetInet_8D7284EA</NAME>
+              <NAME>sceNetInetClose</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB75D5B0A</NID>
-              <NAME>sceNetInet_B75D5B0A</NAME>
+              <NAME>sceNetInetInetAddr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD0792666</NID>
-              <NAME>sceNetInet_D0792666</NAME>
+              <NAME>sceNetInetInetNtop</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE30B8C19</NID>
-              <NAME>sceNetInet_E30B8C19</NAME>
+              <NAME>sceNetInetInetPton</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

@@ -410,7 +410,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x1F6752AD</NID>
-              <NAME>sceGe_user_1F6752AD</NAME>
+              <NAME>sceGeEdramGetSize</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

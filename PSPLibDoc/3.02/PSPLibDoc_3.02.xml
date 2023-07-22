@@ -9712,111 +9712,111 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x01562BA3</NID>
-              <NAME>sceAudio_01562BA3</NAME>
+              <NAME>sceAudioOutput2Reserve</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x086E5895</NID>
-              <NAME>sceAudio_086E5895</NAME>
+              <NAME>sceAudioInputBlocking</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x136CAF51</NID>
-              <NAME>sceAudio_136CAF51</NAME>
+              <NAME>sceAudioOutputBlocking</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x13F592BC</NID>
-              <NAME>sceAudio_13F592BC</NAME>
+              <NAME>sceAudioOutputPannedBlocking</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2D53F36E</NID>
-              <NAME>sceAudio_2D53F36E</NAME>
+              <NAME>sceAudioOutput2OutputBlocking</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x38553111</NID>
-              <NAME>sceAudio_38553111</NAME>
+              <NAME>sceAudioSRCChReserve</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x41EFADE7</NID>
-              <NAME>sceAudio_41EFADE7</NAME>
+              <NAME>sceAudioOneshotOutput</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x43196845</NID>
-              <NAME>sceAudio_43196845</NAME>
+              <NAME>sceAudioOutput2Release</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5C37C0AE</NID>
-              <NAME>sceAudio_5C37C0AE</NAME>
+              <NAME>sceAudioSRCChRelease</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5EC81C55</NID>
-              <NAME>sceAudio_5EC81C55</NAME>
+              <NAME>sceAudioChReserve</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63F2889C</NID>
-              <NAME>sceAudio_63F2889C</NAME>
+              <NAME>sceAudioOutput2ChangeLength</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x647CEF33</NID>
-              <NAME>sceAudio_647CEF33</NAME>
+              <NAME>sceAudioOutput2GetRestSample</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6D4BEC68</NID>
-              <NAME>sceAudio_6D4BEC68</NAME>
+              <NAME>sceAudioInput</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6FC46853</NID>
-              <NAME>sceAudio_6FC46853</NAME>
+              <NAME>sceAudioChRelease</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7DE61688</NID>
-              <NAME>sceAudio_7DE61688</NAME>
+              <NAME>sceAudioInputInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x87B2E651</NID>
-              <NAME>sceAudio_87B2E651</NAME>
+              <NAME>sceAudioWaitInputEnd</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8C1009B2</NID>
-              <NAME>sceAudio_8C1009B2</NAME>
+              <NAME>sceAudioOutput</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x95FD0C2D</NID>
-              <NAME>sceAudio_95FD0C2D</NAME>
+              <NAME>sceAudioChangeChannelConfig</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA633048E</NID>
-              <NAME>sceAudio_A633048E</NAME>
+              <NAME>sceAudioPollInputEnd</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA708C6A6</NID>
-              <NAME>sceAudio_A708C6A6</NAME>
+              <NAME>sceAudioGetInputLength</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB011922F</NID>
-              <NAME>sceAudio_B011922F</NAME>
+              <NAME>sceAudioGetChannelRestLength</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7E1D8E7</NID>
-              <NAME>sceAudio_B7E1D8E7</NAME>
+              <NAME>sceAudioChangeChannelVolume</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCB2E439E</NID>
-              <NAME>sceAudio_CB2E439E</NAME>
+              <NAME>sceAudioSetChannelDataLen</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0727056</NID>
-              <NAME>sceAudio_E0727056</NAME>
+              <NAME>sceAudioSRCOutputBlocking</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE2D56B2D</NID>
-              <NAME>sceAudio_E2D56B2D</NAME>
+              <NAME>sceAudioOutputPanned</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE926D3FB</NID>
-              <NAME>sceAudio_E926D3FB</NAME>
+              <NAME>sceAudioInputInitEx</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE9D97901</NID>
-              <NAME>sceAudio_E9D97901</NAME>
+              <NAME>sceAudioGetChannelRestLen</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -11371,11 +11371,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x01977054</NID>
-              <NAME>sceMpeg_01977054</NAME>
+              <NAME>sceMpegGetUserdataAu</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0558B075</NID>
-              <NAME>sceMpeg_0558B075</NAME>
+              <NAME>sceMpegAvcCopyYCbCr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E3C2E9D</NID>
@@ -11539,11 +11539,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x01977054</NID>
-              <NAME>sceMpeg_01977054</NAME>
+              <NAME>sceMpegGetUserdataAu</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0558B075</NID>
-              <NAME>sceMpeg_0558B075</NAME>
+              <NAME>sceMpegAvcCopyYCbCr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E3C2E9D</NID>
@@ -11679,7 +11679,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB0E9556</NID>
-              <NAME>sceMpeg_AB0E9556</NAME>
+              <NAME>sceMpegAvcDecodeDetailIndex</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE693D0B</NID>
@@ -11808,7 +11808,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBEA18F91</NID>
-              <NAME>sceMpegbase_BEA18F91</NAME>
+              <NAME>sceMpegBasePESpacketCopy</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE8EB837</NID>
@@ -11854,7 +11854,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBEA18F91</NID>
-              <NAME>sceMpegbase_driver_BEA18F91</NAME>
+              <NAME>sceMpegBasePESpacketCopy</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE8EB837</NID>
@@ -32686,7 +32686,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0F3EEAAC</NID>
-              <NAME>sceUtility_0F3EEAAC</NAME>
+              <NAME>sceUtilityAuthDialogShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1281DA8E</NID>
@@ -32694,11 +32694,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x147F7C85</NID>
-              <NAME>sceUtility_147F7C85</NAME>
+              <NAME>sceUtilityAuthDialogUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x149A7895</NID>
-              <NAME>sceUtility_149A7895</NAME>
+              <NAME>sceUtilityDNASShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1579A159</NID>
@@ -32706,11 +32706,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x16A1A8D8</NID>
-              <NAME>sceUtility_16A1A8D8</NAME>
+              <NAME>sceUtilityAuthDialogGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2995D020</NID>
-              <NAME>sceUtility_2995D020</NAME>
+              <NAME>sceUtilitySavedataErrInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2A2B3DE0</NID>
@@ -32754,7 +32754,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4A833BA4</NID>
-              <NAME>sceUtility_4A833BA4</NAME>
+              <NAME>sceUtilityDNASUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B85C861</NID>
@@ -32802,7 +32802,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x88BC7406</NID>
-              <NAME>sceUtility_88BC7406</NAME>
+              <NAME>sceUtilitySavedataErrGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x91E70E35</NID>
@@ -32810,7 +32810,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x943CBA46</NID>
-              <NAME>sceUtility_943CBA46</NAME>
+              <NAME>sceUtilityAuthDialogInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x946963F3</NID>
@@ -32834,7 +32834,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA50E5B30</NID>
-              <NAME>sceUtility_A50E5B30</NAME>
+              <NAME>sceUtilityDNASGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA5DA2406</NID>
@@ -32842,7 +32842,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB62A4061</NID>
-              <NAME>sceUtility_B62A4061</NAME>
+              <NAME>sceUtilitySavedataErrShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6CEE597</NID>
@@ -32878,7 +32878,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDDE5389D</NID>
-              <NAME>sceUtility_DDE5389D</NAME>
+              <NAME>sceUtilityDNASInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE49BFE92</NID>
@@ -32886,7 +32886,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xED0FAD38</NID>
-              <NAME>sceUtility_ED0FAD38</NAME>
+              <NAME>sceUtilitySavedataErrUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEFC6F80F</NID>
@@ -33162,7 +33162,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x346FBE94</NID>
-              <NAME>sceVaudio_346FBE94</NAME>
+              <NAME>sceVaudioSetEffectType</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67585DFD</NID>
@@ -33188,7 +33188,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x346FBE94</NID>
-              <NAME>sceVaudio_driver_346FBE94</NAME>
+              <NAME>sceVaudioSetEffectType</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67585DFD</NID>

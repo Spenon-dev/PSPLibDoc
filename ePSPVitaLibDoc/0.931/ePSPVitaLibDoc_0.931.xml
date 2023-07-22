@@ -185,7 +185,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x40F1469C</NID>
-              <NAME>sceDisplay_40F1469C</NAME>
+              <NAME>sceDisplayWaitVblankStartMulti</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x46F186C3</NID>
@@ -205,7 +205,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x77ED8B3A</NID>
-              <NAME>sceDisplay_77ED8B3A</NAME>
+              <NAME>sceDisplayWaitVblankStartMultiCB</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7ED59BC4</NID>
@@ -923,19 +923,19 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x28235C56</NID>
-              <NAME>sceAudioRouting_28235C56</NAME>
+              <NAME>sceAudioRoutingGetVolumeMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x36FD8AA9</NID>
-              <NAME>sceAudioRouting_36FD8AA9</NAME>
+              <NAME>sceAudioRoutingSetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x39240E7D</NID>
-              <NAME>sceAudioRouting_39240E7D</NAME>
+              <NAME>sceAudioRoutingGetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB548475</NID>
-              <NAME>sceAudioRouting_BB548475</NAME>
+              <NAME>sceAudioRoutingSetVolumeMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -967,7 +967,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0F341BE4</NID>
-              <NAME>sceImpose_0F341BE4</NAME>
+              <NAME>sceImposeGetHomePopup</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x133636DD</NID>
@@ -975,19 +975,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x24FD7BCF</NID>
-              <NAME>sceImpose_24FD7BCF</NAME>
+              <NAME>sceImposeGetLanguageMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x36AA6E91</NID>
-              <NAME>sceImpose_36AA6E91</NAME>
+              <NAME>sceImposeSetLanguageMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x381BD9E7</NID>
-              <NAME>sceImpose_381BD9E7</NAME>
+              <NAME>sceImposeHomeButton</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5595A71A</NID>
-              <NAME>sceImpose_5595A71A</NAME>
+              <NAME>sceImposeSetHomePopup</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7084E72C</NID>
@@ -995,19 +995,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x72189C48</NID>
-              <NAME>sceImpose_72189C48</NAME>
+              <NAME>sceImposeSetUMDPopup</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8C943191</NID>
-              <NAME>sceImpose_8C943191</NAME>
+              <NAME>sceImposeGetBatteryIconStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F6E3518</NID>
-              <NAME>sceImpose_8F6E3518</NAME>
+              <NAME>sceImposeGetBacklightOffTime</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x967F6D4A</NID>
-              <NAME>sceImpose_967F6D4A</NAME>
+              <NAME>sceImposeSetBacklightOffTime</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BA61B49</NID>
@@ -1027,7 +1027,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0887BC8</NID>
-              <NAME>sceImpose_E0887BC8</NAME>
+              <NAME>sceImposeGetUMDPopup</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFCD44963</NID>
@@ -6450,47 +6450,47 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0074EF9B</NID>
-              <NAME>scePower_0074EF9B</NAME>
+              <NAME>scePowerGetResumeCount</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0442D852</NID>
-              <NAME>scePower_0442D852</NAME>
+              <NAME>scePowerRequestColdReset</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x04B7766E</NID>
-              <NAME>scePower_04B7766E</NAME>
+              <NAME>scePowerRegisterCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0AFD0D8B</NID>
-              <NAME>scePower_0AFD0D8B</NAME>
+              <NAME>scePowerIsBatteryExist</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0CD21B1F</NID>
-              <NAME>scePower_0CD21B1F</NAME>
+              <NAME>scePowerSetPowerSwMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x165CE085</NID>
-              <NAME>scePower_165CE085</NAME>
+              <NAME>scePowerGetPowerSwMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1E490401</NID>
-              <NAME>scePower_1E490401</NAME>
+              <NAME>scePowerIsBatteryCharging</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2085D15D</NID>
-              <NAME>scePower_2085D15D</NAME>
+              <NAME>scePowerGetBatteryLifePercent</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x23436A4A</NID>
-              <NAME>scePower_23436A4A</NAME>
+              <NAME>scePowerGetInnerTemp</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x23C31FFE</NID>
-              <NAME>scePower_23C31FFE</NAME>
+              <NAME>scePowerVolatileMemLock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x27F3292C</NID>
-              <NAME>scePower_27F3292C</NAME>
+              <NAME>scePowerBatteryUpdateInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2875994B</NID>
@@ -6498,7 +6498,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x28E12023</NID>
-              <NAME>scePower_28E12023</NAME>
+              <NAME>scePowerGetBatteryTemp</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B51FE2F</NID>
@@ -6506,27 +6506,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B7C7CF4</NID>
-              <NAME>scePower_2B7C7CF4</NAME>
+              <NAME>scePowerRequestStandby</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x34F9C463</NID>
-              <NAME>scePower_34F9C463</NAME>
+              <NAME>scePowerGetPllClockFrequencyInt</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3951AF53</NID>
-              <NAME>scePower_3951AF53</NAME>
+              <NAME>scePowerWaitRequestCompletion</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x442BFBAC</NID>
-              <NAME>scePower_442BFBAC</NAME>
+              <NAME>scePowerGetBacklightMaximum</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x478FE6F5</NID>
-              <NAME>scePower_478FE6F5</NAME>
+              <NAME>scePowerGetBusClockFrequency</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x483CE86B</NID>
-              <NAME>scePower_483CE86B</NAME>
+              <NAME>scePowerGetBatteryVolt</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x545A7F3C</NID>
@@ -6534,47 +6534,47 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x737486F2</NID>
-              <NAME>scePower_737486F2</NAME>
+              <NAME>scePowerSetClockFrequency</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x78A1A796</NID>
-              <NAME>scePower_78A1A796</NAME>
+              <NAME>scePowerIsSuspendRequired</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7F30B3B1</NID>
-              <NAME>scePower_7F30B3B1</NAME>
+              <NAME>scePowerIdleTimerEnable</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7FA406DD</NID>
-              <NAME>scePower_7FA406DD</NAME>
+              <NAME>scePowerIsRequest</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x843FBF43</NID>
-              <NAME>scePower_843FBF43</NAME>
+              <NAME>scePowerSetCpuClockFrequency</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x862AE1A6</NID>
-              <NAME>scePower_862AE1A6</NAME>
+              <NAME>scePowerGetBatteryElec</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x87440F5E</NID>
-              <NAME>scePower_87440F5E</NAME>
+              <NAME>scePowerIsPowerOnline</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8EFB3FA2</NID>
-              <NAME>scePower_8EFB3FA2</NAME>
+              <NAME>scePowerGetBatteryLifeTime</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x94F5A53F</NID>
-              <NAME>scePower_94F5A53F</NAME>
+              <NAME>scePowerGetBatteryRemainCapacity</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x972CE941</NID>
-              <NAME>scePower_972CE941</NAME>
+              <NAME>scePowerIdleTimerDisable</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BADB3EB</NID>
-              <NAME>scePower_9BADB3EB</NAME>
+              <NAME>scePowerGetBusClockFrequencyFloat</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA4E93389</NID>
@@ -6582,75 +6582,75 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9D22232</NID>
-              <NAME>scePower_A9D22232</NAME>
+              <NAME>scePowerSetCallbackMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAC32C9CC</NID>
-              <NAME>scePower_AC32C9CC</NAME>
+              <NAME>scePowerRequestSuspend</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB1A52C83</NID>
-              <NAME>scePower_B1A52C83</NAME>
+              <NAME>scePowerGetCpuClockFrequencyFloat</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB3EDD801</NID>
-              <NAME>scePower_B3EDD801</NAME>
+              <NAME>scePowerVolatileMemUnlock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB4432BC8</NID>
-              <NAME>scePower_B4432BC8</NAME>
+              <NAME>scePowerGetBatteryChargingStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB8D7B3FB</NID>
-              <NAME>scePower_B8D7B3FB</NAME>
+              <NAME>scePowerSetBusClockFrequency</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB999184C</NID>
-              <NAME>scePower_B999184C</NAME>
+              <NAME>scePowerGetLowBatteryCapacity</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBAFA3DF0</NID>
-              <NAME>scePower_BAFA3DF0</NAME>
+              <NAME>scePowerGetCallbackMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD681969</NID>
-              <NAME>scePower_BD681969</NAME>
+              <NAME>scePowerGetBusClockFrequencyInt</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCA3D34C1</NID>
-              <NAME>scePower_CA3D34C1</NAME>
+              <NAME>scePowerUnlock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCB49F5CE</NID>
-              <NAME>scePower_CB49F5CE</NAME>
+              <NAME>scePowerGetBatteryChargeCycle</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD3075926</NID>
-              <NAME>scePower_D3075926</NAME>
+              <NAME>scePowerIsLowBattery</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD6D016EF</NID>
-              <NAME>scePower_D6D016EF</NAME>
+              <NAME>scePowerLock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDB62C9CF</NID>
-              <NAME>scePower_DB62C9CF</NAME>
+              <NAME>scePowerCancelRequest</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDB9D28DD</NID>
-              <NAME>scePower_DB9D28DD</NAME>
+              <NAME>scePowerUnregitserCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDFA8BAF8</NID>
-              <NAME>scePower_DFA8BAF8</NAME>
+              <NAME>scePowerUnregisterCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE8E4E204</NID>
-              <NAME>scePower_E8E4E204</NAME>
+              <NAME>scePowerGetForceSuspendCapacity</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEA382A27</NID>
-              <NAME>scePower_EA382A27</NAME>
+              <NAME>scePowerGetPllClockFrequencyFloat</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBD177D6</NID>
@@ -6658,27 +6658,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEDC13FE5</NID>
-              <NAME>scePower_EDC13FE5</NAME>
+              <NAME>scePowerGetIdleTimer</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEFD3C963</NID>
-              <NAME>scePower_EFD3C963</NAME>
+              <NAME>scePowerTick</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFA97A599</NID>
-              <NAME>scePower_FA97A599</NAME>
+              <NAME>scePowerVolatileMemTryLock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD18A0FF</NID>
-              <NAME>scePower_FD18A0FF</NAME>
+              <NAME>scePowerGetBatteryFullCapacity</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFDB5BFE9</NID>
-              <NAME>scePower_FDB5BFE9</NAME>
+              <NAME>scePowerGetCpuClockFrequencyInt</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFEE03A2F</NID>
-              <NAME>scePower_FEE03A2F</NAME>
+              <NAME>scePowerGetCpuClockFrequency</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -6980,7 +6980,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDB62C9CF</NID>
-              <NAME>scePower_driver_DB62C9CF</NAME>
+              <NAME>scePowerCancelRequest</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC73B503</NID>
@@ -7024,7 +7024,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFDB5BFE9</NID>
-              <NAME>scePower_driver_FDB5BFE9</NAME>
+              <NAME>scePowerGetCpuClockFrequencyInt</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -10704,7 +10704,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0251B134</NID>
-              <NAME>sceUtility_0251B134</NAME>
+              <NAME>sceUtilityScreenshotInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x05AFB9E4</NID>
@@ -10712,15 +10712,15 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x06A48659</NID>
-              <NAME>sceUtility_06A48659</NAME>
+              <NAME>sceUtilityRssSubscriberShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0940A1B9</NID>
-              <NAME>sceUtility_0940A1B9</NAME>
+              <NAME>sceUtilityPsnUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x094198B8</NID>
-              <NAME>sceUtility_094198B8</NAME>
+              <NAME>sceUtilityPsnGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0D5BC6D2</NID>
@@ -10728,11 +10728,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E0C27AF</NID>
-              <NAME>sceUtility_0E0C27AF</NAME>
+              <NAME>sceUtilityAutoConnectAbort</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0F3EEAAC</NID>
-              <NAME>sceUtility_0F3EEAAC</NAME>
+              <NAME>sceUtilityAuthDialogShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1281DA8E</NID>
@@ -10740,11 +10740,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x147F7C85</NID>
-              <NAME>sceUtility_147F7C85</NAME>
+              <NAME>sceUtilityAuthDialogUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x149A7895</NID>
-              <NAME>sceUtility_149A7895</NAME>
+              <NAME>sceUtilityDNASShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1579A159</NID>
@@ -10752,19 +10752,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x16A1A8D8</NID>
-              <NAME>sceUtility_16A1A8D8</NAME>
+              <NAME>sceUtilityAuthDialogGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x16D02AF0</NID>
-              <NAME>sceUtility_16D02AF0</NAME>
+              <NAME>sceUtilityNpSigninInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x180F7B62</NID>
-              <NAME>sceUtility_180F7B62</NAME>
+              <NAME>sceUtilityGamedataInstallAbort</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x24AC31EB</NID>
-              <NAME>sceUtility_24AC31EB</NAME>
+              <NAME>sceUtilityGamedataInstallInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x28D35634</NID>
@@ -10772,7 +10772,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2995D020</NID>
-              <NAME>sceUtility_2995D020</NAME>
+              <NAME>sceUtilitySavedataErrInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2A2B3DE0</NID>
@@ -10784,11 +10784,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B96173B</NID>
-              <NAME>sceUtility_2B96173B</NAME>
+              <NAME>sceUtilityRssSubscriberGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x32E32DCB</NID>
-              <NAME>sceUtility_32E32DCB</NAME>
+              <NAME>sceUtilityGamedataInstallShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x34B78343</NID>
@@ -10796,11 +10796,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A15CD0A</NID>
-              <NAME>sceUtility_3A15CD0A</NAME>
+              <NAME>sceUtilityAutoConnectInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3AAD51DC</NID>
-              <NAME>sceUtility_3AAD51DC</NAME>
+              <NAME>sceUtilityStoreCheckoutGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3AD50AE7</NID>
@@ -10820,7 +10820,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x42071A83</NID>
-              <NAME>sceUtility_42071A83</NAME>
+              <NAME>sceUtilityPS3ScanInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x434D4B3A</NID>
@@ -10836,15 +10836,15 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4A833BA4</NID>
-              <NAME>sceUtility_4A833BA4</NAME>
+              <NAME>sceUtilityDNASUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4AECD179</NID>
-              <NAME>sceUtility_4AECD179</NAME>
+              <NAME>sceUtilityGamedataInstallUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B0A8FE5</NID>
-              <NAME>sceUtility_4B0A8FE5</NAME>
+              <NAME>sceUtilityRssSubscriberInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B85C861</NID>
@@ -10864,7 +10864,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x54A5C62F</NID>
-              <NAME>sceUtility_54A5C62F</NAME>
+              <NAME>sceUtilityStoreCheckoutShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5EEE6548</NID>
@@ -10888,7 +10888,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F56F9CF</NID>
-              <NAME>sceUtility_6F56F9CF</NAME>
+              <NAME>sceUtilityRssReaderUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x70267ADF</NID>
@@ -10900,19 +10900,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x81C44706</NID>
-              <NAME>sceUtility_81C44706</NAME>
+              <NAME>sceUtilityRssReaderInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8326AB05</NID>
-              <NAME>sceUtility_8326AB05</NAME>
+              <NAME>sceUtilityRssReaderGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x86A03A27</NID>
-              <NAME>sceUtility_86A03A27</NAME>
+              <NAME>sceUtilityScreenshotContStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x86ABDB1B</NID>
-              <NAME>sceUtility_86ABDB1B</NAME>
+              <NAME>sceUtilityNpSigninGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8874DBE0</NID>
@@ -10920,11 +10920,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x88BC7406</NID>
-              <NAME>sceUtility_88BC7406</NAME>
+              <NAME>sceUtilitySavedataErrGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x89317C8F</NID>
-              <NAME>sceUtility_89317C8F</NAME>
+              <NAME>sceUtilityPS3ScanGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x91E70E35</NID>
@@ -10932,7 +10932,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x943CBA46</NID>
-              <NAME>sceUtility_943CBA46</NAME>
+              <NAME>sceUtilityAuthDialogInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x946963F3</NID>
@@ -10952,7 +10952,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9F313D14</NID>
-              <NAME>sceUtility_9F313D14</NAME>
+              <NAME>sceUtilityAutoConnectShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA03D29BA</NID>
@@ -10960,11 +10960,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA084E056</NID>
-              <NAME>sceUtility_A084E056</NAME>
+              <NAME>sceUtilityRssSubscriberUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA50E5B30</NID>
-              <NAME>sceUtility_A50E5B30</NAME>
+              <NAME>sceUtilityDNASGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA5DA2406</NID>
@@ -10972,23 +10972,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA7BB7C67</NID>
-              <NAME>sceUtility_A7BB7C67</NAME>
+              <NAME>sceUtilityPsnInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB083EA9</NID>
-              <NAME>sceUtility_AB083EA9</NAME>
+              <NAME>sceUtilityScreenshotUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0FB7FF5</NID>
-              <NAME>sceUtility_B0FB7FF5</NAME>
+              <NAME>sceUtilityRssReaderContStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB57E95D9</NID>
-              <NAME>sceUtility_B57E95D9</NAME>
+              <NAME>sceUtilityGamedataInstallGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB62A4061</NID>
-              <NAME>sceUtility_B62A4061</NAME>
+              <NAME>sceUtilitySavedataErrShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6CEE597</NID>
@@ -10996,7 +10996,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB8592D5F</NID>
-              <NAME>sceUtility_B8592D5F</NAME>
+              <NAME>sceUtilityStoreCheckoutUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBC6B6296</NID>
@@ -11008,7 +11008,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC130D441</NID>
-              <NAME>sceUtility_C130D441</NAME>
+              <NAME>sceUtilityPsnShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC4700FA3</NID>
@@ -11028,11 +11028,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD17A0573</NID>
-              <NAME>sceUtility_D17A0573</NAME>
+              <NAME>sceUtilityPS3ScanShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD23665F4</NID>
-              <NAME>sceUtility_D23665F4</NAME>
+              <NAME>sceUtilityAutoConnectUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4B95FFB</NID>
@@ -11040,27 +11040,27 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4C2BD73</NID>
-              <NAME>sceUtility_D4C2BD73</NAME>
+              <NAME>sceUtilityAutoConnectGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD81957B7</NID>
-              <NAME>sceUtility_D81957B7</NAME>
+              <NAME>sceUtilityScreenshotGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD852CDCE</NID>
-              <NAME>sceUtility_D852CDCE</NAME>
+              <NAME>sceUtilityPS3ScanUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDA97F1AA</NID>
-              <NAME>sceUtility_DA97F1AA</NAME>
+              <NAME>sceUtilityStoreCheckoutInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDDE5389D</NID>
-              <NAME>sceUtility_DDE5389D</NAME>
+              <NAME>sceUtilityDNASInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE19C97D6</NID>
-              <NAME>sceUtility_E19C97D6</NAME>
+              <NAME>sceUtilityNpSigninShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE49BFE92</NID>
@@ -11068,7 +11068,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE7B778D8</NID>
-              <NAME>sceUtility_E7B778D8</NAME>
+              <NAME>sceUtilityRssReaderShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xECE1D3E5</NID>
@@ -11076,7 +11076,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xED0FAD38</NID>
-              <NAME>sceUtility_ED0FAD38</NAME>
+              <NAME>sceUtilitySavedataErrUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF3582B2</NID>
@@ -11092,7 +11092,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF3FBC572</NID>
-              <NAME>sceUtility_F3FBC572</NAME>
+              <NAME>sceUtilityNpSigninUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5CE1134</NID>
@@ -11116,7 +11116,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF9E0008C</NID>
-              <NAME>sceUtility_F9E0008C</NAME>
+              <NAME>sceUtilityScreenshotShutdownStart</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

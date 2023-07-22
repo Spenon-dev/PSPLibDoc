@@ -92,11 +92,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x36FD8AA9</NID>
-              <NAME>sceAudioRouting_36FD8AA9</NAME>
+              <NAME>sceAudioRoutingSetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x39240E7D</NID>
-              <NAME>sceAudioRouting_39240E7D</NAME>
+              <NAME>sceAudioRoutingGetMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -106,7 +106,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x7E69EDA4</NID>
-              <NAME>sceHprm_7E69EDA4</NAME>
+              <NAME>sceHprmIsHeadphoneExist</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

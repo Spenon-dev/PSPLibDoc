@@ -26,11 +26,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x01977054</NID>
-              <NAME>sceMpeg_01977054</NAME>
+              <NAME>sceMpegGetUserdataAu</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0558B075</NID>
-              <NAME>sceMpeg_0558B075</NAME>
+              <NAME>sceMpegAvcCopyYCbCr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E3C2E9D</NID>
@@ -106,7 +106,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x63B9536A</NID>
-              <NAME>sceMpeg_63B9536A</NAME>
+              <NAME>sceMpegAvcResourceGetAvcDecTopAddr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x67179B1B</NID>
@@ -138,7 +138,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8160A2FE</NID>
-              <NAME>sceMpeg_8160A2FE</NAME>
+              <NAME>sceMpegAvcResourceFinish</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x874624D6</NID>
@@ -166,11 +166,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB0E9556</NID>
-              <NAME>sceMpeg_AB0E9556</NAME>
+              <NAME>sceMpegAvcDecodeDetailIndex</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF26BB01</NID>
-              <NAME>sceMpeg_AF26BB01</NAME>
+              <NAME>sceMpegAvcResourceGetAvcEsBuf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB240A59E</NID>
@@ -218,7 +218,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5E7EA31</NID>
-              <NAME>sceMpeg_F5E7EA31</NAME>
+              <NAME>sceMpegAvcConvertToYuv420</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF8DCB679</NID>
@@ -226,7 +226,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFCBDB5AD</NID>
-              <NAME>sceMpeg_FCBDB5AD</NAME>
+              <NAME>sceMpegAvcResourceInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFE246728</NID>

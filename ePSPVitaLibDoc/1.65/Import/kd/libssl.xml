@@ -124,15 +124,15 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x4CFE4E56</NID>
-              <NAME>sceNetInet_4CFE4E56</NAME>
+              <NAME>sceNetInetShutdown</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7AA671BC</NID>
-              <NAME>sceNetInet_7AA671BC</NAME>
+              <NAME>sceNetInetSend</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCDA85C99</NID>
-              <NAME>sceNetInet_CDA85C99</NAME>
+              <NAME>sceNetInetRecv</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

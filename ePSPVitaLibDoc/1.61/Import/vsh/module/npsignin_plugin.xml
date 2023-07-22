@@ -498,11 +498,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x5963991B</NID>
-              <NAME>sceNetApctl_5963991B</NAME>
+              <NAME>sceNetApctlDelHandler</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5DEAC81B</NID>
-              <NAME>sceNetApctl_5DEAC81B</NAME>
+              <NAME>sceNetApctlGetState</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA7BB73DF</NID>
@@ -516,7 +516,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0xD7763699</NID>
-              <NAME>sceWlanDrv_D7763699</NAME>
+              <NAME>sceWlanGetSwitchState</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

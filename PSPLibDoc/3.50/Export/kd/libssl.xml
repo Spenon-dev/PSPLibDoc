@@ -70,7 +70,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF57765D3</NID>
-              <NAME>sceSsl_F57765D3</NAME>
+              <NAME>sceSslGetKeyUsage</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

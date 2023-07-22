@@ -268,23 +268,23 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x289D82FE</NID>
-              <NAME>sceDisplay_289D82FE</NAME>
+              <NAME>sceDisplaySetFrameBuf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x46F186C3</NID>
-              <NAME>sceDisplay_46F186C3</NAME>
+              <NAME>sceDisplayWaitVblankStartCB</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7ED59BC4</NID>
-              <NAME>sceDisplay_7ED59BC4</NAME>
+              <NAME>sceDisplaySetHoldMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x984C27E7</NID>
-              <NAME>sceDisplay_984C27E7</NAME>
+              <NAME>sceDisplayWaitVblankStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C6EAAD7</NID>
-              <NAME>sceDisplay_9C6EAAD7</NAME>
+              <NAME>sceDisplayGetVcount</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -368,7 +368,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x04B7766E</NID>
-              <NAME>scePower_04B7766E</NAME>
+              <NAME>scePowerRegisterCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x469989AD</NID>
@@ -376,7 +376,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x78A1A796</NID>
-              <NAME>scePower_78A1A796</NAME>
+              <NAME>scePowerIsSuspendRequired</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -412,7 +412,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x24FD7BCF</NID>
-              <NAME>sceImpose_24FD7BCF</NAME>
+              <NAME>sceImposeGetLanguageMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BA61B49</NID>
@@ -670,7 +670,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x05572A5F</NID>
-              <NAME>LoadExecForUser_05572A5F</NAME>
+              <NAME>sceKernelExitGame</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

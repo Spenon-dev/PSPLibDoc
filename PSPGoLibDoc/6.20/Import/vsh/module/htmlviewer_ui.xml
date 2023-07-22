@@ -12,11 +12,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0E20F177</NID>
-              <NAME>sceDisplay_0E20F177</NAME>
+              <NAME>sceDisplaySetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x289D82FE</NID>
-              <NAME>sceDisplay_289D82FE</NAME>
+              <NAME>sceDisplaySetFrameBuf</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

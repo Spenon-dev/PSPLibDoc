@@ -78,7 +78,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x9F8703E4</NID>
-              <NAME>KDebugForKernel_9F8703E4</NAME>
+              <NAME>sceKernelDipswCpTime</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

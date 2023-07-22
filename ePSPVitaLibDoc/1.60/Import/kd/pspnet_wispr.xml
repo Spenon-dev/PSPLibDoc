@@ -12,7 +12,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0C622081</NID>
-              <NAME>sceWlanDrv_0C622081</NAME>
+              <NAME>sceWlanGetEtherAddr</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -188,7 +188,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x2BEFDF23</NID>
-              <NAME>sceNetApctl_2BEFDF23</NAME>
+              <NAME>sceNetApctlGetInfo</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

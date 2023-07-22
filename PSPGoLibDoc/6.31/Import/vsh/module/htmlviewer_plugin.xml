@@ -970,7 +970,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0xA544C486</NID>
-              <NAME>sceDisplay_A544C486</NAME>
+              <NAME>sceDisplaySetResumeMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

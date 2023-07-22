@@ -36,39 +36,39 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0E20F177</NID>
-              <NAME>sceDisplay_0E20F177</NAME>
+              <NAME>sceDisplaySetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x21038913</NID>
-              <NAME>sceDisplay_21038913</NAME>
+              <NAME>sceDisplayIsVsync</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x210EAB3A</NID>
-              <NAME>sceDisplay_210EAB3A</NAME>
+              <NAME>sceDisplayGetAccumulatedHcount</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x289D82FE</NID>
-              <NAME>sceDisplay_289D82FE</NAME>
+              <NAME>sceDisplaySetFrameBuf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x31C4BAA8</NID>
-              <NAME>sceDisplay_31C4BAA8</NAME>
+              <NAME>sceDisplayGetBrightness</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x36CDFADE</NID>
-              <NAME>sceDisplay_36CDFADE</NAME>
+              <NAME>sceDisplayWaitVblank</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x40F1469C</NID>
-              <NAME>sceDisplay_40F1469C</NAME>
+              <NAME>sceDisplayWaitVblankStartMulti</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x46F186C3</NID>
-              <NAME>sceDisplay_46F186C3</NAME>
+              <NAME>sceDisplayWaitVblankStartCB</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4D4E10EC</NID>
-              <NAME>sceDisplay_4D4E10EC</NAME>
+              <NAME>sceDisplayIsVblank</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x69B53541</NID>
@@ -76,55 +76,55 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x773DD3A3</NID>
-              <NAME>sceDisplay_773DD3A3</NAME>
+              <NAME>sceDisplayGetCurrentHcount</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x77ED8B3A</NID>
-              <NAME>sceDisplay_77ED8B3A</NAME>
+              <NAME>sceDisplayWaitVblankStartMultiCB</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7ED59BC4</NID>
-              <NAME>sceDisplay_7ED59BC4</NAME>
+              <NAME>sceDisplaySetHoldMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8EB9EC49</NID>
-              <NAME>sceDisplay_8EB9EC49</NAME>
+              <NAME>sceDisplayWaitVblankCB</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x984C27E7</NID>
-              <NAME>sceDisplay_984C27E7</NAME>
+              <NAME>sceDisplayWaitVblankStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C6EAAD7</NID>
-              <NAME>sceDisplay_9C6EAAD7</NAME>
+              <NAME>sceDisplayGetVcount</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA544C486</NID>
-              <NAME>sceDisplay_A544C486</NAME>
+              <NAME>sceDisplaySetResumeMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA83EF139</NID>
-              <NAME>sceDisplay_A83EF139</NAME>
+              <NAME>sceDisplayAdjustAccumulatedHcount</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB4F378FA</NID>
-              <NAME>sceDisplay_B4F378FA</NAME>
+              <NAME>sceDisplayIsForeground</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBF79F646</NID>
-              <NAME>sceDisplay_BF79F646</NAME>
+              <NAME>sceDisplayGetResumeMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDBA6C4C4</NID>
-              <NAME>sceDisplay_DBA6C4C4</NAME>
+              <NAME>sceDisplayGetFramePerSec</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDEA197D4</NID>
-              <NAME>sceDisplay_DEA197D4</NAME>
+              <NAME>sceDisplayGetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEEDA2E54</NID>
-              <NAME>sceDisplay_EEDA2E54</NAME>
+              <NAME>sceDisplayGetFrameBuf</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -154,7 +154,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0E20F177</NID>
-              <NAME>sceDisplay_driver_0E20F177</NAME>
+              <NAME>sceDisplaySetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x12870242</NID>
@@ -294,7 +294,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDEA197D4</NID>
-              <NAME>sceDisplay_driver_DEA197D4</NAME>
+              <NAME>sceDisplayGetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDF998667</NID>

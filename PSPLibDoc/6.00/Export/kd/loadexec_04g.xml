@@ -184,11 +184,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x05572A5F</NID>
-              <NAME>LoadExecForUser_05572A5F</NAME>
+              <NAME>sceKernelExitGame</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2AC9954B</NID>
-              <NAME>LoadExecForUser_2AC9954B</NAME>
+              <NAME>sceKernelExitGameWithStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x362A956B</NID>
@@ -196,7 +196,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4AC57943</NID>
-              <NAME>LoadExecForUser_4AC57943</NAME>
+              <NAME>sceKernelRegisterExitCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8ADA38D3</NID>
@@ -204,7 +204,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD2F1094</NID>
-              <NAME>LoadExecForUser_BD2F1094</NAME>
+              <NAME>sceKernelLoadExec</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD1FB50DC</NID>

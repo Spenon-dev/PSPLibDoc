@@ -384,35 +384,35 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x05038FC7</NID>
-              <NAME>sceNetInet_05038FC7</NAME>
+              <NAME>sceNetInetSendto</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2FE71FE7</NID>
-              <NAME>sceNetInet_2FE71FE7</NAME>
+              <NAME>sceNetInetSetsockopt</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B7B220F</NID>
-              <NAME>sceNetInet_8B7B220F</NAME>
+              <NAME>sceNetInetSocket</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8CA3A97E</NID>
-              <NAME>sceNetInet_8CA3A97E</NAME>
+              <NAME>sceNetInetGetPspError</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D7284EA</NID>
-              <NAME>sceNetInet_8D7284EA</NAME>
+              <NAME>sceNetInetClose</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB75D5B0A</NID>
-              <NAME>sceNetInet_B75D5B0A</NAME>
+              <NAME>sceNetInetInetAddr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC91142E4</NID>
-              <NAME>sceNetInet_C91142E4</NAME>
+              <NAME>sceNetInetRecvfrom</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD0792666</NID>
-              <NAME>sceNetInet_D0792666</NAME>
+              <NAME>sceNetInetInetNtop</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -422,11 +422,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x5963991B</NID>
-              <NAME>sceNetApctl_5963991B</NAME>
+              <NAME>sceNetApctlDelHandler</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5DEAC81B</NID>
-              <NAME>sceNetApctl_5DEAC81B</NAME>
+              <NAME>sceNetApctlGetState</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA7BB73DF</NID>
@@ -440,7 +440,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0xD7763699</NID>
-              <NAME>sceWlanDrv_D7763699</NAME>
+              <NAME>sceWlanGetSwitchState</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

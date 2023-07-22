@@ -156,7 +156,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x346FBE94</NID>
-              <NAME>sceVaudio_driver_346FBE94</NAME>
+              <NAME>sceVaudioSetEffectType</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

@@ -526,15 +526,15 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0BF608FB</NID>
-              <NAME>sceGe_user_0BF608FB</NAME>
+              <NAME>sceGeRestoreContext</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x438A385A</NID>
-              <NAME>sceGe_user_438A385A</NAME>
+              <NAME>sceGeSaveContext</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB287BD61</NID>
-              <NAME>sceGe_user_B287BD61</NAME>
+              <NAME>sceGeDrawSync</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

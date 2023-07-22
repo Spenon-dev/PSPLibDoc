@@ -76,7 +76,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x732B042A</NID>
-              <NAME>sceMp3_732B042A</NAME>
+              <NAME>sceMp3EndEntry</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7F696782</NID>
@@ -92,7 +92,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8AB81558</NID>
-              <NAME>sceMp3_8AB81558</NAME>
+              <NAME>sceMp3StartEntry</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8F450998</NID>

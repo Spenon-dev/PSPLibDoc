@@ -52,7 +52,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5881C826</NID>
-              <NAME>sceUsbGps_5881C826</NAME>
+              <NAME>sceUsbGpsGetStaticNavMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63D1F89D</NID>
@@ -88,7 +88,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA8ED0BC2</NID>
-              <NAME>sceUsbGps_A8ED0BC2</NAME>
+              <NAME>sceUsbGpsSetStaticNavMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -110,7 +110,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5881C826</NID>
-              <NAME>sceUsbGps_driver_5881C826</NAME>
+              <NAME>sceUsbGpsGetStaticNavMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x69E4AAA8</NID>
@@ -142,7 +142,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA8ED0BC2</NID>
-              <NAME>sceUsbGps_driver_A8ED0BC2</NAME>
+              <NAME>sceUsbGpsSetStaticNavMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

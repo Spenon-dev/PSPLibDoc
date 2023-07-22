@@ -300,7 +300,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x2BEFDF23</NID>
-              <NAME>sceNetApctl_2BEFDF23</NAME>
+              <NAME>sceNetApctlGetInfo</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -342,35 +342,35 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x410B34AA</NID>
-              <NAME>sceNetInet_410B34AA</NAME>
+              <NAME>sceNetInetConnect</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7AA671BC</NID>
-              <NAME>sceNetInet_7AA671BC</NAME>
+              <NAME>sceNetInetSend</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x80A21ABD</NID>
-              <NAME>sceNetInet_80A21ABD</NAME>
+              <NAME>sceNetInetSocketAbort</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B7B220F</NID>
-              <NAME>sceNetInet_8B7B220F</NAME>
+              <NAME>sceNetInetSocket</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8CA3A97E</NID>
-              <NAME>sceNetInet_8CA3A97E</NAME>
+              <NAME>sceNetInetGetPspError</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8D7284EA</NID>
-              <NAME>sceNetInet_8D7284EA</NAME>
+              <NAME>sceNetInetClose</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB75D5B0A</NID>
-              <NAME>sceNetInet_B75D5B0A</NAME>
+              <NAME>sceNetInetInetAddr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCDA85C99</NID>
-              <NAME>sceNetInet_CDA85C99</NAME>
+              <NAME>sceNetInetRecv</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

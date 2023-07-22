@@ -572,15 +572,15 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0AFD0D8B</NID>
-              <NAME>scePower_0AFD0D8B</NAME>
+              <NAME>scePowerIsBatteryExist</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1E490401</NID>
-              <NAME>scePower_1E490401</NAME>
+              <NAME>scePowerIsBatteryCharging</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2085D15D</NID>
-              <NAME>scePower_2085D15D</NAME>
+              <NAME>scePowerGetBatteryLifePercent</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

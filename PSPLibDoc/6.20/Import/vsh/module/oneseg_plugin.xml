@@ -1926,27 +1926,27 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x04B7766E</NID>
-              <NAME>scePower_04B7766E</NAME>
+              <NAME>scePowerRegisterCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7FA406DD</NID>
-              <NAME>scePower_7FA406DD</NAME>
+              <NAME>scePowerIsRequest</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x87440F5E</NID>
-              <NAME>scePower_87440F5E</NAME>
+              <NAME>scePowerIsPowerOnline</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAC32C9CC</NID>
-              <NAME>scePower_AC32C9CC</NAME>
+              <NAME>scePowerRequestSuspend</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD3075926</NID>
-              <NAME>scePower_D3075926</NAME>
+              <NAME>scePowerIsLowBattery</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDFA8BAF8</NID>
-              <NAME>scePower_DFA8BAF8</NAME>
+              <NAME>scePowerUnregisterCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBD177D6</NID>

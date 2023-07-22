@@ -92,15 +92,15 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0F3EEAAC</NID>
-              <NAME>sceUtility_0F3EEAAC</NAME>
+              <NAME>sceUtilityAuthDialogShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x147F7C85</NID>
-              <NAME>sceUtility_147F7C85</NAME>
+              <NAME>sceUtilityAuthDialogUpdate</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x16A1A8D8</NID>
-              <NAME>sceUtility_16A1A8D8</NAME>
+              <NAME>sceUtilityAuthDialogGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2AD8E239</NID>
@@ -132,7 +132,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x943CBA46</NID>
-              <NAME>sceUtility_943CBA46</NAME>
+              <NAME>sceUtilityAuthDialogInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x95FC253B</NID>
@@ -504,11 +504,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0xA544C486</NID>
-              <NAME>sceDisplay_A544C486</NAME>
+              <NAME>sceDisplaySetResumeMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBF79F646</NID>
-              <NAME>sceDisplay_BF79F646</NAME>
+              <NAME>sceDisplayGetResumeMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

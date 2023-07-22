@@ -388,11 +388,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5F5D98A6</NID>
-              <NAME>sceGameUpdate_5F5D98A6</NAME>
+              <NAME>sceGameUpdateAbort</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB4B68DE</NID>
-              <NAME>sceGameUpdate_BB4B68DE</NAME>
+              <NAME>sceGameUpdateTerm</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD92F50CA</NID>

@@ -420,11 +420,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x04B7766E</NID>
-              <NAME>scePower_04B7766E</NAME>
+              <NAME>scePowerRegisterCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDFA8BAF8</NID>
-              <NAME>scePower_DFA8BAF8</NAME>
+              <NAME>scePowerUnregisterCallback</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

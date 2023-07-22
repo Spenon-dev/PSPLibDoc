@@ -312,7 +312,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x9C6EAAD7</NID>
-              <NAME>sceDisplay_9C6EAAD7</NAME>
+              <NAME>sceDisplayGetVcount</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -1974,19 +1974,19 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x04B7766E</NID>
-              <NAME>scePower_04B7766E</NAME>
+              <NAME>scePowerRegisterCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0AFD0D8B</NID>
-              <NAME>scePower_0AFD0D8B</NAME>
+              <NAME>scePowerIsBatteryExist</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1E490401</NID>
-              <NAME>scePower_1E490401</NAME>
+              <NAME>scePowerIsBatteryCharging</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2085D15D</NID>
-              <NAME>scePower_2085D15D</NAME>
+              <NAME>scePowerGetBatteryLifePercent</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x469989AD</NID>
@@ -1994,11 +1994,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAC32C9CC</NID>
-              <NAME>scePower_AC32C9CC</NAME>
+              <NAME>scePowerRequestSuspend</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDFA8BAF8</NID>
-              <NAME>scePower_DFA8BAF8</NAME>
+              <NAME>scePowerUnregisterCallback</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

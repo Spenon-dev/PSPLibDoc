@@ -242,7 +242,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x180F7B62</NID>
-              <NAME>sceUtility_180F7B62</NAME>
+              <NAME>sceUtilityGamedataInstallAbort</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -440,7 +440,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x2085D15D</NID>
-              <NAME>scePower_2085D15D</NAME>
+              <NAME>scePowerGetBatteryLifePercent</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

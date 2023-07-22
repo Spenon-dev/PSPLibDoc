@@ -90,7 +90,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0B80E80</NID>
-              <NAME>sceNetAdhocctl_B0B80E80</NAME>
+              <NAME>sceNetAdhocctlCreateEnterGameModeMin</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCF8E084D</NID>

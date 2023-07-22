@@ -242,7 +242,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x180F7B62</NID>
-              <NAME>sceUtility_180F7B62</NAME>
+              <NAME>sceUtilityGamedataInstallAbort</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

@@ -434,15 +434,15 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9F8703E4</NID>
-              <NAME>KDebugForKernel_9F8703E4</NAME>
+              <NAME>sceKernelDipswCpTime</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x333DCEC7</NID>
-              <NAME>KDebugForKernel_333DCEC7</NAME>
+              <NAME>sceKernelSm1RegisterOperations</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE892D9A1</NID>
-              <NAME>KDebugForKernel_E892D9A1</NAME>
+              <NAME>sceKernelSm1ReferOperations</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA126F497</NID>
@@ -450,7 +450,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7251823</NID>
-              <NAME>KDebugForKernel_B7251823</NAME>
+              <NAME>sceKernelAcceptMbogoSig</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

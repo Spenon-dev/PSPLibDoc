@@ -1014,11 +1014,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x36FD8AA9</NID>
-              <NAME>sceAudioRouting_36FD8AA9</NAME>
+              <NAME>sceAudioRoutingSetMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBB548475</NID>
-              <NAME>sceAudioRouting_BB548475</NAME>
+              <NAME>sceAudioRoutingSetVolumeMode</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -1028,7 +1028,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x7FA406DD</NID>
-              <NAME>scePower_7FA406DD</NAME>
+              <NAME>scePowerIsRequest</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBD177D6</NID>

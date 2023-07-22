@@ -20,7 +20,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE892D9A1</NID>
-              <NAME>KDebugForKernel_E892D9A1</NAME>
+              <NAME>sceKernelSm1ReferOperations</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

@@ -74,11 +74,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x38553111</NID>
-              <NAME>sceAudio_driver_38553111</NAME>
+              <NAME>sceAudioSRCChReserve</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5C37C0AE</NID>
-              <NAME>sceAudio_driver_5C37C0AE</NAME>
+              <NAME>sceAudioSRCChRelease</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x927AC32B</NID>
@@ -90,7 +90,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE0727056</NID>
-              <NAME>sceAudio_driver_E0727056</NAME>
+              <NAME>sceAudioSRCOutputBlocking</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

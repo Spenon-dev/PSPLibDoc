@@ -1422,7 +1422,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB0E9556</NID>
-              <NAME>sceMpeg_AB0E9556</NAME>
+              <NAME>sceMpegAvcDecodeDetailIndex</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC132E22F</NID>
@@ -1516,7 +1516,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x27ACC20B</NID>
-              <NAME>sceVaudio_27ACC20B</NAME>
+              <NAME>sceVaudioChReserveBuffering</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
