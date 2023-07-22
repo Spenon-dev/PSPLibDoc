@@ -10,10 +10,15 @@ psp_libdoc.py requires python3 with lxml module
  - Loading source files
     - Load one or more PSPLibDoc XML files
         - psp_libdoc.py -l input_1.xml input_2.xml input_3.xml...
+
     - Load one or more PSP export files
         - psp_libdoc.py -e input_1.exp input_2.exp input_3.exp...
+
+    - Load one or more PPSSPP source files (HLEFunction arrays)
+        - psp_libdoc.py -p input_1.cpp input_2.cpp input_3.cpp...
+
     - Combination of multiple different sources
-        - psp_libdoc.py -l input_1.xml input_2.xml... -e input_1.exp input_2.exp...
+        - psp_libdoc.py -l input_1.xml input_2.xml... -e input_1.exp input_2.exp... -p ...
 
  - Save a combined PSPLibDoc XML file from all loaded sources
     - psp_libdoc.py *sources* -c psp_libdoc.xml
@@ -60,6 +65,7 @@ psp_libdoc.py requires python3 with lxml module
 ## Credits
 A big thanks goes to
  - All original PSPLibDoc contributers
+ - All PPSSPP contributers for additional user library symbols
  - All UOFW contributers for updated 6.60 and 6.61 symbols
  - Draan for matching additional PAF NIDs
  - zecoxao for additional symbol sources from PS3 firmware
