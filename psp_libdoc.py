@@ -4,6 +4,7 @@ import argparse
 import hashlib
 import itertools
 import os
+import re
 import sys
 
 from collections import namedtuple
@@ -131,6 +132,32 @@ def loadFunctionFile(xmlFile):
 
 	return entries
 
+def loadHLEFunctionFile(inputFile):
+	with open(inputFile) as f:
+		fileText = f.read()
+
+	entries = []
+
+	hleArrayStartRegex = re.compile(r'.*HLEFunction(.*)\[\]')
+	hleArrayEntryRegex = re.compile(r'{(.*)}')
+
+	hleArrayMatches = hleArrayStartRegex.finditer(fileText)
+	for match in hleArrayMatches:
+		libraryName = match.group(1).strip()
+		arrayStart = match.start();
+		arrayEnd = arrayStart + re.search('};', fileText[arrayStart:]).end()
+
+		hleArray = fileText[arrayStart:arrayEnd]
+		hleArrayEntryMatches = hleArrayEntryRegex.finditer(hleArray)
+		for match in hleArrayEntryMatches:
+			hleEntry = match.group(1).split(',')
+			functionNID = hleEntry[0].upper().removeprefix('0X')
+			functionName = hleEntry[2].strip()[1:-1]
+			entries.append(NIDEntry(nid=functionNID, name=functionName, prx=" ",
+								prxName=" ", libraryName=libraryName, libraryFlags=" "))
+
+	return entries
+
 def exportNids(nidEntries, outFile):
 	with open(outFile, "w") as f:
 		for entry in nidEntries:
@@ -240,6 +267,12 @@ if __name__ == '__main__':
 						type=str,
 						help='Load function only XML file.')
 
+	parser.add_argument('-p', '--ppsspp',
+						required=False,
+						nargs='+',
+						type=str,
+						help='Load ppsspp source file (HLEFunction arrays)')
+
 	parser.add_argument('-u', '--updateLibdoc',
 						required=False,
 						type=str,
@@ -292,6 +325,11 @@ if __name__ == '__main__':
 		for func in args.func:
 			funcEntries = loadFunctionFile(func)
 			nidEntries.extend(funcEntries)
+
+	if(args.ppsspp):
+		for ppsspp in args.ppsspp:
+			ppssppEntries = loadHLEFunctionFile(ppsspp)
+			nidEntries.extend(ppssppEntries)
 
 	if(args.updateLibdoc):
 		updatePSPLibdoc(nidEntries, args.updateLibdoc)
