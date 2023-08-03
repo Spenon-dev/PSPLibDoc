@@ -468,7 +468,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4E67BB08</NID>
-              <NAME>scePaf_4E67BB08</NAME>
+              <NAME>_ZdlPv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4EA868E6</NID>
@@ -808,7 +808,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB3D2C3BB</NID>
-              <NAME>scePaf_B3D2C3BB</NAME>
+              <NAME>_ZdaPv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB42D784E</NID>
@@ -824,7 +824,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7E6052B</NID>
-              <NAME>scePaf_B7E6052B</NAME>
+              <NAME>_Znwj</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBA1F20EE</NID>
@@ -1048,7 +1048,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF13EBB78</NID>
-              <NAME>scePaf_F13EBB78</NAME>
+              <NAME>_Znaj</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF1CF9579</NID>

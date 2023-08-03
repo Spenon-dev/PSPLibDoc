@@ -83,5 +83,6 @@ A big thanks goes to
  - All original PSPLibDoc contributers
  - All PPSSPP contributers for additional user library symbols
  - All UOFW contributers for updated 6.60 and 6.61 symbols
+ - GrapheneCt for PSVita PAF symbol source
  - Draan for matching additional PAF NIDs
  - zecoxao for additional symbol sources from PS3 firmware
