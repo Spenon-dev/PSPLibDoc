@@ -86,7 +86,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7635200E</NID>
-              <NAME>sceUtility_private_7635200E</NAME>
+              <NAME>sceUtilityDialogGetGameInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C9DD5BC</NID>
@@ -102,7 +102,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF5BC2D1</NID>
-              <NAME>sceUtility_private_EF5BC2D1</NAME>
+              <NAME>sceUtilityDialogGetStructVersion</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

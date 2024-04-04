@@ -330,7 +330,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD121F409</NID>
-              <NAME>scePaf_D121F409</NAME>
+              <NAME>sce_paf_private_wcsrchr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD2E0D705</NID>
@@ -354,7 +354,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDEB2D1C9</NID>
-              <NAME>scePaf_DEB2D1C9</NAME>
+              <NAME>sce_paf_private_strncasecmp</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDF887DED</NID>
@@ -402,7 +402,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFCFAA39F</NID>
-              <NAME>scePaf_FCFAA39F</NAME>
+              <NAME>sce_paf_private_wcscasecmp</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD4C9F47</NID>

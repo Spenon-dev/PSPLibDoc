@@ -12,7 +12,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x960B888C</NID>
-              <NAME>SysMemForKernel_960B888C</NAME>
+              <NAME>sceKernelGetAWeDramSaveAddr</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

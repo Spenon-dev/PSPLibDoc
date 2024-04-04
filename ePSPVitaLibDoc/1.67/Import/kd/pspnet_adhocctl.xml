@@ -108,7 +108,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x482CAE9A</NID>
-              <NAME>sceWlanDrv_lib_482CAE9A</NAME>
+              <NAME>sceWlanDevAttach</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x491684FA</NID>
@@ -124,7 +124,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x749B813A</NID>
-              <NAME>sceWlanDrv_lib_749B813A</NAME>
+              <NAME>sceWlanSetHostDiscover</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xADF2A522</NID>
@@ -132,11 +132,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC9A8CAB7</NID>
-              <NAME>sceWlanDrv_lib_C9A8CAB7</NAME>
+              <NAME>sceWlanDevDetach</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFE8A0B46</NID>
-              <NAME>sceWlanDrv_lib_FE8A0B46</NAME>
+              <NAME>sceWlanSetWakeUp</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -188,7 +188,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x389728AB</NID>
-              <NAME>sceNet_lib_389728AB</NAME>
+              <NAME>sceNetConfig80211JoinRequest</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5216CBF5</NID>
@@ -200,7 +200,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7BA3ED91</NID>
-              <NAME>sceNet_lib_7BA3ED91</NAME>
+              <NAME>sceNetConfig80211ScanRequest</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA55C914F</NID>

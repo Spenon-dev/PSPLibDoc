@@ -658,7 +658,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4E4A284A</NID>
-              <NAME>sceHttp_4E4A284A</NAME>
+              <NAME>sceHttpCloneTemplate</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

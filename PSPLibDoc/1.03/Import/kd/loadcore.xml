@@ -36,7 +36,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE05CCB7</NID>
-              <NAME>SysMemForKernel_CE05CCB7</NAME>
+              <NAME>sceKernelCallUIDObjCommonFunction</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFEFC8666</NID>

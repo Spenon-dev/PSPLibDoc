@@ -520,7 +520,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2394D451</NID>
-              <NAME>scePaf_2394D451</NAME>
+              <NAME>sce_paf_private_strtoul</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7E6052B</NID>

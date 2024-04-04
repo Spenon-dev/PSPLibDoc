@@ -46,7 +46,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x71B4AC50</NID>
-              <NAME>scePaf_71B4AC50</NAME>
+              <NAME>sce_paf_private_memchr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF95EA3F1</NID>
@@ -82,7 +82,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F092DF6</NID>
-              <NAME>scePaf_6F092DF6</NAME>
+              <NAME>sce_paf_private_vsnprintf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xABBBB335</NID>
@@ -122,7 +122,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB4E3A16C</NID>
-              <NAME>scePaf_B4E3A16C</NAME>
+              <NAME>sce_paf_private_abs</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9870A25B</NID>
@@ -178,7 +178,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2394D451</NID>
-              <NAME>scePaf_2394D451</NAME>
+              <NAME>sce_paf_private_strtoul</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B1A374C</NID>
@@ -190,7 +190,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x77EB25F5</NID>
-              <NAME>scePaf_77EB25F5</NAME>
+              <NAME>sce_paf_private_bcopy</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x99A5CD38</NID>
@@ -198,11 +198,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C483594</NID>
-              <NAME>scePaf_9C483594</NAME>
+              <NAME>sce_paf_private_fflush</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1E088F41</NID>
-              <NAME>scePaf_1E088F41</NAME>
+              <NAME>sce_paf_private_strpbrk</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7E6052B</NID>

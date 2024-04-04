@@ -2092,7 +2092,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD799104F</NID>
-              <NAME>sceUsb1Seg_D799104F</NAME>
+              <NAME>sceUsb1SegGetFirmVer</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE146560E</NID>

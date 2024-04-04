@@ -210,11 +210,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFCFAA39F</NID>
-              <NAME>scePaf_FCFAA39F</NAME>
+              <NAME>sce_paf_private_wcscasecmp</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD121F409</NID>
-              <NAME>scePaf_D121F409</NAME>
+              <NAME>sce_paf_private_wcsrchr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x993E9FDC</NID>
@@ -1110,11 +1110,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD2DD1778</NID>
-              <NAME>sceAsfParser_D2DD1778</NAME>
+              <NAME>sceAsfGetContentDescription</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAA881A7B</NID>
-              <NAME>sceAsfParser_AA881A7B</NAME>
+              <NAME>sceAsfGetExtContent</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5F356F6</NID>

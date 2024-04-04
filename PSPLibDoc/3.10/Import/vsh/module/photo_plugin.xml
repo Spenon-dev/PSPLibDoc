@@ -248,7 +248,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x302F609D</NID>
-              <NAME>scePaf_302F609D</NAME>
+              <NAME>sce_paf_private_ceilf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3291BDDD</NID>
@@ -800,7 +800,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFCFAA39F</NID>
-              <NAME>scePaf_FCFAA39F</NAME>
+              <NAME>sce_paf_private_wcscasecmp</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD4C9F47</NID>
@@ -968,7 +968,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA64B28F7</NID>
-              <NAME>sceNetAdhocTransInt_A64B28F7</NAME>
+              <NAME>sceNetAdhocTransferStartChild</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA735B9B2</NID>

@@ -26,7 +26,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x482CAE9A</NID>
-              <NAME>sceWlanDrv_lib_482CAE9A</NAME>
+              <NAME>sceWlanDevAttach</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB5E7B187</NID>
@@ -34,7 +34,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC9A8CAB7</NID>
-              <NAME>sceWlanDrv_lib_C9A8CAB7</NAME>
+              <NAME>sceWlanDevDetach</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -110,7 +110,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7BA3ED91</NID>
-              <NAME>sceNet_lib_7BA3ED91</NAME>
+              <NAME>sceNetConfig80211ScanRequest</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x80C9F02A</NID>

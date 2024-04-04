@@ -752,19 +752,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x739C2D79</NID>
-              <NAME>sceHttp_739C2D79</NAME>
+              <NAME>sceHttpInitExternalCache</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0257723</NID>
-              <NAME>sceHttp_B0257723</NAME>
+              <NAME>sceHttpFlushExternalCache</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA461A167</NID>
-              <NAME>sceHttp_A461A167</NAME>
+              <NAME>sceHttpEndExternalCache</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8046E250</NID>
-              <NAME>sceHttp_8046E250</NAME>
+              <NAME>sceHttpEnableExternalCache</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x77EE5319</NID>

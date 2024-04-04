@@ -198,7 +198,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x457D221D</NID>
-              <NAME>sceHttp_457D221D</NAME>
+              <NAME>sceHttpFlushCookie</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4CC7D78F</NID>
@@ -226,7 +226,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0257723</NID>
-              <NAME>sceHttp_B0257723</NAME>
+              <NAME>sceHttpFlushExternalCache</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB509B09E</NID>

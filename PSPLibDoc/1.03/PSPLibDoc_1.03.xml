@@ -132,7 +132,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8CADA96B</NID>
-              <NAME>sceAta_driver_8CADA96B</NAME>
+              <NAME>sceAtaAhbGetDDRSize</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x943FC7AC</NID>
@@ -144,7 +144,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9CA52F94</NID>
-              <NAME>sceAta_driver_9CA52F94</NAME>
+              <NAME>sceAtaExecIPDCmd</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9D98086E</NID>
@@ -204,7 +204,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB985F2B0</NID>
-              <NAME>sceAta_driver_B985F2B0</NAME>
+              <NAME>sceAtaAhbSetDDRSize</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB9C9F2E4</NID>
@@ -3632,7 +3632,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x955F2924</NID>
-              <NAME>sceNetIfhandle_driver_955F2924</NAME>
+              <NAME>sceNetMCopypacket</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9A6261EC</NID>
@@ -3822,7 +3822,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x955F2924</NID>
-              <NAME>sceNetIfhandle_lib_955F2924</NAME>
+              <NAME>sceNetMCopypacket</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9A6261EC</NID>
@@ -5018,7 +5018,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x90C5573D</NID>
-              <NAME>sceVshLftvMw_90C5573D</NAME>
+              <NAME>strnlen</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9129CC96</NID>
@@ -5433,7 +5433,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBA0D27F8</NID>
-              <NAME>sceDNASCore_lib_BA0D27F8</NAME>
+              <NAME>sceDNASCoreMakeProxyRequest</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBF6A7475</NID>
@@ -6989,7 +6989,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x88FF3935</NID>
-              <NAME>sceLibUpdateDL_88FF3935</NAME>
+              <NAME>sceUpdateDownloadSetDestCode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB5DB018D</NID>
@@ -7009,7 +7009,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF7E66CB4</NID>
-              <NAME>sceLibUpdateDL_F7E66CB4</NAME>
+              <NAME>sceUpdateDownloadSetUrl</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFA9AA797</NID>
@@ -8377,7 +8377,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x04D1AAD9</NID>
-              <NAME>sceUmd_04D1AAD9</NAME>
+              <NAME>sceUmdUnRegisterPowerOnOffUMDCallBack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x075F1E0B</NID>
@@ -8385,7 +8385,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x08709F2D</NID>
-              <NAME>sceUmd_08709F2D</NAME>
+              <NAME>sceUmdAssertLeptonWakeup</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0F7E578A</NID>
@@ -8393,7 +8393,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x18624052</NID>
-              <NAME>sceUmd_18624052</NAME>
+              <NAME>sceUmdRegisterGetUMDPowerOnOffCallBack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1A2485D2</NID>
@@ -8473,7 +8473,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x84231FCF</NID>
-              <NAME>sceUmd_84231FCF</NAME>
+              <NAME>sceUmdRegisterPowerOnOffUMDCallBack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8EF268AC</NID>
@@ -8489,11 +8489,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA140DEC2</NID>
-              <NAME>sceUmd_A140DEC2</NAME>
+              <NAME>sceUmdUnRegisterGetUMDPowerOnOffCallBack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAD18C797</NID>
-              <NAME>sceUmd_AD18C797</NAME>
+              <NAME>sceUmdNegateLeptonWakeup</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAE53DC2D</NID>
@@ -9252,7 +9252,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF9357984</NID>
-              <NAME>sceMlnBridge_F9357984</NAME>
+              <NAME>sceMlnBridgeSetDKS</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -9286,7 +9286,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF9357984</NID>
-              <NAME>sceMlnBridge_driver_F9357984</NAME>
+              <NAME>sceMlnBridgeSetDKS</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -9916,7 +9916,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x494FB570</NID>
-              <NAME>sceMScm_driver_494FB570</NAME>
+              <NAME>sceMScmTPCExSetCmdHelper</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4E4C3099</NID>
@@ -10547,7 +10547,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x2AEE9D4D</NID>
-              <NAME>sceVshNetconfAoss_2AEE9D4D</NAME>
+              <NAME>sceNetAOSSGetState</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x47A55B8E</NID>
@@ -10555,19 +10555,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x50DF536D</NID>
-              <NAME>sceVshNetconfAoss_50DF536D</NAME>
+              <NAME>sceNetAOSSInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x653D453F</NID>
-              <NAME>sceVshNetconfAoss_653D453F</NAME>
+              <NAME>sceNetAOSSStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAC307152</NID>
-              <NAME>sceVshNetconfAoss_AC307152</NAME>
+              <NAME>sceNetAOSSStop</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD253B522</NID>
-              <NAME>sceVshNetconfAoss_D253B522</NAME>
+              <NAME>sceNetAOSSTerm</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -19617,7 +19617,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x389728AB</NID>
-              <NAME>sceNet_lib_389728AB</NAME>
+              <NAME>sceNetConfig80211JoinRequest</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3B617AA0</NID>
@@ -19729,7 +19729,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7BA3ED91</NID>
-              <NAME>sceNet_lib_7BA3ED91</NAME>
+              <NAME>sceNetConfig80211ScanRequest</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C3B86C5</NID>
@@ -20507,7 +20507,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA64B28F7</NID>
-              <NAME>sceNetAdhocTransInt_A64B28F7</NAME>
+              <NAME>sceNetAdhocTransferStartChild</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA735B9B2</NID>
@@ -22071,7 +22071,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5E8E5F42</NID>
-              <NAME>SysclibForKernel_5E8E5F42</NAME>
+              <NAME>__umoddi3</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x62AE052F</NID>
@@ -22095,7 +22095,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7DEE14DE</NID>
-              <NAME>SysclibForKernel_7DEE14DE</NAME>
+              <NAME>__udivdi3</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7F8A6F23</NID>
@@ -22123,7 +22123,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8AF6B8F8</NID>
-              <NAME>SysclibForKernel_8AF6B8F8</NAME>
+              <NAME>pseudo_fcvt</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x909C228B</NID>
@@ -22171,7 +22171,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDF17F4A2</NID>
-              <NAME>SysclibForKernel_DF17F4A2</NAME>
+              <NAME>__udivmoddi4</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEC6F1CF2</NID>
@@ -23212,7 +23212,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA126F497</NID>
-              <NAME>KDebugForKernel_A126F497</NAME>
+              <NAME>sceKernelDeci2pRegisterOperations</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7251823</NID>
@@ -23346,7 +23346,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x82D3CEE3</NID>
-              <NAME>SysMemForKernel_82D3CEE3</NAME>
+              <NAME>sceKernelIsKindOf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x89A74008</NID>
@@ -23358,11 +23358,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x915EF4AC</NID>
-              <NAME>SysMemForKernel_915EF4AC</NAME>
+              <NAME>sceKernelSeparateMemoryBlock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x960B888C</NID>
-              <NAME>SysMemForKernel_960B888C</NAME>
+              <NAME>sceKernelGetAWeDramSaveAddr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9697CD32</NID>
@@ -23398,11 +23398,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCDA3A2F7</NID>
-              <NAME>SysMemForKernel_CDA3A2F7</NAME>
+              <NAME>sceKernelGetMEeDramSaveAddr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE05CCB7</NID>
-              <NAME>SysMemForKernel_CE05CCB7</NAME>
+              <NAME>sceKernelCallUIDObjCommonFunction</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE5544F4</NID>
@@ -23442,11 +23442,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEFEEBAC7</NID>
-              <NAME>SysMemForKernel_EFEEBAC7</NAME>
+              <NAME>sceKernelGetHeapIDfromVAddr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEFF0C6DD</NID>
-              <NAME>SysMemForKernel_EFF0C6DD</NAME>
+              <NAME>sceKernelGetUidManHeapID</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6C10E27</NID>
@@ -25624,7 +25624,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5A302102</NID>
-              <NAME>sceUmdMan_driver_5A302102</NAME>
+              <NAME>sceUmdManUMDDrivePreStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5AA96415</NID>
@@ -25680,7 +25680,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x736AE133</NID>
-              <NAME>sceUmdMan_driver_736AE133</NAME>
+              <NAME>sceUmdManLPNNegateWakeup</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x73966DE9</NID>
@@ -25728,7 +25728,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8634FFC7</NID>
-              <NAME>sceUmdMan_driver_8634FFC7</NAME>
+              <NAME>sceUmdManSetUnCachedRead</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8CFED611</NID>
@@ -25740,7 +25740,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x93539196</NID>
-              <NAME>sceUmdMan_driver_93539196</NAME>
+              <NAME>sceUmdManGetPowerOnOffStat</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x94A857C1</NID>
@@ -25800,11 +25800,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB4692D7F</NID>
-              <NAME>sceUmdMan_driver_B4692D7F</NAME>
+              <NAME>sceUmdManUMDDrivePostStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB511F821</NID>
-              <NAME>sceUmdMan_driver_B511F821</NAME>
+              <NAME>sceUmdManLPNAssertWakeup</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB5CFC459</NID>
@@ -25812,7 +25812,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB989E127</NID>
-              <NAME>sceUmdMan_driver_B989E127</NAME>
+              <NAME>sceUmdManLeptonAliveOnOff</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBEA40117</NID>
@@ -25840,7 +25840,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC8D45A7B</NID>
-              <NAME>sceUmdMan_driver_C8D45A7B</NAME>
+              <NAME>sceUmdManSetPowerOnOffStat</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC984E1CF</NID>
@@ -25860,7 +25860,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCEA5C857</NID>
-              <NAME>sceUmdMan_driver_CEA5C857</NAME>
+              <NAME>sceUmdManSetCachedRead</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCEE55E3E</NID>
@@ -25920,7 +25920,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF7C603A2</NID>
-              <NAME>sceUmdMan_driver_F7C603A2</NAME>
+              <NAME>sceUmdManSPKAuthentication</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF819E17C</NID>
@@ -26891,7 +26891,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x82EF2F9D</NID>
-              <NAME>sceVaudio_driver_82EF2F9D</NAME>
+              <NAME>sceVaudioGetEffectString</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8986295E</NID>
@@ -26971,7 +26971,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x82EF2F9D</NID>
-              <NAME>sceVaudio_driver_82EF2F9D</NAME>
+              <NAME>sceVaudioGetEffectString</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8986295E</NID>

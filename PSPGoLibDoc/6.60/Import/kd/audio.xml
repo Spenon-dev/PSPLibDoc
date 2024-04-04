@@ -200,7 +200,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x856E7487</NID>
-              <NAME>sceCodec_driver_856E7487</NAME>
+              <NAME>sceCodecOutputEnable</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA88FD064</NID>

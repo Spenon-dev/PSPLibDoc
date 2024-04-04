@@ -288,11 +288,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x00948E27</NID>
-              <NAME>sceUtility_private_00948E27</NAME>
+              <NAME>sceUtilityAppletLoadModule</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4ACD6532</NID>
-              <NAME>sceUtility_private_4ACD6532</NAME>
+              <NAME>sceUtilityAppletUnloadModule</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

@@ -284,7 +284,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x96CFAC38</NID>
-              <NAME>sceDisplay_driver_96CFAC38</NAME>
+              <NAME>sceDisplayGetBacklightSel</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA70E2B3C</NID>
@@ -316,7 +316,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE55F0D50</NID>
-              <NAME>sceDisplay_driver_E55F0D50</NAME>
+              <NAME>sceDisplaySetBacklightSel</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -352,7 +352,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x261C6EE8</NID>
-              <NAME>sceCodec_driver_261C6EE8</NAME>
+              <NAME>sceCodecSetOutputVolume</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7D54B890</NID>
@@ -360,7 +360,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x856E7487</NID>
-              <NAME>sceCodec_driver_856E7487</NAME>
+              <NAME>sceCodecOutputEnable</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD26B6CCE</NID>
@@ -378,7 +378,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1BA2FCAE</NID>
-              <NAME>scePower_driver_1BA2FCAE</NAME>
+              <NAME>scePowerSetIdleCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2CBFA597</NID>

@@ -254,7 +254,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x96CFAC38</NID>
-              <NAME>sceDisplay_driver_96CFAC38</NAME>
+              <NAME>sceDisplayGetBacklightSel</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD2A603C3</NID>
@@ -266,7 +266,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE55F0D50</NID>
-              <NAME>sceDisplay_driver_E55F0D50</NAME>
+              <NAME>sceDisplaySetBacklightSel</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

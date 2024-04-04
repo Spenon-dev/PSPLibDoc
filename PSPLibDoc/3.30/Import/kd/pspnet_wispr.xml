@@ -32,7 +32,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x3FD8CCFB</NID>
-              <NAME>sceUtility_netparam_internal_3FD8CCFB</NAME>
+              <NAME>sceUtilityGetNetParamInt</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

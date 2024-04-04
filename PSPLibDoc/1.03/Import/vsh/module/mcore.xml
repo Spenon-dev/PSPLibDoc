@@ -42,7 +42,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0xF9357984</NID>
-              <NAME>sceMlnBridge_F9357984</NAME>
+              <NAME>sceMlnBridgeSetDKS</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7770FC23</NID>

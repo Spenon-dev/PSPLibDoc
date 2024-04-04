@@ -612,7 +612,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2394D451</NID>
-              <NAME>scePaf_2394D451</NAME>
+              <NAME>sce_paf_private_strtoul</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x25391E36</NID>
@@ -956,7 +956,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x680513D9</NID>
-              <NAME>scePaf_680513D9</NAME>
+              <NAME>sce_paf_private_feof</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6829D7AF</NID>
@@ -1056,7 +1056,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7CD438D9</NID>
-              <NAME>scePaf_7CD438D9</NAME>
+              <NAME>sce_paf_private_strtok</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7D9A4824</NID>
@@ -1388,7 +1388,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDEB2D1C9</NID>
-              <NAME>scePaf_DEB2D1C9</NAME>
+              <NAME>sce_paf_private_strncasecmp</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDF887DED</NID>

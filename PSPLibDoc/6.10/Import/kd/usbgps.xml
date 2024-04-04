@@ -264,7 +264,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x1BA2FCAE</NID>
-              <NAME>scePower_driver_1BA2FCAE</NAME>
+              <NAME>scePowerSetIdleCallback</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

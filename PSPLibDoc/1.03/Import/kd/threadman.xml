@@ -130,7 +130,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE05CCB7</NID>
-              <NAME>SysMemForKernel_CE05CCB7</NAME>
+              <NAME>sceKernelCallUIDObjCommonFunction</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAD09C397</NID>
@@ -158,7 +158,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x82D3CEE3</NID>
-              <NAME>SysMemForKernel_82D3CEE3</NAME>
+              <NAME>sceKernelIsKindOf</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

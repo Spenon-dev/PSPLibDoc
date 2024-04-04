@@ -50,7 +50,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7635200E</NID>
-              <NAME>sceUtility_private_7635200E</NAME>
+              <NAME>sceUtilityDialogGetGameInfo</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

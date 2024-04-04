@@ -128,7 +128,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3BA93CFA</NID>
-              <NAME>scePsheet_3BA93CFA</NAME>
+              <NAME>sceDRMInstallGetProgress</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3CEC4078</NID>
@@ -154,7 +154,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7635200E</NID>
-              <NAME>sceUtility_private_7635200E</NAME>
+              <NAME>sceUtilityDialogGetGameInfo</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

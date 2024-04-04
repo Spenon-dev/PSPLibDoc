@@ -242,7 +242,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFCFAA39F</NID>
-              <NAME>scePaf_FCFAA39F</NAME>
+              <NAME>sce_paf_private_wcscasecmp</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x993E9FDC</NID>

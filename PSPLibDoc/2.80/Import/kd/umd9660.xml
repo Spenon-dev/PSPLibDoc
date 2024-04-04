@@ -270,7 +270,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x60933ECD</NID>
-              <NAME>sceUmdMan_driver_60933ECD</NAME>
+              <NAME>sceUmdManIsDvdDrive</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x63ACFD28</NID>
@@ -310,7 +310,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8634FFC7</NID>
-              <NAME>sceUmdMan_driver_8634FFC7</NAME>
+              <NAME>sceUmdManSetUnCachedRead</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x98345381</NID>
@@ -354,7 +354,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCEA5C857</NID>
-              <NAME>sceUmdMan_driver_CEA5C857</NAME>
+              <NAME>sceUmdManSetCachedRead</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCEE55E3E</NID>

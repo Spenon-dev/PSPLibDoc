@@ -42,7 +42,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0xF9357984</NID>
-              <NAME>sceMlnBridge_F9357984</NAME>
+              <NAME>sceMlnBridgeSetDKS</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7770FC23</NID>
@@ -144,7 +144,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8FC65EB0</NID>
-              <NAME>scePaf_8FC65EB0</NAME>
+              <NAME>sce_paf_private_realloc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3FBD9639</NID>

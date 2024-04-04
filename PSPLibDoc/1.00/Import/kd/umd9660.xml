@@ -192,7 +192,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5A302102</NID>
-              <NAME>sceUmdMan_driver_5A302102</NAME>
+              <NAME>sceUmdManUMDDrivePreStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x40BEB9D1</NID>
@@ -296,11 +296,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCEA5C857</NID>
-              <NAME>sceUmdMan_driver_CEA5C857</NAME>
+              <NAME>sceUmdManSetCachedRead</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8634FFC7</NID>
-              <NAME>sceUmdMan_driver_8634FFC7</NAME>
+              <NAME>sceUmdManSetUnCachedRead</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x14AAB3FC</NID>

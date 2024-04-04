@@ -48,7 +48,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x1D73DDA8</NID>
-              <NAME>sceDmacplus_driver_1D73DDA8</NAME>
+              <NAME>sceDmacplusAvcDoAVCdec</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2D5940FF</NID>
@@ -68,7 +68,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x74323807</NID>
-              <NAME>sceDmacplus_driver_74323807</NAME>
+              <NAME>sceDmacplusAvcDoVME</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB49D2CB</NID>
@@ -76,7 +76,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB2EFA681</NID>
-              <NAME>sceDmacplus_driver_B2EFA681</NAME>
+              <NAME>sceDmacplusAvcSetDestConf</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

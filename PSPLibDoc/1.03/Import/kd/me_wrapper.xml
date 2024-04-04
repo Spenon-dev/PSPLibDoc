@@ -100,7 +100,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0xCDA3A2F7</NID>
-              <NAME>SysMemForKernel_CDA3A2F7</NAME>
+              <NAME>sceKernelGetMEeDramSaveAddr</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

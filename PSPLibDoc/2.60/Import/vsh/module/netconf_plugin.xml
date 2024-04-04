@@ -38,7 +38,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x2AEE9D4D</NID>
-              <NAME>sceVshNetconfAoss_2AEE9D4D</NAME>
+              <NAME>sceNetAOSSGetState</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x47A55B8E</NID>
@@ -46,19 +46,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x50DF536D</NID>
-              <NAME>sceVshNetconfAoss_50DF536D</NAME>
+              <NAME>sceNetAOSSInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x653D453F</NID>
-              <NAME>sceVshNetconfAoss_653D453F</NAME>
+              <NAME>sceNetAOSSStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAC307152</NID>
-              <NAME>sceVshNetconfAoss_AC307152</NAME>
+              <NAME>sceNetAOSSStop</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD253B522</NID>
-              <NAME>sceVshNetconfAoss_D253B522</NAME>
+              <NAME>sceNetAOSSTerm</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -72,7 +72,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8E8E3AA3</NID>
-              <NAME>sceUtility_netparam_internal_8E8E3AA3</NAME>
+              <NAME>sceUtilitySetNetParamLatestID</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9CE50172</NID>

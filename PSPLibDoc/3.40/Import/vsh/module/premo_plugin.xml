@@ -672,7 +672,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB4E3A16C</NID>
-              <NAME>scePaf_B4E3A16C</NAME>
+              <NAME>sce_paf_private_abs</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6841F37</NID>
@@ -1248,7 +1248,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0xF9357984</NID>
-              <NAME>sceMlnBridge_F9357984</NAME>
+              <NAME>sceMlnBridgeSetDKS</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDE730A46</NID>

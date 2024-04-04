@@ -352,7 +352,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x60933ECD</NID>
-              <NAME>sceUmdMan_driver_60933ECD</NAME>
+              <NAME>sceUmdManIsDvdDrive</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF65D819F</NID>

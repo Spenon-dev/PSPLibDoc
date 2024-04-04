@@ -64,7 +64,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2394D451</NID>
-              <NAME>scePaf_2394D451</NAME>
+              <NAME>sce_paf_private_strtoul</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x27F64616</NID>
@@ -204,7 +204,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDEB2D1C9</NID>
-              <NAME>scePaf_DEB2D1C9</NAME>
+              <NAME>sce_paf_private_strncasecmp</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEAA5AFF6</NID>
@@ -532,7 +532,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4E4A284A</NID>
-              <NAME>sceHttp_4E4A284A</NAME>
+              <NAME>sceHttpCloneTemplate</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

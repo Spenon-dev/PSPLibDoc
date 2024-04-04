@@ -12,19 +12,19 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x5E7C8D94</NID>
-              <NAME>sceWlanDrv_lib_5E7C8D94</NAME>
+              <NAME>sceWlanDevIsGameMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5ED4049A</NID>
-              <NAME>sceWlanDrv_lib_5ED4049A</NAME>
+              <NAME>sceWlanGPPrevEstablishActive</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA447103A</NID>
-              <NAME>sceWlanDrv_lib_A447103A</NAME>
+              <NAME>sceWlanGPRecv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB4D7CB74</NID>
-              <NAME>sceWlanDrv_lib_B4D7CB74</NAME>
+              <NAME>sceWlanGPSend</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

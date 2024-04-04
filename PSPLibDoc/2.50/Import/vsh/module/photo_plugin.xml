@@ -224,7 +224,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x302F609D</NID>
-              <NAME>scePaf_302F609D</NAME>
+              <NAME>sce_paf_private_ceilf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x49A81B18</NID>
@@ -252,7 +252,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFCFAA39F</NID>
-              <NAME>scePaf_FCFAA39F</NAME>
+              <NAME>sce_paf_private_wcscasecmp</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x993E9FDC</NID>

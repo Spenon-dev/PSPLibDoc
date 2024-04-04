@@ -194,7 +194,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x312F9419</NID>
-              <NAME>sceSysreg_driver_312F9419</NAME>
+              <NAME>sceSysregGenerateVblankIRQ</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE8533DCA</NID>
@@ -202,7 +202,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE88B77ED</NID>
-              <NAME>sceSysreg_driver_E88B77ED</NAME>
+              <NAME>sceSysregVblankIRQPolar</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6D83AD0</NID>
@@ -302,7 +302,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x551C5BC3</NID>
-              <NAME>sceLcdc_driver_551C5BC3</NAME>
+              <NAME>sceLcdcGetVsyncTimings</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x73A3A01D</NID>

@@ -72,7 +72,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF5BC2D1</NID>
-              <NAME>sceUtility_private_EF5BC2D1</NAME>
+              <NAME>sceUtilityDialogGetStructVersion</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

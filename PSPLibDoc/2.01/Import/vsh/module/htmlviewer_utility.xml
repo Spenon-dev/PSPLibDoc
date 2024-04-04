@@ -140,39 +140,39 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x97F922A3</NID>
-              <NAME>sceUtility_private_97F922A3</NAME>
+              <NAME>sceUtilityAppletSetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x463EA95E</NID>
-              <NAME>sceUtility_private_463EA95E</NAME>
+              <NAME>sceUtilityAppletGetType</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB46A24F</NID>
-              <NAME>sceUtility_private_AB46A24F</NAME>
+              <NAME>sceUtilityAppletGetParam</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x75FF798C</NID>
-              <NAME>sceUtility_private_75FF798C</NAME>
+              <NAME>sceUtilityAppletGetSpeed</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BAE7DCE</NID>
-              <NAME>sceUtility_private_9BAE7DCE</NAME>
+              <NAME>sceUtilityAppletSetThreadId</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x00948E27</NID>
-              <NAME>sceUtility_private_00948E27</NAME>
+              <NAME>sceUtilityAppletLoadModule</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4ACD6532</NID>
-              <NAME>sceUtility_private_4ACD6532</NAME>
+              <NAME>sceUtilityAppletUnloadModule</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x976F7805</NID>
-              <NAME>sceUtility_private_976F7805</NAME>
+              <NAME>sceUtilityAppletRegisterPowerCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE542E9D8</NID>
-              <NAME>sceUtility_private_E542E9D8</NAME>
+              <NAME>sceUtilityAppletUnregisterPowerCallback</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

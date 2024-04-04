@@ -64,7 +64,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x7DEE14DE</NID>
-              <NAME>SysclibForKernel_7DEE14DE</NAME>
+              <NAME>__udivdi3</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x10F3BB61</NID>

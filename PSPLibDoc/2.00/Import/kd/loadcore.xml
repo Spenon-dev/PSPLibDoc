@@ -110,7 +110,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC3A6F784</NID>
-              <NAME>memlmd_C3A6F784</NAME>
+              <NAME>sceUtilsPrepareGetLoadModuleABLength</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

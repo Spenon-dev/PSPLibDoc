@@ -866,19 +866,19 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x0B039B36</NID>
-              <NAME>sceNpInstall_user_0B039B36</NAME>
+              <NAME>sceNpInstallActivation</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5847D8C7</NID>
-              <NAME>sceNpInstall_user_5847D8C7</NAME>
+              <NAME>sceNpInstallGetChallenge</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7AE4C8BC</NID>
-              <NAME>sceNpInstall_user_7AE4C8BC</NAME>
+              <NAME>sceNpInstallDeactivation</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x91F9D50D</NID>
-              <NAME>sceNpInstall_user_91F9D50D</NAME>
+              <NAME>sceNpInstallCheckActivation</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
