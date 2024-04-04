@@ -42,7 +42,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x82EF2F9D</NID>
-              <NAME>sceVaudio_driver_82EF2F9D</NAME>
+              <NAME>sceVaudioGetEffectString</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8986295E</NID>

@@ -138,11 +138,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x4434E59F</NID>
-              <NAME>sceResmap_driver_4434E59F</NAME>
+              <NAME>sceResmapPrepareByPolling</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE5659590</NID>
-              <NAME>sceResmap_driver_E5659590</NAME>
+              <NAME>sceResmapPrepare</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -152,11 +152,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x34B53D46</NID>
-              <NAME>sceDbman_driver_34B53D46</NAME>
+              <NAME>sceDbmanSelectByPolling</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB2B8C3F9</NID>
-              <NAME>sceDbman_driver_B2B8C3F9</NAME>
+              <NAME>sceDbmanSelect</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -232,7 +232,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x94561901</NID>
-              <NAME>sceDbsvr_driver_94561901</NAME>
+              <NAME>sceDbsvrGetData</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

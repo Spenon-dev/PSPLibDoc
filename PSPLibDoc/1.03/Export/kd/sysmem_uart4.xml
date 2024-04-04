@@ -56,11 +56,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEFF0C6DD</NID>
-              <NAME>SysMemForKernel_EFF0C6DD</NAME>
+              <NAME>sceKernelGetUidManHeapID</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEFEEBAC7</NID>
-              <NAME>SysMemForKernel_EFEEBAC7</NAME>
+              <NAME>sceKernelGetHeapIDfromVAddr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2DB687E9</NID>
@@ -100,7 +100,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x915EF4AC</NID>
-              <NAME>SysMemForKernel_915EF4AC</NAME>
+              <NAME>sceKernelSeparateMemoryBlock</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6D61D02</NID>
@@ -136,7 +136,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE05CCB7</NID>
-              <NAME>SysMemForKernel_CE05CCB7</NAME>
+              <NAME>sceKernelCallUIDObjCommonFunction</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6CD838EC</NID>
@@ -188,7 +188,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x82D3CEE3</NID>
-              <NAME>SysMemForKernel_82D3CEE3</NAME>
+              <NAME>sceKernelIsKindOf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDFAEBD5B</NID>
@@ -224,11 +224,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCDA3A2F7</NID>
-              <NAME>SysMemForKernel_CDA3A2F7</NAME>
+              <NAME>sceKernelGetMEeDramSaveAddr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x960B888C</NID>
-              <NAME>SysMemForKernel_960B888C</NAME>
+              <NAME>sceKernelGetAWeDramSaveAddr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3FC9AE6A</NID>
@@ -446,7 +446,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA126F497</NID>
-              <NAME>KDebugForKernel_A126F497</NAME>
+              <NAME>sceKernelDeci2pRegisterOperations</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7251823</NID>

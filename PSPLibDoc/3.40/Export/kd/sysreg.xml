@@ -112,7 +112,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x228A73E1</NID>
-              <NAME>sceSysreg_driver_228A73E1</NAME>
+              <NAME>sceSysregUsbhostClkDisable</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x25673620</NID>
@@ -184,7 +184,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3E961C02</NID>
-              <NAME>sceSysreg_driver_3E961C02</NAME>
+              <NAME>sceSysregUsbhostResetEnable</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3EA188AD</NID>
@@ -216,7 +216,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4D2FFC60</NID>
-              <NAME>sceSysreg_driver_4D2FFC60</NAME>
+              <NAME>sceSysregUsbhostBusClockDisable</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4D4CE2B8</NID>
@@ -380,7 +380,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x87C2BA20</NID>
-              <NAME>sceSysreg_driver_87C2BA20</NAME>
+              <NAME>sceSysregUsbhostAcquireIntr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8835D1E1</NID>
@@ -504,7 +504,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xACFA3764</NID>
-              <NAME>sceSysreg_driver_ACFA3764</NAME>
+              <NAME>sceSysregUsbhostResetDisable</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAD7C4ACB</NID>
@@ -612,7 +612,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDA4FCA1D</NID>
-              <NAME>sceSysreg_driver_DA4FCA1D</NAME>
+              <NAME>sceSysregUsbhostClkEnable</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC6139A4</NID>
@@ -644,7 +644,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE321F41A</NID>
-              <NAME>sceSysreg_driver_E321F41A</NAME>
+              <NAME>sceSysregUsbhostBusClockEnable</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE3AECFFA</NID>
@@ -724,7 +724,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFFEB6E00</NID>
-              <NAME>sceSysreg_driver_FFEB6E00</NAME>
+              <NAME>sceSysregUsbhostQueryIntr</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

@@ -44,11 +44,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5A302102</NID>
-              <NAME>sceUmdMan_driver_5A302102</NAME>
+              <NAME>sceUmdManUMDDrivePreStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB4692D7F</NID>
-              <NAME>sceUmdMan_driver_B4692D7F</NAME>
+              <NAME>sceUmdManUMDDrivePostStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x40BEB9D1</NID>
@@ -76,11 +76,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB511F821</NID>
-              <NAME>sceUmdMan_driver_B511F821</NAME>
+              <NAME>sceUmdManLPNAssertWakeup</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x736AE133</NID>
-              <NAME>sceUmdMan_driver_736AE133</NAME>
+              <NAME>sceUmdManLPNNegateWakeup</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5C026599</NID>
@@ -244,7 +244,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB989E127</NID>
-              <NAME>sceUmdMan_driver_B989E127</NAME>
+              <NAME>sceUmdManLeptonAliveOnOff</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAF6D5838</NID>
@@ -260,11 +260,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x93539196</NID>
-              <NAME>sceUmdMan_driver_93539196</NAME>
+              <NAME>sceUmdManGetPowerOnOffStat</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC8D45A7B</NID>
-              <NAME>sceUmdMan_driver_C8D45A7B</NAME>
+              <NAME>sceUmdManSetPowerOnOffStat</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCA68F200</NID>
@@ -288,11 +288,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCEA5C857</NID>
-              <NAME>sceUmdMan_driver_CEA5C857</NAME>
+              <NAME>sceUmdManSetCachedRead</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8634FFC7</NID>
-              <NAME>sceUmdMan_driver_8634FFC7</NAME>
+              <NAME>sceUmdManSetUnCachedRead</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x14AAB3FC</NID>
@@ -368,7 +368,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF7C603A2</NID>
-              <NAME>sceUmdMan_driver_F7C603A2</NAME>
+              <NAME>sceUmdManSPKAuthentication</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4EA8EA5D</NID>

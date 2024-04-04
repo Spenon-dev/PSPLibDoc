@@ -256,7 +256,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x90C5573D</NID>
-              <NAME>sceVshLftvMw_90C5573D</NAME>
+              <NAME>strnlen</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x27F9052C</NID>

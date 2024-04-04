@@ -42,7 +42,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC856AAAC</NID>
-              <NAME>sceNetWispr_C856AAAC</NAME>
+              <NAME>sceNetWisprLogoffStart</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

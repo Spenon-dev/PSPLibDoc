@@ -354,7 +354,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB0FD5916</NID>
-              <NAME>sceVshBridge_B0FD5916</NAME>
+              <NAME>vshMSAudioGetMediaType</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB21D7515</NID>

@@ -152,7 +152,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x312F9419</NID>
-              <NAME>sceSysreg_driver_312F9419</NAME>
+              <NAME>sceSysregGenerateVblankIRQ</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x32471457</NID>
@@ -660,7 +660,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE88B77ED</NID>
-              <NAME>sceSysreg_driver_E88B77ED</NAME>
+              <NAME>sceSysregVblankIRQPolar</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE89243BE</NID>
@@ -676,7 +676,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEE8760C6</NID>
-              <NAME>sceSysreg_driver_EE8760C6</NAME>
+              <NAME>sceSysregAcquireIntr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF2DEAA14</NID>
@@ -934,7 +934,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1D73DDA8</NID>
-              <NAME>sceDmacplus_driver_1D73DDA8</NAME>
+              <NAME>sceDmacplusAvcDoAVCdec</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1E7483D0</NID>
@@ -1014,7 +1014,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x74323807</NID>
-              <NAME>sceDmacplus_driver_74323807</NAME>
+              <NAME>sceDmacplusAvcDoVME</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x78A55D62</NID>
@@ -1050,7 +1050,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB2EFA681</NID>
-              <NAME>sceDmacplus_driver_B2EFA681</NAME>
+              <NAME>sceDmacplusAvcSetDestConf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB6592A56</NID>
@@ -1164,7 +1164,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x551C5BC3</NID>
-              <NAME>sceLcdc_driver_551C5BC3</NAME>
+              <NAME>sceLcdcGetVsyncTimings</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x73A3A01D</NID>
@@ -1176,7 +1176,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x825DB9C5</NID>
-              <NAME>sceLcdc_driver_825DB9C5</NAME>
+              <NAME>sceLcdcGetCyclesPerPixel</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x965D1633</NID>
@@ -1212,7 +1212,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE08B076B</NID>
-              <NAME>sceLcdc_driver_E08B076B</NAME>
+              <NAME>sceLcdcReadUnderflow</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF6F413C5</NID>

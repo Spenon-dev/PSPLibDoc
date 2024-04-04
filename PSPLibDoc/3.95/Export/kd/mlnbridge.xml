@@ -90,7 +90,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x10C4FEC6</NID>
-              <NAME>sceMlnBridge_10C4FEC6</NAME>
+              <NAME>sceMlnBridgeSha1MakeDigest</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1115D45D</NID>
@@ -110,7 +110,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2FDF5639</NID>
-              <NAME>sceMlnBridge_2FDF5639</NAME>
+              <NAME>sceMlnBridgeRandInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3505ECCE</NID>
@@ -174,7 +174,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xADB4797E</NID>
-              <NAME>sceMlnBridge_ADB4797E</NAME>
+              <NAME>sceMlnBridgeRsaInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB76EF0A3</NID>
@@ -182,7 +182,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7E04EFA</NID>
-              <NAME>sceMlnBridge_B7E04EFA</NAME>
+              <NAME>sceMlnBridgeRsaFin</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCBF30F27</NID>
@@ -190,11 +190,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD0790A37</NID>
-              <NAME>sceMlnBridge_D0790A37</NAME>
+              <NAME>sceMlnBridgeRandFin</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD455DD97</NID>
-              <NAME>sceMlnBridge_D455DD97</NAME>
+              <NAME>sceMlnBridgeSha256MakeDigest</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDE730A46</NID>
@@ -202,11 +202,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE79622CD</NID>
-              <NAME>sceMlnBridge_E79622CD</NAME>
+              <NAME>sceMlnBridgeRandGetBytes</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF9357984</NID>
-              <NAME>sceMlnBridge_F9357984</NAME>
+              <NAME>sceMlnBridgeSetDKS</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFB54F985</NID>

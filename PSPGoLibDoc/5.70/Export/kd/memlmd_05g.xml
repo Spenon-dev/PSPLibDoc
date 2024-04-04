@@ -78,7 +78,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x00EEC06A</NID>
-              <NAME>semaphore_00EEC06A</NAME>
+              <NAME>sceUtilsBufferCopy</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4C537C72</NID>
@@ -90,7 +90,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8EEB7BF2</NID>
-              <NAME>semaphore_8EEB7BF2</NAME>
+              <NAME>sceUtilsBufferCopyByPolling</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

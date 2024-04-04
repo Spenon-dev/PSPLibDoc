@@ -84,7 +84,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2875994B</NID>
-              <NAME>scePower_2875994B</NAME>
+              <NAME>scePowerRequestSuspendTouchAndGo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x28E12023</NID>
@@ -92,7 +92,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B51FE2F</NID>
-              <NAME>scePower_2B51FE2F</NAME>
+              <NAME>scePowerGetWlanActivity</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2B7C7CF4</NID>
@@ -298,7 +298,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1BA2FCAE</NID>
-              <NAME>scePower_driver_1BA2FCAE</NAME>
+              <NAME>scePowerSetIdleCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x207119B3</NID>
@@ -466,7 +466,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9CE06934</NID>
-              <NAME>scePower_driver_9CE06934</NAME>
+              <NAME>scePowerInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9E08030B</NID>
@@ -506,7 +506,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAD5BB433</NID>
-              <NAME>scePower_driver_AD5BB433</NAME>
+              <NAME>scePowerEnd</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB361215A</NID>

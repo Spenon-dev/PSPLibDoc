@@ -84,7 +84,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x71B4AC50</NID>
-              <NAME>scePaf_71B4AC50</NAME>
+              <NAME>sce_paf_private_memchr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF95EA3F1</NID>
@@ -124,7 +124,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x302F609D</NID>
-              <NAME>scePaf_302F609D</NAME>
+              <NAME>sce_paf_private_ceilf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x44AAF96C</NID>
@@ -156,7 +156,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6F092DF6</NID>
-              <NAME>scePaf_6F092DF6</NAME>
+              <NAME>sce_paf_private_vsnprintf</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xABBBB335</NID>
@@ -184,11 +184,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFCFAA39F</NID>
-              <NAME>scePaf_FCFAA39F</NAME>
+              <NAME>sce_paf_private_wcscasecmp</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD121F409</NID>
-              <NAME>scePaf_D121F409</NAME>
+              <NAME>sce_paf_private_wcsrchr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x993E9FDC</NID>
@@ -200,7 +200,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7CD438D9</NID>
-              <NAME>scePaf_7CD438D9</NAME>
+              <NAME>sce_paf_private_strtok</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC38941B</NID>
@@ -220,7 +220,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB4E3A16C</NID>
-              <NAME>scePaf_B4E3A16C</NAME>
+              <NAME>sce_paf_private_abs</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3DD2A27B</NID>
@@ -256,11 +256,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8FC65EB0</NID>
-              <NAME>scePaf_8FC65EB0</NAME>
+              <NAME>sce_paf_private_realloc</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x29BAA830</NID>
-              <NAME>scePaf_29BAA830</NAME>
+              <NAME>sce_paf_private_realloc2</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3FBD9639</NID>
@@ -296,7 +296,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDEB2D1C9</NID>
-              <NAME>scePaf_DEB2D1C9</NAME>
+              <NAME>sce_paf_private_strncasecmp</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x26168DD3</NID>
@@ -312,7 +312,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2394D451</NID>
-              <NAME>scePaf_2394D451</NAME>
+              <NAME>sce_paf_private_strtoul</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x44A0BCE4</NID>
@@ -352,7 +352,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x77EB25F5</NID>
-              <NAME>scePaf_77EB25F5</NAME>
+              <NAME>sce_paf_private_bcopy</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x99A5CD38</NID>
@@ -372,15 +372,15 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x680513D9</NID>
-              <NAME>scePaf_680513D9</NAME>
+              <NAME>sce_paf_private_feof</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C483594</NID>
-              <NAME>scePaf_9C483594</NAME>
+              <NAME>sce_paf_private_fflush</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1E088F41</NID>
-              <NAME>scePaf_1E088F41</NAME>
+              <NAME>sce_paf_private_strpbrk</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7E6052B</NID>
@@ -3508,11 +3508,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7B1E4FF7</NID>
-              <NAME>scePaf_7B1E4FF7</NAME>
+              <NAME>sceWaveSetVolume</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5B143EEB</NID>
-              <NAME>scePaf_5B143EEB</NAME>
+              <NAME>sceWaveSetLoopMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF33D907E</NID>
@@ -3520,11 +3520,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x790A0504</NID>
-              <NAME>scePaf_790A0504</NAME>
+              <NAME>sceWaveSetVoice</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7AFDF508</NID>
-              <NAME>scePaf_7AFDF508</NAME>
+              <NAME>sceWavePlayEx</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x34B8AB30</NID>
@@ -3532,11 +3532,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x46862ED5</NID>
-              <NAME>scePaf_46862ED5</NAME>
+              <NAME>sceWavePause</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC6EE551</NID>
-              <NAME>scePaf_DC6EE551</NAME>
+              <NAME>sceWaveReplay</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA08B0F31</NID>

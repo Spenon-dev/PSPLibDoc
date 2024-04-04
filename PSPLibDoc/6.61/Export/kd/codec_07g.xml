@@ -36,11 +36,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x02133959</NID>
-              <NAME>sceCodec_driver_02133959</NAME>
+              <NAME>sceCodecStopEntry</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x261C6EE8</NID>
-              <NAME>sceCodec_driver_261C6EE8</NAME>
+              <NAME>sceCodecSetOutputVolume</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x277DFFB6</NID>
@@ -48,7 +48,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x359C2B9F</NID>
-              <NAME>sceCodec_driver_359C2B9F</NAME>
+              <NAME>sceCodecOutputDisable</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x376399B6</NID>
@@ -64,7 +64,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x856E7487</NID>
-              <NAME>sceCodec_driver_856E7487</NAME>
+              <NAME>sceCodecOutputEnable</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA88FD064</NID>
@@ -72,7 +72,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD8E0977</NID>
-              <NAME>sceCodec_driver_BD8E0977</NAME>
+              <NAME>sceCodecInitEntry</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD27707A8</NID>

@@ -120,7 +120,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9CA52F94</NID>
-              <NAME>sceAta_driver_9CA52F94</NAME>
+              <NAME>sceAtaExecIPDCmd</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBDEA51A5</NID>
@@ -268,11 +268,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB985F2B0</NID>
-              <NAME>sceAta_driver_B985F2B0</NAME>
+              <NAME>sceAtaAhbSetDDRSize</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8CADA96B</NID>
-              <NAME>sceAta_driver_8CADA96B</NAME>
+              <NAME>sceAtaAhbGetDDRSize</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7C6B31D8</NID>

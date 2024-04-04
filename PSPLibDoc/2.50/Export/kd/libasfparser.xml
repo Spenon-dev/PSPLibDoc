@@ -68,15 +68,15 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEFC704C3</NID>
-              <NAME>sceAsfParser_EFC704C3</NAME>
+              <NAME>sceAsfGetHeaderExtension</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD2DD1778</NID>
-              <NAME>sceAsfParser_D2DD1778</NAME>
+              <NAME>sceAsfGetContentDescription</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAA881A7B</NID>
-              <NAME>sceAsfParser_AA881A7B</NAME>
+              <NAME>sceAsfGetExtContent</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF5F356F6</NID>
@@ -88,7 +88,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5EC678CB</NID>
-              <NAME>sceAsfParser_5EC678CB</NAME>
+              <NAME>sceAsfGetVariableObject</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

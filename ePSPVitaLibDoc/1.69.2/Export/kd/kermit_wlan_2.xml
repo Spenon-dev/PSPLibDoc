@@ -62,11 +62,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x05FE320C</NID>
-              <NAME>sceWlanDrv_lib_05FE320C</NAME>
+              <NAME>sceWlanDevGetStateGPIO</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x19E51F54</NID>
-              <NAME>sceWlanDrv_lib_19E51F54</NAME>
+              <NAME>sceWlanDevGetMacAddr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1AE1B369</NID>
@@ -98,7 +98,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x482CAE9A</NID>
-              <NAME>sceWlanDrv_lib_482CAE9A</NAME>
+              <NAME>sceWlanDevAttach</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x491684FA</NID>
@@ -118,7 +118,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4C7F62E0</NID>
-              <NAME>sceWlanDrv_lib_4C7F62E0</NAME>
+              <NAME>sceWlanGPUnRegisterCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x51B0BBB8</NID>
@@ -134,7 +134,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5E7C8D94</NID>
-              <NAME>sceWlanDrv_lib_5E7C8D94</NAME>
+              <NAME>sceWlanDevIsGameMode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5E9A217A</NID>
@@ -146,7 +146,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x5ED4049A</NID>
-              <NAME>sceWlanDrv_lib_5ED4049A</NAME>
+              <NAME>sceWlanGPPrevEstablishActive</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x638DF9C8</NID>
@@ -158,7 +158,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x749B813A</NID>
-              <NAME>sceWlanDrv_lib_749B813A</NAME>
+              <NAME>sceWlanSetHostDiscover</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x76789E67</NID>
@@ -166,7 +166,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7FF54BD2</NID>
-              <NAME>sceWlanDrv_lib_7FF54BD2</NAME>
+              <NAME>sceWlanDevSetGPIO</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x81579D36</NID>
@@ -186,7 +186,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9658C9F7</NID>
-              <NAME>sceWlanDrv_lib_9658C9F7</NAME>
+              <NAME>sceWlanGPRegisterCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9E00AA04</NID>
@@ -194,7 +194,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA447103A</NID>
-              <NAME>sceWlanDrv_lib_A447103A</NAME>
+              <NAME>sceWlanGPRecv</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA77D0E66</NID>
@@ -210,7 +210,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB4D7CB74</NID>
-              <NAME>sceWlanDrv_lib_B4D7CB74</NAME>
+              <NAME>sceWlanGPSend</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB5E7B187</NID>
@@ -222,7 +222,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xC9A8CAB7</NID>
-              <NAME>sceWlanDrv_lib_C9A8CAB7</NAME>
+              <NAME>sceWlanDevDetach</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCF1A87D8</NID>
@@ -242,7 +242,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xFE8A0B46</NID>
-              <NAME>sceWlanDrv_lib_FE8A0B46</NAME>
+              <NAME>sceWlanSetWakeUp</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -272,7 +272,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x19E51F54</NID>
-              <NAME>sceWlanDrv_driver_19E51F54</NAME>
+              <NAME>sceWlanDevGetMacAddr</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1AE1B369</NID>

@@ -72,7 +72,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x69B53541</NID>
-              <NAME>sceDisplay_69B53541</NAME>
+              <NAME>sceDisplayGetVblankRest</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x773DD3A3</NID>
@@ -158,7 +158,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x206276C2</NID>
-              <NAME>sceDisplay_driver_206276C2</NAME>
+              <NAME>sceDisplayInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x21CFFE5E</NID>
@@ -222,7 +222,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x7A10289D</NID>
-              <NAME>sceDisplay_driver_7A10289D</NAME>
+              <NAME>sceDisplayEnd</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x84382BBD</NID>
@@ -238,7 +238,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x96CFAC38</NID>
-              <NAME>sceDisplay_driver_96CFAC38</NAME>
+              <NAME>sceDisplayGetBacklightSel</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9A8FC736</NID>
@@ -286,7 +286,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE55F0D50</NID>
-              <NAME>sceDisplay_driver_E55F0D50</NAME>
+              <NAME>sceDisplaySetBacklightSel</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEB304FB3</NID>

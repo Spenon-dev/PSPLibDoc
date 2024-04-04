@@ -280,11 +280,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x00948E27</NID>
-              <NAME>sceUtility_private_00948E27</NAME>
+              <NAME>sceUtilityAppletLoadModule</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x04B24901</NID>
-              <NAME>sceUtility_private_04B24901</NAME>
+              <NAME>sceUtilityDdHelperInitStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x06AE20E5</NID>
@@ -296,7 +296,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1B698F54</NID>
-              <NAME>sceUtility_private_1B698F54</NAME>
+              <NAME>sceUtilityDdHelperShutdownStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1DFA62EF</NID>
@@ -320,7 +320,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x463EA95E</NID>
-              <NAME>sceUtility_private_463EA95E</NAME>
+              <NAME>sceUtilityAppletGetType</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4ABA7FF9</NID>
@@ -328,11 +328,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4ACD6532</NID>
-              <NAME>sceUtility_private_4ACD6532</NAME>
+              <NAME>sceUtilityAppletUnloadModule</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4B677BA1</NID>
-              <NAME>sceUtility_private_4B677BA1</NAME>
+              <NAME>sceUtilityAppletGetStructVersion</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F2206BC</NID>
@@ -360,11 +360,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x75FF798C</NID>
-              <NAME>sceUtility_private_75FF798C</NAME>
+              <NAME>sceUtilityAppletGetSpeed</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7635200E</NID>
-              <NAME>sceUtility_private_7635200E</NAME>
+              <NAME>sceUtilityDialogGetGameInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x88682129</NID>
@@ -372,7 +372,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8FCABAB9</NID>
-              <NAME>sceUtility_private_8FCABAB9</NAME>
+              <NAME>sceUtilityDdHelperGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x970F9C89</NID>
@@ -380,15 +380,15 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x976F7805</NID>
-              <NAME>sceUtility_private_976F7805</NAME>
+              <NAME>sceUtilityAppletRegisterPowerCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x97F922A3</NID>
-              <NAME>sceUtility_private_97F922A3</NAME>
+              <NAME>sceUtilityAppletSetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9BAE7DCE</NID>
-              <NAME>sceUtility_private_9BAE7DCE</NAME>
+              <NAME>sceUtilityAppletSetThreadId</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9C9DD5BC</NID>
@@ -400,7 +400,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xAB46A24F</NID>
-              <NAME>sceUtility_private_AB46A24F</NAME>
+              <NAME>sceUtilityAppletGetParam</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB20562D4</NID>
@@ -424,7 +424,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE542E9D8</NID>
-              <NAME>sceUtility_private_E542E9D8</NAME>
+              <NAME>sceUtilityAppletUnregisterPowerCallback</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE921B59E</NID>
@@ -436,11 +436,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEF5BC2D1</NID>
-              <NAME>sceUtility_private_EF5BC2D1</NAME>
+              <NAME>sceUtilityDialogGetStructVersion</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFD99AF0A</NID>
-              <NAME>sceUtility_private_FD99AF0A</NAME>
+              <NAME>sceUtilityDdHelperUpdate</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -454,7 +454,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8E8E3AA3</NID>
-              <NAME>sceUtility_netparam_internal_8E8E3AA3</NAME>
+              <NAME>sceUtilitySetNetParamLatestID</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9CE50172</NID>

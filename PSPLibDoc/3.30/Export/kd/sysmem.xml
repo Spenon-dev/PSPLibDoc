@@ -124,7 +124,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x39357F07</NID>
-              <NAME>SysMemForKernel_39357F07</NAME>
+              <NAME>sceKernelGetUIDtype</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3FC9AE6A</NID>

@@ -40,11 +40,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x032D663E</NID>
-              <NAME>vsh_032D663E</NAME>
+              <NAME>vshRegSysconfSetCharacterSetAnsi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x03BB4503</NID>
-              <NAME>vsh_03BB4503</NAME>
+              <NAME>vshRegSysconfGetCharacterSetOem</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0B8DE38E</NID>
@@ -64,7 +64,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x0FE13026</NID>
-              <NAME>vsh_0FE13026</NAME>
+              <NAME>vshRegSysconfGetCharacterSetAnsi</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x163B90CB</NID>
@@ -228,7 +228,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x67BFD9C0</NID>
-              <NAME>vsh_67BFD9C0</NAME>
+              <NAME>vshRegSysconfSetCharacterSetOem</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x72C75A14</NID>
@@ -368,7 +368,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEE3D8305</NID>
-              <NAME>vsh_EE3D8305</NAME>
+              <NAME>vshRegSysconfSetThemeSystemColor</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEE5869D8</NID>
@@ -384,7 +384,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xF859FC3C</NID>
-              <NAME>vsh_F859FC3C</NAME>
+              <NAME>vshRegSysconfGetThemeSystemColor</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFA1DE461</NID>

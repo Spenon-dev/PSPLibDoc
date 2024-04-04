@@ -60,11 +60,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x84231FCF</NID>
-              <NAME>sceUmd_84231FCF</NAME>
+              <NAME>sceUmdRegisterPowerOnOffUMDCallBack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x18624052</NID>
-              <NAME>sceUmd_18624052</NAME>
+              <NAME>sceUmdRegisterGetUMDPowerOnOffCallBack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8EF268AC</NID>
@@ -76,7 +76,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x04D1AAD9</NID>
-              <NAME>sceUmd_04D1AAD9</NAME>
+              <NAME>sceUmdUnRegisterPowerOnOffUMDCallBack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xBD2BDE07</NID>
@@ -96,7 +96,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA140DEC2</NID>
-              <NAME>sceUmd_A140DEC2</NAME>
+              <NAME>sceUmdUnRegisterGetUMDPowerOnOffCallBack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x725DFB14</NID>
@@ -116,11 +116,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x08709F2D</NID>
-              <NAME>sceUmd_08709F2D</NAME>
+              <NAME>sceUmdAssertLeptonWakeup</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAD18C797</NID>
-              <NAME>sceUmd_AD18C797</NAME>
+              <NAME>sceUmdNegateLeptonWakeup</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9CADBF19</NID>

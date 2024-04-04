@@ -84,19 +84,19 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8AF6B8F8</NID>
-              <NAME>SysclibForKernel_8AF6B8F8</NAME>
+              <NAME>pseudo_fcvt</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDF17F4A2</NID>
-              <NAME>SysclibForKernel_DF17F4A2</NAME>
+              <NAME>__udivmoddi4</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7DEE14DE</NID>
-              <NAME>SysclibForKernel_7DEE14DE</NAME>
+              <NAME>__udivdi3</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5E8E5F42</NID>
-              <NAME>SysclibForKernel_5E8E5F42</NAME>
+              <NAME>__umoddi3</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC0AB8932</NID>

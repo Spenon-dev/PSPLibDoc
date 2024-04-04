@@ -60,7 +60,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x33FFD07C</NID>
-              <NAME>sceLibFont_ARIB_33FFD07C</NAME>
+              <NAME>sceFontIsElement</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3AEA8CB6</NID>

@@ -62,7 +62,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x3B6A7B35</NID>
-              <NAME>sceNetAdhocDownload_3B6A7B35</NAME>
+              <NAME>sceNetAdhocDistributeCreateServer</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x469F6B83</NID>
@@ -70,7 +70,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x48252AF0</NID>
-              <NAME>sceNetAdhocDownload_48252AF0</NAME>
+              <NAME>sceNetAdhocDistributeInitServer</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x48F87AB1</NID>
@@ -78,7 +78,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x4C542FD1</NID>
-              <NAME>sceNetAdhocDownload_4C542FD1</NAME>
+              <NAME>sceNetAdhocDistributeStopServer</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4E6029F1</NID>
@@ -94,7 +94,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x827157E2</NID>
-              <NAME>sceNetAdhocDownload_827157E2</NAME>
+              <NAME>sceNetAdhocDistributeTermServer</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8846D2B0</NID>
@@ -106,7 +106,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x8A987F07</NID>
-              <NAME>sceNetAdhocDownload_8A987F07</NAME>
+              <NAME>sceNetAdhocDistributeStartServer</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA21FEF45</NID>
@@ -114,7 +114,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA45230D9</NID>
-              <NAME>sceNetAdhocDownload_A45230D9</NAME>
+              <NAME>sceNetAdhocDistributeDeleteServer</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA70FDFBE</NID>
