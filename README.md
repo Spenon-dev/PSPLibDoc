@@ -83,4 +83,4 @@ A big thanks goes to
  - All original PSPLibDoc contributers
  - All PPSSPP contributers for additional user library symbols
  - All UOFW contributers for updated 6.60 and 6.61 symbols
- - Draan, efonte, GrapheneCt, SilverSpring, zecoxao for additional symbol sources and NIDS
+ - Draan, efonte, GrapheneCt, sajattack, SilverSpring, zecoxao for additional symbol sources and NIDS
