@@ -12235,7 +12235,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB5DDABD3</NID>
-              <NAME>ModuleMgrForKernel_B5DDABD3</NAME>
+              <NAME>sceKernelLoadModuleBufferForLoadExecBufferVSHUsbWlanDebug</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7F46618</NID>
@@ -17521,7 +17521,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x2787078E</NID>
-              <NAME>sceUmdMan_driver_2787078E</NAME>
+              <NAME>sceUmdManUnRegisterImposeCallBack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4217E7F5</NID>
@@ -25881,7 +25881,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBD177D6</NID>
-              <NAME>scePowerSetClockFrequency350</NAME>
+              <NAME>scePower_driver_EBD177D6</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEDC13FE5</NID>
@@ -26231,7 +26231,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBD177D6</NID>
-              <NAME>scePowerSetClockFrequency350</NAME>
+              <NAME>scePower_driver_EBD177D6</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEDC13FE5</NID>
@@ -32433,7 +32433,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2787078E</NID>
-              <NAME>sceUmdMan_driver_2787078E</NAME>
+              <NAME>sceUmdManUnRegisterImposeCallBack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2A08FE9A</NID>
@@ -35379,7 +35379,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE32CBEF</NID>
-              <NAME>sceVshBridge_CE32CBEF</NAME>
+              <NAME>vshMSAudioInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE4BA2EB</NID>

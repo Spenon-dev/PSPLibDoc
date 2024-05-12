@@ -3064,7 +3064,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD726F4A2</NID>
-              <NAME>scePaf_D726F4A2</NAME>
+              <NAME>InputDevice_PspHprm_SetDigitalHandler</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA044BFC0</NID>

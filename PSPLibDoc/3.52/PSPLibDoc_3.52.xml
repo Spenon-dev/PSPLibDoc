@@ -12135,7 +12135,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x01977054</NID>
-              <NAME>sceMpegQueryUserdataEsSize</NAME>
+              <NAME>sceMpegGetUserdataAu</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0558B075</NID>
@@ -12303,7 +12303,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x01977054</NID>
-              <NAME>sceMpegQueryUserdataEsSize</NAME>
+              <NAME>sceMpegGetUserdataAu</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0558B075</NID>
@@ -17249,7 +17249,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x2787078E</NID>
-              <NAME>sceUmdManUnRegisterImposeCallback</NAME>
+              <NAME>sceUmdManUnRegisterImposeCallBack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4217E7F5</NID>
@@ -25613,7 +25613,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBD177D6</NID>
-              <NAME>scePowerSetClockFrequency350</NAME>
+              <NAME>scePower_driver_EBD177D6</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEDC13FE5</NID>
@@ -25963,7 +25963,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBD177D6</NID>
-              <NAME>scePowerSetClockFrequency350</NAME>
+              <NAME>scePower_driver_EBD177D6</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEDC13FE5</NID>
@@ -27322,7 +27322,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA64B28F7</NID>
-              <NAME>sceNetAdhocTransferStartChil</NAME>
+              <NAME>sceNetAdhocTransferStartChild</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA735B9B2</NID>
@@ -32069,7 +32069,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2787078E</NID>
-              <NAME>sceUmdManUnRegisterImposeCallback</NAME>
+              <NAME>sceUmdManUnRegisterImposeCallBack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2A08FE9A</NID>

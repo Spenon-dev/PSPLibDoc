@@ -288,7 +288,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x68D55505</NID>
-              <NAME>sceKernelReferSysEventHandler</NAME>
+              <NAME>sceKernelReferSysEventHandlers</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

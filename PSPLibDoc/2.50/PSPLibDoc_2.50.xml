@@ -16536,7 +16536,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD726F4A2</NID>
-              <NAME>scePaf_D726F4A2</NAME>
+              <NAME>InputDevice_PspHprm_SetDigitalHandler</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD7C2E0AD</NID>
@@ -20138,7 +20138,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD726F4A2</NID>
-              <NAME>scePaf_D726F4A2</NAME>
+              <NAME>InputDevice_PspHprm_SetDigitalHandler</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD7C2E0AD</NID>
@@ -22534,7 +22534,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA64B28F7</NID>
-              <NAME>sceNetAdhocTransferStartChil</NAME>
+              <NAME>sceNetAdhocTransferStartChild</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA735B9B2</NID>
@@ -27390,7 +27390,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2787078E</NID>
-              <NAME>sceUmdManUnRegisterImposeCallback</NAME>
+              <NAME>sceUmdManUnRegisterImposeCallBack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2A08FE9A</NID>

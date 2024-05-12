@@ -250,7 +250,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB5DDABD3</NID>
-              <NAME>ModuleMgrForKernel_B5DDABD3</NAME>
+              <NAME>sceKernelLoadModuleBufferForLoadExecBufferVSHUsbWlanDebug</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7F46618</NID>

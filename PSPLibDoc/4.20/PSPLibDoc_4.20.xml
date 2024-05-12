@@ -4429,7 +4429,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x71B5FB67</NID>
-              <NAME>sceHprm_71B5FB67</NAME>
+              <NAME>sceHprmGetHpDetect</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7E69EDA4</NID>
@@ -4467,7 +4467,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1C5BC5A0</NID>
-              <NAME>sceHprm_driver_1C5BC5A0</NAME>
+              <NAME>sceHprmInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1DF2C387</NID>
@@ -4483,7 +4483,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2C7B8B05</NID>
-              <NAME>sceHprm_driver_2C7B8B05</NAME>
+              <NAME>sceHprmResume</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x416A26D7</NID>
@@ -4503,7 +4503,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x526BB7F4</NID>
-              <NAME>sceHprm_driver_526BB7F4</NAME>
+              <NAME>sceHprmSuspend</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x53E366EB</NID>
@@ -4519,7 +4519,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x588845DA</NID>
-              <NAME>sceHprm_driver_588845DA</NAME>
+              <NAME>sceHprmEnd</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5C2303A1</NID>
@@ -33117,7 +33117,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBD177D6</NID>
-              <NAME>scePowerSetClockFrequency350</NAME>
+              <NAME>scePower_driver_EBD177D6</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEDC13FE5</NID>
@@ -33475,7 +33475,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBD177D6</NID>
-              <NAME>scePowerSetClockFrequency350</NAME>
+              <NAME>scePower_driver_EBD177D6</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xF06C32FC</NID>
@@ -40692,11 +40692,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x03D67340</NID>
-              <NAME>sceUmdCacheUser_03D67340</NAME>
+              <NAME>sceUmdCacheGetCacheParam</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x86B3196A</NID>
-              <NAME>sceUmdCacheUser_86B3196A</NAME>
+              <NAME>sceUmdCacheGetCacheNum</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

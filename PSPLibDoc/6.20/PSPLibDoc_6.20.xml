@@ -7052,7 +7052,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x71B5FB67</NID>
-              <NAME>sceHprm_71B5FB67</NAME>
+              <NAME>sceHprmGetHpDetect</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7E69EDA4</NID>
@@ -7090,7 +7090,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1C5BC5A0</NID>
-              <NAME>sceHprm_driver_1C5BC5A0</NAME>
+              <NAME>sceHprmInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1EECCA1A</NID>
@@ -7102,7 +7102,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2C7B8B05</NID>
-              <NAME>sceHprm_driver_2C7B8B05</NAME>
+              <NAME>sceHprmResume</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E49469C</NID>
@@ -7122,11 +7122,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x526BB7F4</NID>
-              <NAME>sceHprm_driver_526BB7F4</NAME>
+              <NAME>sceHprmSuspend</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x588845DA</NID>
-              <NAME>sceHprm_driver_588845DA</NAME>
+              <NAME>sceHprmEnd</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5CE3A57B</NID>
@@ -7256,7 +7256,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x71B5FB67</NID>
-              <NAME>sceHprm_71B5FB67</NAME>
+              <NAME>sceHprmGetHpDetect</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7E69EDA4</NID>
@@ -7294,7 +7294,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1C5BC5A0</NID>
-              <NAME>sceHprm_driver_1C5BC5A0</NAME>
+              <NAME>sceHprmInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1EECCA1A</NID>
@@ -7306,7 +7306,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2C7B8B05</NID>
-              <NAME>sceHprm_driver_2C7B8B05</NAME>
+              <NAME>sceHprmResume</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E49469C</NID>
@@ -7326,11 +7326,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x526BB7F4</NID>
-              <NAME>sceHprm_driver_526BB7F4</NAME>
+              <NAME>sceHprmSuspend</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x588845DA</NID>
-              <NAME>sceHprm_driver_588845DA</NAME>
+              <NAME>sceHprmEnd</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5CE3A57B</NID>
@@ -55766,7 +55766,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD13BDE95</NID>
-              <NAME>_sceKernelCheckThreadStack</NAME>
+              <NAME>sceKernelCheckThreadStack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC692EE3</NID>
