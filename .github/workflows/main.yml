@@ -1,0 +1,23 @@
+name: Build pages
+on: [push, pull_request]
+
+jobs:
+  documentation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: |
+          sudo apt install python3
+      - name: Build documentation
+        run: |
+          python3 ./make_statistics.py
+      - name: Deploy documentation
+        if: github.ref == 'refs/heads/main'
+        uses: JamesIves/github-pages-deploy-action@4.1.0
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: github-pages
+          CLEAN: true

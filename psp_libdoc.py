@@ -12,6 +12,9 @@ from lxml import etree as ET
 
 NIDEntry = namedtuple('NIDEntry', ['nid', 'name', 'prx', 'prxName', 'libraryName', 'libraryFlags'])
 
+def compute_nid(name):
+    return hashlib.sha1(name.encode('ascii')).digest()[:4][::-1].hex().upper()
+
 def loadPSPLibdoc(xmlFile):
 	tree = ET.parse(xmlFile)
 	root = tree.getroot()
