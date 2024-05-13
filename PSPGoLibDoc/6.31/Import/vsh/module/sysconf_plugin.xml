@@ -1514,7 +1514,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x639C3CB3</NID>
-              <NAME>sceVshBridge_639C3CB3</NAME>
+              <NAME>vshImposeGetParam</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x664BBC1F</NID>

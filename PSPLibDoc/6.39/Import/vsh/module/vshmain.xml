@@ -500,7 +500,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x53BFD101</NID>
-              <NAME>sceVshBridge_53BFD101</NAME>
+              <NAME>vshMSAudioCheckICV</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x58EA157A</NID>
@@ -540,7 +540,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x639C3CB3</NID>
-              <NAME>sceVshBridge_639C3CB3</NAME>
+              <NAME>vshImposeGetParam</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6499B6BE</NID>
@@ -552,7 +552,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x6CAEB765</NID>
-              <NAME>sceVshBridge_6CAEB765</NAME>
+              <NAME>vshMSAudioAuth</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6E3B8754</NID>
@@ -652,7 +652,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE32CBEF</NID>
-              <NAME>sceVshBridge_CE32CBEF</NAME>
+              <NAME>vshMSAudioInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD4BA5699</NID>
@@ -672,11 +672,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE174218C</NID>
-              <NAME>sceVshBridge_E174218C</NAME>
+              <NAME>vshMSAudioCheckICVn</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE5DA5E95</NID>
-              <NAME>sceVshBridge_E5DA5E95</NAME>
+              <NAME>vshMSAudioEnd</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE60C7F79</NID>
