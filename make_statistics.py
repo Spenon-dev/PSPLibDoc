@@ -51,6 +51,7 @@ def html_header(versions):
 This page contains the status of all the NIDs from the PSP official firmwares. <br />
 To get more details about a library, click its name to see its list of NIDs. <br />
 On later firmwares, some kernel NIDs were randomized. A star indicates (most of) the library's NIDs were (re-)randomized at that firmware version. Note that the algorithm used to identify the randomizations is imperfect and, in particular, won't detect libraries whose NIDs have been randomized from the beginning. <br />
+Progress counts are given for both non-randomized and randomized NIDs (if present). Note that for randomized NIDs, all specified names are considered correct even though they cannot be verified. <br />
 Hover a color to get the numbers and the definition of its status. <br />
 </p>"""
     header += """<table class="w3-table"><tr><th>Module name</th><th>Library name</th><th>Progress</th>"""
@@ -74,8 +75,6 @@ def html_library(module, lib, stats_byver, versions):
             if status == "total":
                 continue
             for (nid, _) in stats_byver[ver][0][status]:
-                if nid in status_bynid and status_bynid[nid] != status:
-                    print("WARNING: not matching statuses for NID", module, lib, nid, status_bynid[nid], status, file=sys.stderr)
                 status_bynid[nid] = status
     cnt = Counter(status_bynid.values())
     both_stats = []
