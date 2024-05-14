@@ -6,7 +6,7 @@ import psp_libdoc
 import glob
 import os
 import sys
-from collections import defaultdict
+from collections import defaultdict, Counter
 
 OUTPUT_HTML = "./github-pages"
 
@@ -53,7 +53,7 @@ To get more details about a library, click its name to see its list of NIDs. <br
 On later firmwares, some kernel NIDs were randomized. A star indicates (most of) the library's NIDs were (re-)randomized at that firmware version. Note that the algorithm used to identify the randomizations is imperfect and, in particular, won't detect libraries whose NIDs have been randomized from the beginning. <br />
 Hover a color to get the numbers and the definition of its status. <br />
 </p>"""
-    header += """<table class="w3-table"><tr><th>Module name</th><th>Library name</th>"""
+    header += """<table class="w3-table"><tr><th>Module name</th><th>Library name</th><th>Progress</th>"""
     for ver in versions:
         header += f"<th>{ver}</th>"
     header += "</tr>"
@@ -67,6 +67,29 @@ def html_footer():
 def html_library(module, lib, stats_byver, versions):
     # Specify the module and library name
     output = f"""<tr><td>{module}</td><td><a href="modules/{module}_{lib}.html">{lib}</a></td>"""
+    # Make statistics over all versions to give an overall % of resolution for the library
+    status_bynid = {}
+    for ver in stats_byver:
+        for status in stats_byver[ver][0]:
+            if status == "total":
+                continue
+            for (nid, _) in stats_byver[ver][0][status]:
+                if nid in status_bynid and status_bynid[nid] != status:
+                    print("WARNING: not matching statuses for NID", module, lib, nid, status_bynid[nid], status, file=sys.stderr)
+                status_bynid[nid] = status
+    cnt = Counter(status_bynid.values())
+    both_stats = []
+    nonobf_ok = cnt["known"]
+    nonobf_total = nonobf_ok + cnt["wrong"] + cnt["unknown_nonobf"] + cnt["unknown"]
+    obf_ok = cnt["nok_from_previous"] + cnt["nok_dubious"]
+    obf_total = obf_ok + cnt["unknown_obf"]
+    if nonobf_total != 0:
+        both_stats.append("%.1f%% (%d/%d)" % (nonobf_ok / nonobf_total * 100, nonobf_ok, nonobf_total))
+    if obf_total != 0:
+        both_stats.append("%.1f%% (%d/%d)" % (obf_ok / obf_total * 100, obf_ok, obf_total))
+    agg_stats = " / ".join(both_stats)
+    output += f"""<td style="white-space: nowrap;">{agg_stats}</td>"""
+
     # Make a column for each firmware version
     for ver in versions:
         # Show an empty cell if the library didn't exist in that firmware version
