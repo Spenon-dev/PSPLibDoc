@@ -142,11 +142,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x03D67340</NID>
-              <NAME>sceUmdCacheUser_03D67340</NAME>
+              <NAME>sceUmdCacheGetCacheParam</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x86B3196A</NID>
-              <NAME>sceUmdCacheUser_86B3196A</NAME>
+              <NAME>sceUmdCacheGetCacheNum</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

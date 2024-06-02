@@ -70,11 +70,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x29681260</NID>
-              <NAME>sceAudiocReleaseEDRAM</NAME>
+              <NAME>sceAudiocodecReleaseEDRAM</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A20A200</NID>
-              <NAME>sceAudiocGetEDRAM</NAME>
+              <NAME>sceAudiocodecGetEDRAM</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3DD7EE1A</NID>
@@ -82,23 +82,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x59176A0F</NID>
-              <NAME>sceAudiocAlcExtendParameter</NAME>
+              <NAME>sceAudiocodecAlcExtendParameter</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5B37EB1D</NID>
-              <NAME>sceAudiocInit</NAME>
+              <NAME>sceAudiocodecInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x70A703F8</NID>
-              <NAME>sceAudiocDecode</NAME>
+              <NAME>sceAudiocodecDecode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8ACA11D5</NID>
-              <NAME>sceAudiocGetInfo</NAME>
+              <NAME>sceAudiocodecGetInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9D3F790C</NID>
-              <NAME>sceAudiocCheckNeedMem</NAME>
+              <NAME>sceAudiocodecCheckNeedMem</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -147,11 +147,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x29681260</NID>
-              <NAME>sceAudiocReleaseEDRAM</NAME>
+              <NAME>sceAudiocodecReleaseEDRAM</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A20A200</NID>
-              <NAME>sceAudiocGetEDRAM</NAME>
+              <NAME>sceAudiocodecGetEDRAM</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3DD7EE1A</NID>
@@ -159,23 +159,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x59176A0F</NID>
-              <NAME>sceAudiocAlcExtendParameter</NAME>
+              <NAME>sceAudiocodecAlcExtendParameter</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5B37EB1D</NID>
-              <NAME>sceAudiocInit</NAME>
+              <NAME>sceAudiocodecInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x70A703F8</NID>
-              <NAME>sceAudiocDecode</NAME>
+              <NAME>sceAudiocodecDecode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8ACA11D5</NID>
-              <NAME>sceAudiocGetInfo</NAME>
+              <NAME>sceAudiocodecGetInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9D3F790C</NID>
-              <NAME>sceAudiocCheckNeedMem</NAME>
+              <NAME>sceAudiocodecCheckNeedMem</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -185,11 +185,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x4A0592C7</NID>
-              <NAME>sceAvcStartEntry</NAME>
+              <NAME>sceAvcodecStartEntry</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC692C906</NID>
-              <NAME>sceAvcEndEntry</NAME>
+              <NAME>sceAvcodecEndEntry</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -345,39 +345,39 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x17099F0A</NID>
-              <NAME>sceVideocInit</NAME>
+              <NAME>sceVideocodecInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x17CF7D2C</NID>
-              <NAME>sceVideocGetFrameCrop</NAME>
+              <NAME>sceVideocodecGetFrameCrop</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x26927D19</NID>
-              <NAME>sceVideocGetVersion</NAME>
+              <NAME>sceVideocodecGetVersion</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2D31F5B1</NID>
-              <NAME>sceVideocGetEDRAM</NAME>
+              <NAME>sceVideocodecGetEDRAM</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2F385E7F</NID>
-              <NAME>sceVideocScanHeader</NAME>
+              <NAME>sceVideocodecScanHeader</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x307E6E1C</NID>
-              <NAME>sceVideocDelete</NAME>
+              <NAME>sceVideocodecDelete</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F160BF4</NID>
-              <NAME>sceVideocReleaseEDRAM</NAME>
+              <NAME>sceVideocodecReleaseEDRAM</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x627B7D42</NID>
-              <NAME>sceVideocGetSEI</NAME>
+              <NAME>sceVideocodecGetSEI</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x745A7B7A</NID>
-              <NAME>sceVideocSetMemory</NAME>
+              <NAME>sceVideocodecSetMemory</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x893B32B1</NID>
@@ -385,11 +385,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA2F0564E</NID>
-              <NAME>sceVideocStop</NAME>
+              <NAME>sceVideocodecStop</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC01EC829</NID>
-              <NAME>sceVideocOpen</NAME>
+              <NAME>sceVideocodecOpen</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD95C24D5</NID>
@@ -397,7 +397,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xDBA273FA</NID>
-              <NAME>sceVideocDecode</NAME>
+              <NAME>sceVideocodecDecode</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -6630,7 +6630,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBD177D6</NID>
-              <NAME>scePowerSetClockFrequency350</NAME>
+              <NAME>scePower_driver_EBD177D6</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEDC13FE5</NID>
@@ -6992,7 +6992,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBD177D6</NID>
-              <NAME>scePowerSetClockFrequency350</NAME>
+              <NAME>scePower_driver_EBD177D6</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEEFB2ACF</NID>
@@ -9238,15 +9238,15 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x21D5A83F</NID>
-              <NAME>sceAudioc2Decode</NAME>
+              <NAME>sceAudiocodec2Decode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xAA2ED267</NID>
-              <NAME>sceAudioc2CheckNeedMem</NAME>
+              <NAME>sceAudiocodec2CheckNeedMem</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE063D402</NID>
-              <NAME>sceAudioc2Init</NAME>
+              <NAME>sceAudiocodec2Init</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -31611,7 +31611,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD13BDE95</NID>
-              <NAME>_sceKernelCheckThreadStack</NAME>
+              <NAME>sceKernelCheckThreadStack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC692EE3</NID>
@@ -31751,47 +31751,47 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x17099F0A</NID>
-              <NAME>sceVideocInit</NAME>
+              <NAME>sceVideocodecInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x26927D19</NID>
-              <NAME>sceVideocGetVersion</NAME>
+              <NAME>sceVideocodecGetVersion</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2D31F5B1</NID>
-              <NAME>sceVideocGetEDRAM</NAME>
+              <NAME>sceVideocodecGetEDRAM</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2F385E7F</NID>
-              <NAME>sceVideocScanHeader</NAME>
+              <NAME>sceVideocodecScanHeader</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x307E6E1C</NID>
-              <NAME>sceVideocDelete</NAME>
+              <NAME>sceVideocodecDelete</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4F160BF4</NID>
-              <NAME>sceVideocReleaseEDRAM</NAME>
+              <NAME>sceVideocodecReleaseEDRAM</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x627B7D42</NID>
-              <NAME>sceVideocGetSEI</NAME>
+              <NAME>sceVideocodecGetSEI</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x745A7B7A</NID>
-              <NAME>sceVideocSetMemory</NAME>
+              <NAME>sceVideocodecSetMemory</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA2F0564E</NID>
-              <NAME>sceVideocStop</NAME>
+              <NAME>sceVideocodecStop</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xC01EC829</NID>
-              <NAME>sceVideocOpen</NAME>
+              <NAME>sceVideocodecOpen</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDBA273FA</NID>
-              <NAME>sceVideocDecode</NAME>
+              <NAME>sceVideocodecDecode</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -31801,7 +31801,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0xCB3312D1</NID>
-              <NAME>sceVideocEndEntry</NAME>
+              <NAME>sceVideocodecEndEntry</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

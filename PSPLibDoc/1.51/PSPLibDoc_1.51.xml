@@ -19230,7 +19230,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2787078E</NID>
-              <NAME>sceUmdMan_driver_2787078E</NAME>
+              <NAME>sceUmdManUnRegisterImposeCallBack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2A08FE9A</NID>

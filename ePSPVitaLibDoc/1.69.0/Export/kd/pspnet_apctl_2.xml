@@ -108,7 +108,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA9721D11</NID>
-              <NAME>sceNetApctl_lib_A9721D11</NAME>
+              <NAME>sceNetApctlScanSSID</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB3CF6849</NID>

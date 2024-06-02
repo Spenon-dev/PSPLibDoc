@@ -26,11 +26,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x29681260</NID>
-              <NAME>sceAudiocReleaseEDRAM</NAME>
+              <NAME>sceAudiocodecReleaseEDRAM</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3A20A200</NID>
-              <NAME>sceAudiocGetEDRAM</NAME>
+              <NAME>sceAudiocodecGetEDRAM</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x3DD7EE1A</NID>
@@ -38,23 +38,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x59176A0F</NID>
-              <NAME>sceAudiocAlcExtendParameter</NAME>
+              <NAME>sceAudiocodecAlcExtendParameter</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5B37EB1D</NID>
-              <NAME>sceAudiocInit</NAME>
+              <NAME>sceAudiocodecInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x70A703F8</NID>
-              <NAME>sceAudiocDecode</NAME>
+              <NAME>sceAudiocodecDecode</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8ACA11D5</NID>
-              <NAME>sceAudiocGetInfo</NAME>
+              <NAME>sceAudiocodecGetInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x9D3F790C</NID>
-              <NAME>sceAudiocCheckNeedMem</NAME>
+              <NAME>sceAudiocodecCheckNeedMem</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

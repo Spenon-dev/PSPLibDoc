@@ -5637,7 +5637,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x71B5FB67</NID>
-              <NAME>sceHprm_71B5FB67</NAME>
+              <NAME>sceHprmGetHpDetect</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7E69EDA4</NID>
@@ -5667,7 +5667,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1C5BC5A0</NID>
-              <NAME>sceHprm_driver_1C5BC5A0</NAME>
+              <NAME>sceHprmInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x22A9170E</NID>
@@ -5675,7 +5675,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2C7B8B05</NID>
-              <NAME>sceHprm_driver_2C7B8B05</NAME>
+              <NAME>sceHprmResume</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x36C873F9</NID>
@@ -5683,11 +5683,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x526BB7F4</NID>
-              <NAME>sceHprm_driver_526BB7F4</NAME>
+              <NAME>sceHprmSuspend</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x588845DA</NID>
-              <NAME>sceHprm_driver_588845DA</NAME>
+              <NAME>sceHprmEnd</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x605DEA7A</NID>
@@ -16539,7 +16539,7 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x01977054</NID>
-              <NAME>sceMpegQueryUserdataEsSize</NAME>
+              <NAME>sceMpegGetUserdataAu</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0558B075</NID>
@@ -16723,7 +16723,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x01977054</NID>
-              <NAME>sceMpegQueryUserdataEsSize</NAME>
+              <NAME>sceMpegGetUserdataAu</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x0558B075</NID>
@@ -37284,7 +37284,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBD177D6</NID>
-              <NAME>scePowerSetClockFrequency350</NAME>
+              <NAME>scePower_driver_EBD177D6</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEDC13FE5</NID>
@@ -37630,7 +37630,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBD177D6</NID>
-              <NAME>scePowerSetClockFrequency350</NAME>
+              <NAME>scePower_driver_EBD177D6</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEC0D7334</NID>
@@ -39031,7 +39031,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xA64B28F7</NID>
-              <NAME>sceNetAdhocTransferStartChil</NAME>
+              <NAME>sceNetAdhocTransferStartChild</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA735B9B2</NID>
@@ -45090,11 +45090,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x03D67340</NID>
-              <NAME>sceUmdCacheUser_03D67340</NAME>
+              <NAME>sceUmdCacheGetCacheParam</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x86B3196A</NID>
-              <NAME>sceUmdCacheUser_86B3196A</NAME>
+              <NAME>sceUmdCacheGetCacheNum</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

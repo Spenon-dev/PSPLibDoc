@@ -5814,7 +5814,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x71B5FB67</NID>
-              <NAME>sceHprm_71B5FB67</NAME>
+              <NAME>sceHprmGetHpDetect</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x7E69EDA4</NID>
@@ -5852,7 +5852,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x1C5BC5A0</NID>
-              <NAME>sceHprm_driver_1C5BC5A0</NAME>
+              <NAME>sceHprmInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x1EECCA1A</NID>
@@ -5864,7 +5864,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2C7B8B05</NID>
-              <NAME>sceHprm_driver_2C7B8B05</NAME>
+              <NAME>sceHprmResume</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2E49469C</NID>
@@ -5884,11 +5884,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x526BB7F4</NID>
-              <NAME>sceHprm_driver_526BB7F4</NAME>
+              <NAME>sceHprmSuspend</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x588845DA</NID>
-              <NAME>sceHprm_driver_588845DA</NAME>
+              <NAME>sceHprmEnd</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5CE3A57B</NID>
@@ -50038,7 +50038,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD13BDE95</NID>
-              <NAME>_sceKernelCheckThreadStack</NAME>
+              <NAME>sceKernelCheckThreadStack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xDC692EE3</NID>
@@ -51819,59 +51819,59 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2FB66EE1</NID>
-              <NAME>sceVshBridge_msapp_2FB66EE1</NAME>
+              <NAME>vshMgVideoEndTrack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x468A5503</NID>
-              <NAME>sceVshBridge_msapp_468A5503</NAME>
+              <NAME>vshMgVideoGetLicenseInfo</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x48D65527</NID>
-              <NAME>sceVshBridge_msapp_48D65527</NAME>
+              <NAME>vshMgVideoInitMovie</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4CCA087A</NID>
-              <NAME>sceVshBridge_msapp_4CCA087A</NAME>
+              <NAME>vshMgVideoGetDefaultEKB</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4D92785C</NID>
-              <NAME>sceVshBridge_msapp_4D92785C</NAME>
+              <NAME>vshMgVideoEndMovie</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x4E45C872</NID>
-              <NAME>sceVshBridge_msapp_4E45C872</NAME>
+              <NAME>vshMgVideoEnd</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x53BFD101</NID>
-              <NAME>sceVshBridge_msapp_53BFD101</NAME>
+              <NAME>vshMSAudioCheckICV</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x56F05CF5</NID>
-              <NAME>sceVshBridge_msapp_56F05CF5</NAME>
+              <NAME>vshMgVideoDecryptSample</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5894C339</NID>
-              <NAME>sceVshBridge_msapp_5894C339</NAME>
+              <NAME>vshImposeChanges</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x5AAA31CF</NID>
-              <NAME>sceVshBridge_msapp_5AAA31CF</NAME>
+              <NAME>vshMgVideoFormatICV</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x639C3CB3</NID>
-              <NAME>sceVshBridge_msapp_639C3CB3</NAME>
+              <NAME>vshImposeGetParam</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x6CAEB765</NID>
-              <NAME>sceVshBridge_msapp_6CAEB765</NAME>
+              <NAME>vshMSAudioAuth</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x800BF85D</NID>
-              <NAME>sceVshBridge_msapp_800BF85D</NAME>
+              <NAME>vshMgVideoClearMACList</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x8B6CDA8D</NID>
-              <NAME>sceVshBridge_msapp_8B6CDA8D</NAME>
+              <NAME>vshMgVideoInitTrack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x90E21B74</NID>
@@ -51879,11 +51879,11 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x9AE8C0AC</NID>
-              <NAME>sceVshBridge_msapp_9AE8C0AC</NAME>
+              <NAME>vshMSAudioGetICVEKBVersion</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA2470ABD</NID>
-              <NAME>sceVshBridge_msapp_A2470ABD</NAME>
+              <NAME>vshMgVideoCheckICV</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xA3193F14</NID>
@@ -51891,15 +51891,15 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB30A7A02</NID>
-              <NAME>sceVshBridge_msapp_B30A7A02</NAME>
+              <NAME>vshMeBootStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCA719C34</NID>
-              <NAME>sceVshBridge_msapp_CA719C34</NAME>
+              <NAME>vshImposeGetStatus</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE32CBEF</NID>
-              <NAME>sceVshBridge_msapp_CE32CBEF</NAME>
+              <NAME>vshMSAudioInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD0F7E7BF</NID>
@@ -51907,23 +51907,23 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xE015B063</NID>
-              <NAME>sceVshBridge_msapp_E015B063</NAME>
+              <NAME>vshMgVideoAuth</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE174218C</NID>
-              <NAME>sceVshBridge_msapp_E174218C</NAME>
+              <NAME>vshMSAudioCheckICVn</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE5DA5E95</NID>
-              <NAME>sceVshBridge_msapp_E5DA5E95</NAME>
+              <NAME>vshMSAudioEnd</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFAAC778F</NID>
-              <NAME>sceVshBridge_msapp_FAAC778F</NAME>
+              <NAME>vshMgVideoUpdateICV</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xFC427071</NID>
-              <NAME>sceVshBridge_msapp_FC427071</NAME>
+              <NAME>vshMgVideoInit</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>
@@ -51933,11 +51933,11 @@
           <FUNCTIONS>
             <FUNCTION>
               <NID>0x39B14120</NID>
-              <NAME>sceVshBridge_msapp_driver_39B14120</NAME>
+              <NAME>_vshVshBridgeStart</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x92A3B940</NID>
-              <NAME>sceVshBridge_msapp_driver_92A3B940</NAME>
+              <NAME>_vshVshBridgeStop</NAME>
             </FUNCTION>
           </FUNCTIONS>
         </LIBRARY>

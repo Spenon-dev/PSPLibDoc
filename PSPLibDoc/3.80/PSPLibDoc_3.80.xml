@@ -33046,7 +33046,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBD177D6</NID>
-              <NAME>scePowerSetClockFrequency350</NAME>
+              <NAME>scePower_driver_EBD177D6</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xEDC13FE5</NID>
@@ -33384,7 +33384,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xEBD177D6</NID>
-              <NAME>scePowerSetClockFrequency350</NAME>
+              <NAME>scePower_driver_EBD177D6</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xED21B8EF</NID>

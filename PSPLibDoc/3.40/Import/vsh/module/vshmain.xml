@@ -370,7 +370,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xCE32CBEF</NID>
-              <NAME>sceVshBridge_CE32CBEF</NAME>
+              <NAME>vshMSAudioInit</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xE174218C</NID>

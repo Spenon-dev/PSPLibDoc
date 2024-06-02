@@ -10249,7 +10249,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xB5DDABD3</NID>
-              <NAME>ModuleMgrForKernel_B5DDABD3</NAME>
+              <NAME>sceKernelLoadModuleBufferForLoadExecBufferVSHUsbWlanDebug</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xB7F46618</NID>
@@ -17973,7 +17973,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD726F4A2</NID>
-              <NAME>scePaf_D726F4A2</NAME>
+              <NAME>InputDevice_PspHprm_SetDigitalHandler</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD7C2E0AD</NID>
@@ -21655,7 +21655,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0xD726F4A2</NID>
-              <NAME>scePaf_D726F4A2</NAME>
+              <NAME>InputDevice_PspHprm_SetDigitalHandler</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0xD7C2E0AD</NID>
@@ -29573,7 +29573,7 @@
             </FUNCTION>
             <FUNCTION>
               <NID>0x2787078E</NID>
-              <NAME>sceUmdMan_driver_2787078E</NAME>
+              <NAME>sceUmdManUnRegisterImposeCallBack</NAME>
             </FUNCTION>
             <FUNCTION>
               <NID>0x2A08FE9A</NID>
