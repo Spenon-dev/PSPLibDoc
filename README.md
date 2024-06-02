@@ -5,6 +5,7 @@ An attempt to document symbols of PSP modules across all firmwares
 ## Usage
 ### Prerequisites
 psp_libdoc.py and psp_print_libdoc.py require python3 with lxml module
+Page with the current NID status for each library can be found [here](https://spenon-dev.github.io/PSPLibDoc/).
 
 ### Common psp_libdoc operations
  - Loading source files
@@ -83,4 +84,5 @@ A big thanks goes to
  - All original PSPLibDoc contributers
  - All PPSSPP contributers for additional user library symbols
  - All UOFW contributers for updated 6.60 and 6.61 symbols
- - Draan, efonte, GrapheneCt, sajattack, SilverSpring, zecoxao for additional symbol sources and NIDS
+ - artart78 for additional scripts and Github CI for NID status HTML page.
+ - artart78, Draan, efonte, GrapheneCt, sajattack, SilverSpring, zecoxao for additional symbol sources and NIDs
