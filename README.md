@@ -1,11 +1,11 @@
 # PSPLibDoc
-An attempt to document symbols of PSP modules across all firmwares
+An attempt to document symbols of PSP modules across all firmwares.\
+Page with the current NID status for each library can be found [here](https://spenon-dev.github.io/PSPLibDoc/).
 <br>
-
+ 
 ## Usage
 ### Prerequisites
-psp_libdoc.py and psp_print_libdoc.py require python3 with lxml module
-Page with the current NID status for each library can be found [here](https://spenon-dev.github.io/PSPLibDoc/).
+psp_libdoc.py and psp_print_libdoc.py require python3 with lxml module.
 
 ### Common psp_libdoc operations
  - Loading source files
